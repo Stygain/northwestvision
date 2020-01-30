@@ -1,0 +1,20 @@
+{
+  "dataTypes": [
+    {
+      "name": "Portland",
+      "url": "/portland"
+    },
+    {
+      "name": "Hawaii",
+      "url": "/portland"
+    },
+    {
+      "name": "The Columbia River Gorge",
+      "url": "/columbiarivergorge"
+    },
+    {
+      "name": "The National Parks of Utah",
+      "url": "/utah"
+    }
+  ]
+}
