@@ -1,8 +1,13 @@
-/* .navbar {
+.navbar {
+  font-family: 'Kaushan Script', cursive;
+  box-shadow: 0px 10px 15px rgba(33, 33, 33, 0.66);
+  z-index: 1;
+  margin: 0px;
+  padding: 0px;
   width: 100%;
   position: fixed;
   top: 0px;
-  background-color: #EEE;
+  /* background-color: #; */
 }
 
 .navbar ul {
@@ -22,67 +27,34 @@
   padding: 8px 16px;
   text-decoration: none;
   text-align:center;
-  font-weight: 800;
+  font-weight: 500;
   font-size: 40px;
-  color: #FFF;
-  background-color: #000;
-  border-bottom: 1px solid #555;
+  color: #000;
 }
 
 .navbar ul li a {
-  color: #000;
-  font-weight: 600;
-  background-color: #FFF;
+  /* color: #000; */
+  font-weight: 500;
+  font-size: 30px;
+  color: rgb(166, 166, 166);
+  /* background-color: #FFF; */
+  /* background: white; */
+	-webkit-transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+       -o-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+          transition: all 0.5s ease-in-out;
 }
 
-.navbar ul li a:hover {
-  background-color: #555;
-  color: white;
-}
+/* .navbar ul li a:hover {
+  color: #555;
+} */
 
 .navbar ul li a.active {
-  background-color: #4CAF50;
-  color: white;
+  color: #000;
+  /* background-image: linear-gradient(to top, rgba(182, 142, 73, 0.41) 0%, rgba(0, 0, 0, 0) 40%); */
 }
 
 .navbar ul li a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-} */
-
-
-
-
-/* .navbar {
-  box-shadow: 0px 10px 15px #2b2b2b;
-  z-index: 1;
+  color: #444;
 }
-
-.navbar-brand {
-  margin: 0;
-  font-size: 3vh;
-  font-family: 'Kaushan Script', cursive;
-  color: black;
-  text-decoration: none;
-  padding-top: 15px;
-  padding-bottom: 7px;
-  padding-left: 2px;
-}
-
-.nav li {
-  font-size: 2.2vh;
-  font-family: 'Kaushan Script', cursive;
-}
-
-a {
-  color: #343434;
-}
-
-a:hover,
-a:focus {
-  color: #319df6;
-}
-
-a:focus {
-  outline: none;
-} */

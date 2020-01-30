@@ -9,9 +9,9 @@ function NavBar(props) {
   return (
     <div className='navbar'>
       <ul>
-        <NavLink to="/">Homepage</NavLink>
+        <NavLink to="/">Northwest Vision</NavLink>
         {dataTypes["dataTypes"].map(({name, url}) => {
-          return (<li>
+          return (<li key={url}>
             <NavLink to={url}>
               {name}
             </NavLink>
