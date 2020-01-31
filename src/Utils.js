@@ -8,4 +8,16 @@ function ContentMargin(props) {
     </div>
   );
 }
-export default ContentMargin;
+
+function Center(props) {
+  return (
+    <div className='center'>
+      {props.children}
+    </div>
+  );
+}
+
+export {
+    ContentMargin,
+    Center,
+}

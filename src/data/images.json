@@ -1,0 +1,37 @@
+{
+  "home": [
+    {
+      "source": "https://placedog.net/200/300",
+      "alt": "This is an image",
+      "alignment": "vertical"
+    }
+  ],
+  "portland": [
+    {
+      "source": "https://placedog.net/300/300",
+      "alt": "This is an image",
+      "alignment": "square"
+    }
+  ],
+  "hawaii": [
+    {
+      "source": "https://placedog.net/400/300",
+      "alt": "This is an image",
+      "alignment": "horizontal"
+    }
+  ],
+  "columbiarivergorge": [
+    {
+      "source": "https://placedog.net/500/300",
+      "alt": "This is an image",
+      "alignment": "horizontal"
+    }
+  ],
+  "utah": [
+    {
+      "source": "https://placedog.net/600/300",
+      "alt": "This is an image",
+      "alignment": "horizontal"
+    }
+  ]
+}
