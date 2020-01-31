@@ -27,9 +27,20 @@ function NavBarContent() {
     return (
       <div className='navbar'>
         <NavLink className="title" to="/">Northwest Vision</NavLink>
-        <button>
-          ASDF
-        </button>
+        <div className="dropdown">
+          <div className="button">
+            <p>&#9776;</p>
+          </div>
+          <div className="dropdown-content">
+            {dataTypes["dataTypes"].map(({name, url}) => {
+              return (
+                <NavLink to={url}>
+                  {name}
+                </NavLink>
+              );
+            })}
+          </div>
+        </div>
       </div>
     );
   }
