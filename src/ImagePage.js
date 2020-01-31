@@ -1,6 +1,6 @@
 import React from 'react';
 import './ImagePage.css';
-import { Redirect, Route, Switch, NavLink } from 'react-router-dom';
+import { Redirect, Route, Switch } from 'react-router-dom';
 import { ContentMargin, Center } from './Utils.js';
 import ImagePane from './ImagePane.js';
 

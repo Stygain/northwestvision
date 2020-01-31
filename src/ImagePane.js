@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './ImagePane.css';
 import { NavLink } from 'react-router-dom';
-
-import images from './data/images.json';
 
 
 function ImagePane(props) {
