@@ -8,10 +8,10 @@ import dataTypes from './data/dataTypes.json'
 function NavBar(props) {
   return (
     <div className='navbar'>
+      <NavLink className="title" to="/">Northwest Vision</NavLink>
       <ul>
-        <NavLink to="/">Northwest Vision</NavLink>
         {dataTypes["dataTypes"].map(({name, url}) => {
-          return (<li key={url}>
+          return (<li className="navlink" key={url}>
             <NavLink to={url}>
               {name}
             </NavLink>
