@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 // import './ImagePage.css';
-import { Route, Switch } from 'react-router-dom';
+import { Redirect, Route, Switch } from 'react-router-dom';
 import ContentMargin from './Utils.js'
 
 // import images from './data/images.json'
@@ -43,6 +43,9 @@ function ImagePage(props) {
             The National Parks of Utah
           </h1>
         </ContentMargin>
+      </Route>
+      <Route path='/'>
+        <Redirect to="/404" />
       </Route>
     </Switch>
   );
