@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './NavBar.js';
 import { Route, Switch } from 'react-router-dom';
 import ContentMargin from './Utils.js'
+import ImagePage from './ImagePage.js'
 
 function App() {
   return (
@@ -10,18 +11,19 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path='/'>
-          <ContentMargin>
-            <h1>
-              Home
-            </h1>
-          </ContentMargin>
+          <ImagePage />
         </Route>
-        <Route path='/test'>
-          <ContentMargin>
-            <h1>
-              Test
-            </h1>
-          </ContentMargin>
+        <Route path='/portland'>
+          <ImagePage />
+        </Route>
+        <Route path='/hawaii'>
+          <ImagePage />
+        </Route>
+        <Route path='/columbiarivergorge'>
+          <ImagePage />
+        </Route>
+        <Route path='/utah'>
+          <ImagePage />
         </Route>
         <Route path='/'>
           <ContentMargin>
