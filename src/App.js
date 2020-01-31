@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import NavBar from './NavBar.js';
 import { Route, Switch } from 'react-router-dom';
+import ContentMargin from './Utils.js'
 
 function App() {
   return (
@@ -9,19 +10,25 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path='/'>
-          <h1>
-            Home
-          </h1>
+          <ContentMargin>
+            <h1>
+              Home
+            </h1>
+          </ContentMargin>
         </Route>
         <Route path='/test'>
-          <h1>
-            Test
-          </h1>
+          <ContentMargin>
+            <h1>
+              Test
+            </h1>
+          </ContentMargin>
         </Route>
         <Route path='/'>
-          <h1>
-            404
-          </h1>
+          <ContentMargin>
+            <h1>
+              404
+            </h1>
+          </ContentMargin>
         </Route>
       </Switch>
     </div>
