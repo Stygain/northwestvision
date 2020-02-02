@@ -1,11 +1,11 @@
-.horizontal {
+.horizontal img {
   max-width: 85%;
   max-height: 80vh;
   /* max-height: 300px; */
   margin-top: 50px;
 }
 
-.vertical {
+.vertical img {
   max-width: 60%;
   max-height: 80vh;
   /* max-height: 300px; */

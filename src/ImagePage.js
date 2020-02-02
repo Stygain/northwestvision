@@ -55,7 +55,7 @@ function ImagePage(props) {
             Home
           </h1>
           <Center>
-            {images["home"].map(({source, alt, alignment}) => {
+            {images["home"].map(imagePane => {
               return (
                 <LazyLoad
                   offset={-100}
@@ -63,7 +63,7 @@ function ImagePage(props) {
                   debounce={300}
                   once='true'
                 >
-                  <ImagePane source={imageImp(source)} alignment={alignment} alt={alt} />
+                  <ImagePane imagePaneInfo={imagePane} />
                 </LazyLoad>
               );
             })}
@@ -78,7 +78,12 @@ function ImagePage(props) {
           <Center>
             {images["portland"].map(({source, alt, alignment}) => {
               return (
-                <LazyLoad height={900} once={true} debounce={600} placeholder={<Placeholder />}>
+                <LazyLoad
+                  offset={-100}
+                  placeholder={<Placeholder />}
+                  debounce={300}
+                  once='true'
+                >
                   <ImagePane source={imageImp(source)} alignment={alignment} alt={alt} />
                 </LazyLoad>
               );
@@ -94,7 +99,12 @@ function ImagePage(props) {
           <Center>
             {images["hawaii"].map(({source, alt, alignment}) => {
               return (
-                <LazyLoad height={900} once={true} debounce={600} placeholder={<Placeholder />}>
+                <LazyLoad
+                  offset={-100}
+                  placeholder={<Placeholder />}
+                  debounce={300}
+                  once='true'
+                >
                   <ImagePane source={imageImp(source)} alignment={alignment} alt={alt} />
                 </LazyLoad>
               );
@@ -110,7 +120,12 @@ function ImagePage(props) {
           <Center>
             {images["columbiarivergorge"].map(({source, alt, alignment}) => {
               return (
-                <LazyLoad height={900} once={true} debounce={600} placeholder={<Placeholder />}>
+                <LazyLoad
+                  offset={-100}
+                  placeholder={<Placeholder />}
+                  debounce={300}
+                  once='true'
+                >
                   <ImagePane source={imageImp(source)} alignment={alignment} alt={alt} />
                 </LazyLoad>
               );
@@ -126,7 +141,12 @@ function ImagePage(props) {
           <Center>
             {images["utah"].map(({source, alt, alignment}) => {
               return (
-                <LazyLoad height={900} once={true} debounce={600} placeholder={<Placeholder />}>
+                <LazyLoad
+                  offset={-100}
+                  placeholder={<Placeholder />}
+                  debounce={300}
+                  once='true'
+                >
                   <ImagePane source={imageImp(source)} alignment={alignment} alt={alt} />
                 </LazyLoad>
               );
