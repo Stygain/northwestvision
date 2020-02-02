@@ -2,48 +2,13 @@ import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import LazyLoad from 'react-lazyload';
 
-import { ContentMargin, Center } from './Utils.js';
+import { ContentMargin, Center, Placeholder } from './Utils.js';
 import ImagePane from './ImagePane.js';
 
 import './ImagePage.css';
 
 import images from './data/images.json';
 
-
-const imageImp = require.context('./assets', true)
-
-const Placeholder = () => (
-  <div className="post loading">
-    <svg
-      width="80"
-      height="80"
-      viewBox="0 0 100 100"
-      preserveAspectRatio="xMidYMid"
-    >
-      <circle
-        cx="50"
-        cy="50"
-        fill="none"
-        stroke="#49d1e0"
-        strokeWidth="10"
-        r="35"
-        strokeDasharray="164.93361431346415 56.97787143782138"
-        transform="rotate(275.845 50 50)"
-      >
-        <animateTransform
-          attributeName="transform"
-          type="rotate"
-          calcMode="linear"
-          values="0 50 50;360 50 50"
-          keyTimes="0;1"
-          dur="1s"
-          begin="0s"
-          repeatCount="indefinite"
-        />
-      </circle>
-    </svg>
-  </div>
-);
 
 // add offset component to lazyload
 function ImagePage(props) {
@@ -76,7 +41,7 @@ function ImagePage(props) {
             Portland
           </h1>
           <Center>
-            {images["portland"].map(({source, alt, alignment}) => {
+            {images["portland"].map(imagePane => {
               return (
                 <LazyLoad
                   offset={-100}
@@ -84,7 +49,7 @@ function ImagePage(props) {
                   debounce={300}
                   once='true'
                 >
-                  <ImagePane source={imageImp(source)} alignment={alignment} alt={alt} />
+                  <ImagePane imagePaneInfo={imagePane} />
                 </LazyLoad>
               );
             })}
@@ -97,7 +62,7 @@ function ImagePage(props) {
             Hawaii
           </h1>
           <Center>
-            {images["hawaii"].map(({source, alt, alignment}) => {
+            {images["hawaii"].map(imagePane => {
               return (
                 <LazyLoad
                   offset={-100}
@@ -105,7 +70,7 @@ function ImagePage(props) {
                   debounce={300}
                   once='true'
                 >
-                  <ImagePane source={imageImp(source)} alignment={alignment} alt={alt} />
+                  <ImagePane imagePaneInfo={imagePane} />
                 </LazyLoad>
               );
             })}
@@ -118,7 +83,7 @@ function ImagePage(props) {
             The Columbia River Gorge
           </h1>
           <Center>
-            {images["columbiarivergorge"].map(({source, alt, alignment}) => {
+            {images["columbiarivergorge"].map(imagePane => {
               return (
                 <LazyLoad
                   offset={-100}
@@ -126,7 +91,7 @@ function ImagePage(props) {
                   debounce={300}
                   once='true'
                 >
-                  <ImagePane source={imageImp(source)} alignment={alignment} alt={alt} />
+                  <ImagePane imagePaneInfo={imagePane} />
                 </LazyLoad>
               );
             })}
@@ -139,7 +104,7 @@ function ImagePage(props) {
             The National Parks of Utah
           </h1>
           <Center>
-            {images["utah"].map(({source, alt, alignment}) => {
+            {images["utah"].map(imagePane => {
               return (
                 <LazyLoad
                   offset={-100}
@@ -147,7 +112,7 @@ function ImagePage(props) {
                   debounce={300}
                   once='true'
                 >
-                  <ImagePane source={imageImp(source)} alignment={alignment} alt={alt} />
+                  <ImagePane imagePaneInfo={imagePane} />
                 </LazyLoad>
               );
             })}
