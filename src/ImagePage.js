@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import LazyLoad from 'react-lazyload';
 
@@ -10,6 +10,27 @@ import './ImagePage.css';
 import images from './data/images.json';
 
 
+function parseImages(page) {
+  var imagePanes = [];
+  var swapToggle = false;
+  console.log(images[page].length)
+  for (var i = 0; i < images[page].length; i++) {
+    console.log(images[page][i])
+    imagePanes.push(
+      <LazyLoad
+        offset={-100}
+        placeholder={<Placeholder />}
+        debounce={300}
+        once='true'
+      >
+        <ImagePane imagePaneInfo={images[page][i]} swap={swapToggle} />
+      </LazyLoad>
+    );
+    swapToggle = !swapToggle;
+  }
+  return imagePanes;
+}
+
 // add offset component to lazyload
 function ImagePage(props) {
   return (
@@ -17,90 +38,35 @@ function ImagePage(props) {
       <Route exact path='/'>
         <ContentMargin>
           <Center>
-            {images["home"].map(imagePane => {
-              return (
-                <LazyLoad
-                  offset={-100}
-                  placeholder={<Placeholder />}
-                  debounce={300}
-                  once='true'
-                >
-                  <ImagePane imagePaneInfo={imagePane} />
-                </LazyLoad>
-              );
-            })}
+            {parseImages("home")}
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/portland'>
         <ContentMargin>
           <Center>
-            {images["portland"].map(imagePane => {
-              return (
-                <LazyLoad
-                  offset={-100}
-                  placeholder={<Placeholder />}
-                  debounce={300}
-                  once='true'
-                >
-                  <ImagePane imagePaneInfo={imagePane} />
-                </LazyLoad>
-              );
-            })}
+            {parseImages("portland")}
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/hawaii'>
         <ContentMargin>
           <Center>
-            {images["hawaii"].map(imagePane => {
-              return (
-                <LazyLoad
-                  offset={-100}
-                  placeholder={<Placeholder />}
-                  debounce={300}
-                  once='true'
-                >
-                  <ImagePane imagePaneInfo={imagePane} />
-                </LazyLoad>
-              );
-            })}
+            {parseImages("hawaii")}
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/columbiarivergorge'>
         <ContentMargin>
           <Center>
-            {images["columbiarivergorge"].map(imagePane => {
-              return (
-                <LazyLoad
-                  offset={-100}
-                  placeholder={<Placeholder />}
-                  debounce={300}
-                  once='true'
-                >
-                  <ImagePane imagePaneInfo={imagePane} />
-                </LazyLoad>
-              );
-            })}
+            {parseImages("columbiarivergorge")}
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/utah'>
         <ContentMargin>
           <Center>
-            {images["utah"].map(imagePane => {
-              return (
-                <LazyLoad
-                  offset={-100}
-                  placeholder={<Placeholder />}
-                  debounce={300}
-                  once='true'
-                >
-                  <ImagePane imagePaneInfo={imagePane} />
-                </LazyLoad>
-              );
-            })}
+            {parseImages("utah")}
           </Center>
         </ContentMargin>
       </Route>

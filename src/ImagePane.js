@@ -6,6 +6,46 @@ import LazyLoad from 'react-lazyload';
 import { ImageImp, Placeholder } from './Utils.js';
 
 
+function generateImagePane(imagePaneInfo, swap) {
+  if (swap) {
+    return (
+      <div className="pane">
+        <ImageStack stackInfo={imagePaneInfo.stack} />
+        <div className="pane-vert">
+          <LazyLoad
+            offset={-100}
+            placeholder={<Placeholder />}
+            debounce={300}
+            once='true'
+          >
+            <NavLink to={imagePaneInfo.vertical.source}>
+              <img className={imagePaneInfo.vertical.alignment} src={ImageImp(imagePaneInfo.vertical.source)} alt={imagePaneInfo.vertical.alt} />
+            </NavLink>
+          </LazyLoad>
+        </div>
+      </div>
+    );
+  } else {
+    return (
+      <div className="pane">
+        <div className="pane-vert">
+          <LazyLoad
+            offset={-100}
+            placeholder={<Placeholder />}
+            debounce={300}
+            once='true'
+          >
+            <NavLink to={imagePaneInfo.vertical.source}>
+              <img className={imagePaneInfo.vertical.alignment} src={ImageImp(imagePaneInfo.vertical.source)} alt={imagePaneInfo.vertical.alt} />
+            </NavLink>
+          </LazyLoad>
+        </div>
+        <ImageStack stackInfo={imagePaneInfo.stack} />
+      </div>
+    );
+  }
+}
+
 function ImageStack(props) {
   return (
     <div className="pane-stack-outer">
@@ -30,23 +70,12 @@ function ImageStack(props) {
 }
 
 // todo refactor lazyload implementation to a component
+// todo make placeholder match size of image
 
 function ImagePane(props) {
   return (
-    <div className="pane">
-      <div className="pane-vert">
-        <LazyLoad
-          offset={-100}
-          placeholder={<Placeholder />}
-          debounce={300}
-          once='true'
-        >
-          <NavLink to={props.imagePaneInfo.vertical.source}>
-            <img className={props.imagePaneInfo.vertical.alignment} src={ImageImp(props.imagePaneInfo.vertical.source)} alt={props.imagePaneInfo.vertical.alt} />
-          </NavLink>
-        </LazyLoad>
-      </div>
-      <ImageStack stackInfo={props.imagePaneInfo.stack} />
+    <div>
+      {generateImagePane(props.imagePaneInfo, props.swap)}
     </div>
   );
 }
