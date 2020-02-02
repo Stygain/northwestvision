@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
-import LazyLoad from 'react-lazyload';
 
-import { ContentMargin, Center, Placeholder } from './Utils.js';
+import { ContentMargin, Center, LazyLoadImagePane } from './Utils.js';
 import ImagePane from './ImagePane.js';
 
 import './ImagePage.css';
@@ -17,21 +16,15 @@ function parseImages(page) {
   for (var i = 0; i < images[page].length; i++) {
     console.log(images[page][i])
     imagePanes.push(
-      <LazyLoad
-        offset={-100}
-        placeholder={<Placeholder />}
-        debounce={300}
-        once='true'
-      >
+      <LazyLoadImagePane>
         <ImagePane imagePaneInfo={images[page][i]} swap={swapToggle} />
-      </LazyLoad>
+      </LazyLoadImagePane>
     );
     swapToggle = !swapToggle;
   }
   return imagePanes;
 }
 
-// add offset component to lazyload
 function ImagePage(props) {
   return (
     <Switch>
