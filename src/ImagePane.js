@@ -11,7 +11,7 @@ function generateImagePane(imagePaneInfo, swap) {
       <div className="pane">
         <ImageStack stackInfo={imagePaneInfo.stack} />
         <div className="pane-vert">
-          <LazyLoadImage>
+          <LazyLoadImage alignment="vert">
             <NavLink to={imagePaneInfo.vertical.source}>
               <img className={imagePaneInfo.vertical.alignment} src={ImageImp(imagePaneInfo.vertical.source)} alt={imagePaneInfo.vertical.alt} />
             </NavLink>
@@ -23,7 +23,7 @@ function generateImagePane(imagePaneInfo, swap) {
     return (
       <div className="pane">
         <div className="pane-vert">
-          <LazyLoadImage>
+          <LazyLoadImage alignment="vert">
             <NavLink to={imagePaneInfo.vertical.source}>
               <img className={imagePaneInfo.vertical.alignment} src={ImageImp(imagePaneInfo.vertical.source)} alt={imagePaneInfo.vertical.alt} />
             </NavLink>
@@ -41,7 +41,7 @@ function ImageStack(props) {
       <div className="pane-stack">
         {props.stackInfo.map(stackItem => {
           return (
-            <LazyLoadImage>
+            <LazyLoadImage alignment="horiz">
               <NavLink to={stackItem.source}>
                 <img className={stackItem.alignment} src={ImageImp(stackItem.source)} alt={stackItem.alt} />
               </NavLink>
@@ -52,9 +52,6 @@ function ImageStack(props) {
     </div>
   );
 }
-
-// todo refactor lazyload implementation to a component
-// todo make placeholder match size of image
 
 function ImagePane(props) {
   return (

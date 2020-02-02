@@ -5,3 +5,73 @@
 .center {
   text-align: center;
 }
+
+
+
+
+.loader-pane {
+  width: 95%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+.loader-image-horiz {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.loader-image-vert {
+  width: 43%;
+}
+
+.loader-pane .pulse-container {
+  height: 50vw;
+}
+
+.loader-image-horiz .pulse-container {
+  height: 30vw;
+}
+
+.loader-image-vert .pulse-container {
+  height: 65vw;
+}
+
+.pulse-container {
+  width: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pulse-bubble {
+  width: 20px;
+  height: 100px;
+  background-color: rgb(166, 166, 166);
+}
+
+.pulse-bubble-1 {
+    animation: pulse .6s ease 0s infinite alternate;
+}
+.pulse-bubble-2 {
+    animation: pulse .6s ease .2s infinite alternate;
+}
+.pulse-bubble-3 {
+    animation: pulse .6s ease .4s infinite alternate;
+}
+.pulse-bubble-4 {
+    animation: pulse .6s ease .6s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    background-color: rgb(166, 166, 166);
+    opacity: .25;
+    transform: scale(.75);
+  }
+}

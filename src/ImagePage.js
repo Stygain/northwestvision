@@ -4,8 +4,6 @@ import { Redirect, Route, Switch } from 'react-router-dom';
 import { ContentMargin, Center, LazyLoadImagePane } from './Utils.js';
 import ImagePane from './ImagePane.js';
 
-import './ImagePage.css';
-
 import images from './data/images.json';
 
 
