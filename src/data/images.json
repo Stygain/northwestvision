@@ -1,22 +1,24 @@
 {
   "home": [
-    [
-      {
-        "source": "./home/IMG_7705.jpg",
+    {
+      "vertical": {
+        "source": "./hawaii/IMG_1977.jpg",
         "alt": "Watson falls in south-central Oregon, the third tallest waterfall in Oregon",
         "alignment": "vertical"
       },
-      {
-        "source": "./home/IMG_7371.jpg",
-        "alt": "Yaquina bay bridge located in Newport, Oregon",
-        "alignment": "horizontal"
-      },
-      {
-        "source": "./home/IMG_7499.jpg",
-        "alt": "Sunset in Newport, Oregon",
-        "alignment": "horizontal"
-      }
-    ]
+      "stack": [
+        {
+          "source": "./hawaii/IMG_2057.jpg",
+          "alt": "Yaquina bay bridge located in Newport, Oregon",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./hawaii/IMG_2157.jpg",
+          "alt": "Sunset in Newport, Oregon",
+          "alignment": "horizontal"
+        }
+      ]
+    }
   ],
   "portland": [
   ],
