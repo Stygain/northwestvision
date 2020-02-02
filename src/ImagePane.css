@@ -1,11 +1,15 @@
 .horizontal {
   max-width: 85%;
   max-height: 80vh;
+  /* max-height: 300px; */
+  margin-top: 50px;
 }
 
 .vertical {
   max-width: 60%;
   max-height: 80vh;
+  /* max-height: 300px; */
+  margin-top: 50px;
 }
 
 img {
@@ -20,4 +24,13 @@ img {
 
 img:hover {
   box-shadow: 0px 10px 15px #1f1f1f;
+}
+
+.center {
+  margin-bottom: 300px;
+}
+
+.spinner-placeholder {
+  width: 80px;
+  height: 80px;
 }
