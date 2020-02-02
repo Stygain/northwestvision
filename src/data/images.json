@@ -2,30 +2,410 @@
   "home": [
     {
       "vertical": {
-        "source": "./hawaii/IMG_1977.jpg",
+        "source": "./home/IMG_7705.jpg",
         "alt": "Watson falls in south-central Oregon, the third tallest waterfall in Oregon",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./hawaii/IMG_2057.jpg",
+          "source": "./home/IMG_7371.jpg",
           "alt": "Yaquina bay bridge located in Newport, Oregon",
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2157.jpg",
+          "source": "./home/IMG_7499.jpg",
           "alt": "Sunset in Newport, Oregon",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./home/IMG_8475.jpg",
+        "alt": "Abandoned Pullman car in Corvallis, Oregon",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./home/IMG_3057.jpg",
+          "alt": "Looking over the edge on an abandoned railroad near Timber, Oregon",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./home/IMG_5483.jpg",
+          "alt": "Icicles looming above (these are a couple feet long)",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./home/IMG_20170304_121251.jpg",
+        "alt": "Snow covered trees near the summit of Mary's Peak",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./home/IMG_7542.jpg",
+          "alt": "Closeup on the charred wood",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./home/IMG_7267.jpg",
+          "alt": "Yaquina Head Lighthouse in Newport, Oregon",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./home/IMG_7507.jpg",
+        "alt": "Hotdogs on the beach",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./home/IMG_20160721_171943.jpg",
+          "alt": "Mirror lake near Mount Hood",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./home/IMG_7447.jpg",
+          "alt": "Thor's Well: A hole that fills and empties with water and sprays magnificently at higher tides",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./home/IMG_7637.jpg",
+        "alt": "A peek through the trees at Toketee Falls",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./home/IMG_20170529_135545.jpg",
+          "alt": "Toketee Falls, 1 mile away from Watson falls in south-central Oregon",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./home/IMG_20170529_172624.jpg",
+          "alt": "Snow covered Wizard Island in Crater Lake",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./home/IMG_20161110_152253.jpg",
+        "alt": "Weatherford Hall, Oregon State University",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./home/IMG_8578.jpg",
+          "alt": "Pumpkins in the afternoon sun, Corvallis, Oregon",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./home/IMG_20160721_150340.jpg",
+          "alt": "Trillium Lake near Mount Hood",
           "alignment": "horizontal"
         }
       ]
     }
   ],
   "portland": [
+    {
+      "vertical": {
+        "source": "./portland/IMG_4868.jpg",
+        "alt": "I-405 interchange crossing the river",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./portland/IMG_5605.jpg",
+          "alt": "The Old Town/Portland sign",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./portland/IMG_4345.jpg",
+          "alt": "Looking towards Portland on a summer evening from the Skidmore Bluffs",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./portland/IMG_8456.jpg",
+        "alt": "Antique-looking sign near the Portland waterfront",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./portland/IMG_4565.jpg",
+          "alt": "View of the Hawthorne bridge",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./portland/IMG_5625.jpg",
+          "alt": "Night view of Portland from OHSU",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./portland/IMG_8446-2.jpg",
+        "alt": "Interesting condo/apartment building near the waterfront",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./portland/IMG_8506.jpg",
+          "alt": "Golden leaves of fall in a water fountain",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./portland/IMG_4840.jpg",
+          "alt": "Another view of the I-405 interchange crossing the river",
+          "alignment": "horizontal"
+        }
+      ]
+    }
   ],
   "hawaii": [
+    {
+      "vertical": {
+        "source": "./hawaii/IMG_2366.jpg",
+        "alt": "Flowers from the botanical garden",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./hawaii/IMG_2447.jpg",
+          "alt": "Flowers from the botanical garden",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./hawaii/IMG_2425.jpg",
+          "alt": "Flowers from the botanical garden",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./hawaii/IMG_1977.jpg",
+        "alt": "Flowers from the botanical garden",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./hawaii/IMG_2828.jpg",
+          "alt": "View of the sunset from atop Mauna Loa",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./hawaii/IMG_2399.jpg",
+          "alt": "A gecko in the botanical garden",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./hawaii/IMG_2278.jpg",
+        "alt": "Flowers from the botanical garden",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./hawaii/IMG_2157.jpg",
+          "alt": "Lava in the caldera, Volcanoes National Park",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./hawaii/IMG_2326.jpg",
+          "alt": "Flowers from the botanical garden",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./hawaii/IMG_2409.jpg",
+        "alt": "Vines growing up a tree following the light in the botanical garden",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./hawaii/IMG_2273.jpg",
+          "alt": "Flowers from the botanical garden",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./hawaii/IMG_2057.jpg",
+          "alt": "Closed road due to lava in Volcanoes National Park",
+          "alignment": "horizontal"
+        }
+      ]
+    }
   ],
   "columbiarivergorge": [
+    {
+      "vertical": {
+        "source": "./gorge/IMG_1380.jpg",
+        "alt": "Dry Creek Falls",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./gorge/IMG_5015.jpg",
+          "alt": "Short waterfall on the hike to Tamanawas Falls",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./gorge/IMG_7483.jpg",
+          "alt": "Flowers along a hike",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./gorge/IMG_8363.jpg",
+        "alt": "View of the trail along the ridge of Munra Point, looking south",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./gorge/IMG_8385.jpg",
+          "alt": "View from atop Munra Point looking out to Mount Jefferson and the Bonneville Dam",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./gorge/IMG_8252.jpg",
+          "alt": "View from ~3/4 of the way up to the peak of Munra Point",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./gorge/IMG_1482.jpg",
+        "alt": "Dead tree standing out along a hike",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./gorge/IMG_3221.jpg",
+          "alt": "Rusty old rails",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./gorge/IMG_8370.jpg",
+          "alt": "Looking through the grass and trees westward atop Munra Point",
+          "alignment": "horizontal"
+        }
+      ]
+    }
   ],
   "utah": [
+    {
+      "vertical": {
+        "source": "./utah/IMG_1_1.jpg",
+        "alt": "View of Canyonlands from the Island in the Sky",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./utah/IMG_6175.jpg",
+          "alt": "Jeep tour with a magnificent machine",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./utah/IMG_6483.jpg",
+          "alt": "Looking through Mesa Arch out towards the mountains",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./utah/IMG_6555.jpg",
+        "alt": "Dead tree in Canyonlands NP",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./utah/IMG_6004.jpg",
+          "alt": "A person standing under Double Arch",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./utah/IMG_5866.jpg",
+          "alt": "The classic Delicate Arch (With no people in the picture!)",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./utah/IMG_5935.jpg",
+        "alt": "Tree framing Turret Arch",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./utah/IMG_6039.jpg",
+          "alt": "Rungs to help you climb",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./utah/IMG_6014.jpg",
+          "alt": "Balanced Rock (can you see the people for scale)",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./utah/IMG_6763.jpg",
+        "alt": "View of the Utah Capitol Building, a replica of the Capitol Building in Washington DC",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./utah/IMG_6538.jpg",
+          "alt": "Six Shooter Rock",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./utah/IMG_6084.jpg",
+          "alt": "One of few cactus blooms we saw",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./utah/IMG_6627.jpg",
+        "alt": "Angry clouds over our ride",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./utah/IMG_5911.jpg",
+          "alt": "Cool grass-like plant in front of turret arch",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./utah/IMG_5691.jpg",
+          "alt": "Extremely tall stack for a smelting business near SLC along the coast of the Salt Lake",
+          "alignment": "horizontal"
+        }
+      ]
+    }
   ]
 }

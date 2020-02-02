@@ -16,9 +16,6 @@ function ImagePage(props) {
     <Switch>
       <Route exact path='/'>
         <ContentMargin>
-          <h1>
-            Home
-          </h1>
           <Center>
             {images["home"].map(imagePane => {
               return (
@@ -37,9 +34,6 @@ function ImagePage(props) {
       </Route>
       <Route path='/portland'>
         <ContentMargin>
-          <h1>
-            Portland
-          </h1>
           <Center>
             {images["portland"].map(imagePane => {
               return (
@@ -58,9 +52,6 @@ function ImagePage(props) {
       </Route>
       <Route path='/hawaii'>
         <ContentMargin>
-          <h1>
-            Hawaii
-          </h1>
           <Center>
             {images["hawaii"].map(imagePane => {
               return (
@@ -79,9 +70,6 @@ function ImagePage(props) {
       </Route>
       <Route path='/columbiarivergorge'>
         <ContentMargin>
-          <h1>
-            The Columbia River Gorge
-          </h1>
           <Center>
             {images["columbiarivergorge"].map(imagePane => {
               return (
@@ -100,9 +88,6 @@ function ImagePage(props) {
       </Route>
       <Route path='/utah'>
         <ContentMargin>
-          <h1>
-            The National Parks of Utah
-          </h1>
           <Center>
             {images["utah"].map(imagePane => {
               return (
