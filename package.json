@@ -1,6 +1,6 @@
 {
-  "name": "northwestvision-react",
-  "homepage": "https://Stygain.github.io/northwestvision-react/",
+  "name": "northwestvision",
+  "homepage": "https://Stygain.github.io/northwestvision/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
