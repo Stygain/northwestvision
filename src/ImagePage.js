@@ -7,15 +7,17 @@ import ImagePane from './ImagePane.js';
 import images from './data/images.json';
 
 
-function parseImages(page) {
+function parseImages(page, props) {
   var imagePanes = [];
   var swapToggle = false;
-  console.log(images[page].length)
   for (var i = 0; i < images[page].length; i++) {
-    console.log(images[page][i])
     imagePanes.push(
       <LazyLoadImagePane>
-        <ImagePane imagePaneInfo={images[page][i]} swap={swapToggle} />
+        <ImagePane
+          imagePaneInfo={images[page][i]}
+          swap={swapToggle}
+          setModalShow={props.setModalShow}
+          setModalSource={props.setModalSource} />
       </LazyLoadImagePane>
     );
     swapToggle = !swapToggle;
@@ -29,35 +31,35 @@ function ImagePage(props) {
       <Route exact path='/'>
         <ContentMargin>
           <Center>
-            {parseImages("home")}
+            {parseImages("home", props)}
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/portland'>
         <ContentMargin>
           <Center>
-            {parseImages("portland")}
+            {parseImages("portland", props)}
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/hawaii'>
         <ContentMargin>
           <Center>
-            {parseImages("hawaii")}
+            {parseImages("hawaii", props)}
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/columbiarivergorge'>
         <ContentMargin>
           <Center>
-            {parseImages("columbiarivergorge")}
+            {parseImages("columbiarivergorge", props)}
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/utah'>
         <ContentMargin>
           <Center>
-            {parseImages("utah")}
+            {parseImages("utah", props)}
           </Center>
         </ContentMargin>
       </Route>

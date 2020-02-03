@@ -43,7 +43,7 @@ function LazyLoadImage(props) {
       offset={-100}
       placeholder={<Placeholder type={"image-" + props.alignment} />}
       debounce={300}
-      once='true'
+      once={true}
     >
       {props.children}
     </LazyLoad>
@@ -56,7 +56,7 @@ function LazyLoadImagePane(props) {
       offset={-100}
       placeholder={<Placeholder type="pane" />}
       debounce={300}
-      once='true'
+      once={true}
     >
       {props.children}
     </LazyLoad>

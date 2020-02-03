@@ -1,20 +1,30 @@
 import React from 'react';
 import './ImagePane.css';
-import { NavLink } from 'react-router-dom';
 
 import { ImageImp, LazyLoadImage } from './Utils.js';
 
 
-function generateImagePane(imagePaneInfo, swap) {
-  if (swap) {
+function onClickHandler(setModalShow, setModalSource, source) {
+  console.log("Clicked")
+  // console.log(setModalShow)
+  setModalShow(true)
+  setModalSource(source)
+}
+
+function generateImagePane(props) {
+  if (props.swap) {
     return (
       <div className="pane">
-        <ImageStack stackInfo={imagePaneInfo.stack} />
+        <ImageStack
+          stackInfo={props.imagePaneInfo.stack}
+          setModalShow={props.setModalShow}
+          setModalSource={props.setModalSource} />
         <div className="pane-vert">
           <LazyLoadImage alignment="vert">
-            <NavLink to={imagePaneInfo.vertical.source}>
-              <img className={imagePaneInfo.vertical.alignment} src={ImageImp(imagePaneInfo.vertical.source)} alt={imagePaneInfo.vertical.alt} />
-            </NavLink>
+            <img onClick={() => onClickHandler(props.setModalShow, props.setModalSource, props.imagePaneInfo.vertical)}
+              className={props.imagePaneInfo.vertical.alignment}
+              src={ImageImp(props.imagePaneInfo.vertical.source)}
+              alt={props.imagePaneInfo.vertical.alt} />
           </LazyLoadImage>
         </div>
       </div>
@@ -24,12 +34,15 @@ function generateImagePane(imagePaneInfo, swap) {
       <div className="pane">
         <div className="pane-vert">
           <LazyLoadImage alignment="vert">
-            <NavLink to={imagePaneInfo.vertical.source}>
-              <img className={imagePaneInfo.vertical.alignment} src={ImageImp(imagePaneInfo.vertical.source)} alt={imagePaneInfo.vertical.alt} />
-            </NavLink>
+            <img onClick={() => onClickHandler(props.setModalShow, props.setModalSource, props.imagePaneInfo.vertical)}
+              className={props.imagePaneInfo.vertical.alignment}
+              src={ImageImp(props.imagePaneInfo.vertical.source)}
+              alt={props.imagePaneInfo.vertical.alt} />
           </LazyLoadImage>
         </div>
-        <ImageStack stackInfo={imagePaneInfo.stack} />
+        <ImageStack stackInfo={props.imagePaneInfo.stack}
+          setModalShow={props.setModalShow}
+          setModalSource={props.setModalSource} />
       </div>
     );
   }
@@ -42,9 +55,10 @@ function ImageStack(props) {
         {props.stackInfo.map(stackItem => {
           return (
             <LazyLoadImage alignment="horiz">
-              <NavLink to={stackItem.source}>
-                <img className={stackItem.alignment} src={ImageImp(stackItem.source)} alt={stackItem.alt} />
-              </NavLink>
+              <img onClick={() => onClickHandler(props.setModalShow, props.setModalSource, stackItem)}
+                className={stackItem.alignment}
+                src={ImageImp(stackItem.source)}
+                alt={stackItem.alt} />
             </LazyLoadImage>
           );
         })}
@@ -56,7 +70,7 @@ function ImageStack(props) {
 function ImagePane(props) {
   return (
     <div>
-      {generateImagePane(props.imagePaneInfo, props.swap)}
+      {generateImagePane(props)}
     </div>
   );
 }
