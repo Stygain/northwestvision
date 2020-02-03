@@ -47,6 +47,7 @@ function NavBarContent() {
 }
 
 function NavBar(props) {
+  // eslint-disable-next-line
   const [dimensions, setDimensions] = useState({
     height: window.innerHeight,
     width: window.innerWidth
