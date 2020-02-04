@@ -35,6 +35,13 @@ function ImagePage(props) {
           </Center>
         </ContentMargin>
       </Route>
+      <Route path='/northwestvision'>
+        <ContentMargin>
+          <Center>
+            {parseImages("home", props)}
+          </Center>
+        </ContentMargin>
+      </Route>
       <Route path='/portland'>
         <ContentMargin>
           <Center>
