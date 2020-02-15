@@ -21,6 +21,7 @@
 }
 
 .navbar .title {
+  border: 1px solid red;
   margin: 0;
 
   width: 350px;
@@ -75,14 +76,10 @@
   color: #444;
 }
 
-/* @media (max-width: 768px) {
-  .navbar .title {
-    width: 220px;
-    font-size: 32px;
-  }
-} */
-
 @media (max-width: 1300px) {
+  .navbar .title {
+    width: 280px;
+  }
 
   .navlist {
     width: 100%;
@@ -167,5 +164,12 @@
     background-color: #333;
     margin: 6px 0;
     transition: 0.4s;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .title {
+    width: 220px;
+    font-size: 32px;
   }
 }
