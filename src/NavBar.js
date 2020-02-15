@@ -5,70 +5,40 @@ import { NavLink } from 'react-router-dom';
 import dataTypes from './data/dataTypes.json'
 
 
-function NavBarContent() {
-  let width = window.innerWidth;
-
-  if (width > 1300) {
-    return (
-      <div className='navbar'>
-        <NavLink className="title" to="/">Northwest Vision</NavLink>
+function NavBar(props) {
+  const [ open, setOpen ] = useState(false);
+  return (
+    <div className='navbar'>
+      <NavLink className="title" to="/">Northwest Vision</NavLink>
+      <div className={open ? "button-container open" : "button-container"} onClick={() => {
+        setOpen(!open);
+      }}>
+        <div className="hamburger-button">
+          <div className={open ? "bar1 open" : "bar1"}></div>
+          <div className={open ? "bar2 open" : "bar2"}></div>
+          <div className={open ? "bar3 open" : "bar3"}></div>
+        </div>
+      </div>
+      <div className={open ? "navlist open" : "navlist"}>
         <ul>
+          <li className="navlink home" key="/">
+            <NavLink to="/" onClick={() => {
+              setOpen(!open);
+            }}>
+              Home
+            </NavLink>
+          </li>
           {dataTypes["dataTypes"].map(({name, url}) => {
             return (<li className="navlink" key={url}>
-              <NavLink to={url}>
+              <NavLink to={url} onClick={() => {
+                setOpen(!open);
+              }}>
                 {name}
               </NavLink>
             </li>);
           })}
         </ul>
       </div>
-    );
-  } else {
-    return (
-      <div className='navbar'>
-        <NavLink className="title" to="/">Northwest Vision</NavLink>
-        <div className="dropdown">
-          <div className="button">
-            <p>&#9776;</p>
-          </div>
-          <div className="dropdown-content">
-            {dataTypes["dataTypes"].map(({name, url}) => {
-              return (
-                <NavLink to={url}>
-                  {name}
-                </NavLink>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-    );
-  }
-}
-
-function NavBar(props) {
-  // eslint-disable-next-line
-  const [dimensions, setDimensions] = useState({
-    height: window.innerHeight,
-    width: window.innerWidth
-  })
-  useEffect(() => {
-    function handleResize() {
-      setDimensions({
-        height: window.innerHeight,
-        width: window.innerWidth
-      });
-    }
-
-    window.addEventListener('resize', handleResize);
-
-    return (() => {
-      window.removeEventListener('resize', handleResize)});
-  });
-
-  return (
-    <div>
-      {NavBarContent()}
     </div>
   );
 }

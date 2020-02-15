@@ -1,50 +1,93 @@
 .navbar {
-  font-family: 'Kaushan Script', cursive;
-  box-shadow: 0px 10px 15px rgba(33, 33, 33, 0.66);
-  z-index: 1;
+  /* border: 1px solid green; */
+
   margin: 0px;
   padding: 0px;
   width: 100%;
+  z-index: 1;
   position: fixed;
   top: 0px;
+  font-family: 'Kaushan Script', cursive;
+  box-shadow: 0px 10px 15px rgba(33, 33, 33, 0.66);
+  background-color: rgb(255, 255, 255);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar .title {
+  /* border: 1px solid blue; */
+
+  margin: 0;
+
+  width: 350px;
+  font-size: 40px;
+  text-align: left;
+  font-weight: 500;
+}
+
+.navbar .navlist {
+  /* border: 1px solid red; */
+
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
   background: rgb(255, 255, 255);
 }
 
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  margin-bottom: 10px;
-  padding: 0;
-  padding-top: 0.8vh;
+.navlist .home {
+  display: none;
 }
 
-.navbar {
+.navbar .button-container {
+  display: none;
+}
+
+.navlist ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* .navbar {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
-.navbar .title {
+/* .navbar .title {
   width: 280px;
   font-size: 40px;
   text-align: left;
 
   order: 0;
-}
+} */
 
-.navbar ul {
+/* .navbar ul {
   float: right;
 
   order: 1;
   align-self: flex-end;
-}
+} */
 
-.navbar ul li {
+/* .navbar ul li {
   display: inline;
-}
+} */
 
-.navbar a {
+/* .navbar a {
   width: 60px;
   padding: 8px 16px;
   text-decoration: none;
@@ -52,38 +95,41 @@
   font-weight: 500;
   font-size: 40px;
   color: #000;
-}
+} */
 
-.navbar ul li a {
+.navlist a {
+  /* border: 1px solid green; */
+
+  padding: 8px 12px;
   font-weight: 500;
   font-size: 30px;
   color: rgb(166, 166, 166);
-	-webkit-transition: color 0.5s ease-in-out;
+  -webkit-transition: color 0.5s ease-in-out;
      -moz-transition: color 0.5s ease-in-out;
        -o-transition: color 0.5s ease-in-out;
       -ms-transition: color 0.5s ease-in-out;
           transition: color 0.5s ease-in-out;
 }
 
-.navbar ul li a.active {
+.navlist ul li a.active {
   color: #000;
 }
 
-.navbar ul li a:hover:not(.active) {
+.navlist ul li a:hover:not(.active) {
   color: #444;
 }
 
 
 
 
-.dropdown {
+/* .dropdown {
   margin-right: 5px;
   float: right;
   order: 1;
   align-self: flex-end;
-}
+} */
 
-.dropdown .button {
+/* .dropdown .button {
   padding: 0px 16px;
   font-size: 21px;
   color: rgb(166, 166, 166);
@@ -98,23 +144,23 @@
        -o-transition: color 0.5s ease-out;
       -ms-transition: color 0.5s ease-out;
           transition: color 0.5s ease-out;
-}
+} */
 
-.dropdown .button:hover {
+/* .dropdown .button:hover {
   cursor: pointer;
   color: #000;
-}
+} */
 
-.dropdown-content {
+/* .dropdown-content {
   display: none;
   position: absolute;
   right: 5px;
   background-color: rgb(244, 244, 244);
   max-width: 50%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
+} */
 
-.dropdown-content a {
+/* .dropdown-content a {
   border-bottom: 2px solid rgba(150, 150, 150, 0.68);
   display: block;
   width: auto;
@@ -135,25 +181,138 @@
        -o-transition: border 0.5s ease-in-out;
       -ms-transition: border 0.5s ease-in-out;
           transition: border 0.5s ease-in-out;
-}
+} */
 
-.dropdown:hover .dropdown-content {
+/* .dropdown:hover .dropdown-content {
   display: block;
-}
+} */
 
-.dropdown a.active {
+/* .dropdown a.active {
   color: #000;
   border-bottom: 2px solid #000;
-}
+} */
 
-.dropdown a:hover:not(.active) {
+/* .dropdown a:hover:not(.active) {
   color: #444;
   border-bottom: 2px solid #444;
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .navbar .title {
     width: 220px;
     font-size: 32px;
+  }
+} */
+
+@media (max-width: 1300px) {
+  .navbar .title {
+    /* border: 2px solid red; */
+  }
+
+  .navlist {
+    /* border: 10px solid blue; */
+
+    /* width: ${width}px; */
+    width: 100%;
+    position: absolute;
+    top: 59px;
+    box-shadow: 0px 10px 15px rgba(33, 33, 33, 0.66);
+    overflow: hidden;
+    /* display: none; */
+    /* height: 100%; */
+    /* transition: width ${time}s; */
+
+    height: 0;
+    transition: height 0.5s;
+  }
+
+  .navlist .home {
+    display: block;
+  }
+
+  .navlist.open {
+    height: auto;
+    height: 225px;
+  }
+
+  .navlist ul {
+    /* border: 2px solid green; */
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+    /* justify-content: space-between; */
+    align-items: stretch;
+  }
+
+  .navlist ul li {
+    /* border: 1px solid red; */
+    /* flex: 0 0 100%; */
+  }
+
+  .navlist ul li a {
+    /* border: 1px solid orange; */
+    /* padding: 0 20px; */
+    padding: 0;
+    /* width: 100%; */
+    display: block;
+  }
+
+  .navbar .button-container {
+    /* border: 1px solid pink; */
+
+    background-color: rgb(244, 244, 244);
+    border-radius: 5px;
+    margin: 0;
+    padding: 4px 8px;
+    margin-right: 8px;
+    font-size: 25px;
+    margin-left: 0px;
+    /* position: fixed;
+    top: 5px;
+    left: 5px; */
+    transition: background-color 0.5s;
+    z-index: 10;
+    width: 35px;
+    cursor: pointer;
+    display: block;
+    color: #000;
+  }
+
+  .button-container:hover {
+    background-color: rgb(230, 230, 230);
+  }
+
+  .button-container.open {
+    background-color: rgb(220, 220, 220);
+  }
+
+  .bar1.open {
+    transform: translateY(0.5px) translateX(9px) rotate(-135deg) scaleX(0.8);
+    background-color: rgb(255, 255, 255);
+  }
+
+  .bar2.open {
+    transform: translateY(2px) translateX(0px) rotate(90deg) scaleY(1.2);
+    background-color: rgb(255, 255, 255);
+  }
+
+  .bar3.open {
+    transform: translateY(-20.5px) translateX(-9px) rotate(135deg) scaleX(0.8);
+    background-color: rgb(255, 255, 255);
+  }
+
+  .button-container .button {
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
   }
 }
