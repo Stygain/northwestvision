@@ -1,6 +1,4 @@
 .navbar {
-  /* border: 1px solid green; */
-
   margin: 0px;
   padding: 0px;
   width: 100%;
@@ -23,8 +21,6 @@
 }
 
 .navbar .title {
-  /* border: 1px solid blue; */
-
   margin: 0;
 
   width: 350px;
@@ -34,8 +30,6 @@
 }
 
 .navbar .navlist {
-  /* border: 1px solid red; */
-
   margin: 0px;
   padding: 0px;
   width: 100%;
@@ -61,45 +55,7 @@
   justify-content: flex-end;
 }
 
-/* .navbar {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-} */
-
-/* .navbar .title {
-  width: 280px;
-  font-size: 40px;
-  text-align: left;
-
-  order: 0;
-} */
-
-/* .navbar ul {
-  float: right;
-
-  order: 1;
-  align-self: flex-end;
-} */
-
-/* .navbar ul li {
-  display: inline;
-} */
-
-/* .navbar a {
-  width: 60px;
-  padding: 8px 16px;
-  text-decoration: none;
-  text-align:center;
-  font-weight: 500;
-  font-size: 40px;
-  color: #000;
-} */
-
 .navlist a {
-  /* border: 1px solid green; */
-
   padding: 8px 12px;
   font-weight: 500;
   font-size: 30px;
@@ -119,84 +75,6 @@
   color: #444;
 }
 
-
-
-
-/* .dropdown {
-  margin-right: 5px;
-  float: right;
-  order: 1;
-  align-self: flex-end;
-} */
-
-/* .dropdown .button {
-  padding: 0px 16px;
-  font-size: 21px;
-  color: rgb(166, 166, 166);
-
-	-webkit-transition: color 0.2s ease-in;
-     -moz-transition: color 0.2s ease-in;
-       -o-transition: color 0.2s ease-in;
-      -ms-transition: color 0.2s ease-in;
-          transition: color 0.2s ease-in;
-  -webkit-transition: color 0.5s ease-out;
-     -moz-transition: color 0.5s ease-out;
-       -o-transition: color 0.5s ease-out;
-      -ms-transition: color 0.5s ease-out;
-          transition: color 0.5s ease-out;
-} */
-
-/* .dropdown .button:hover {
-  cursor: pointer;
-  color: #000;
-} */
-
-/* .dropdown-content {
-  display: none;
-  position: absolute;
-  right: 5px;
-  background-color: rgb(244, 244, 244);
-  max-width: 50%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-} */
-
-/* .dropdown-content a {
-  border-bottom: 2px solid rgba(150, 150, 150, 0.68);
-  display: block;
-  width: auto;
-  margin: 0;
-  text-decoration: none;
-  text-align: right;
-  font-weight: 400;
-  font-size: 20px;
-  color: rgb(166, 166, 166);
-
-  -webkit-transition: color 0.5s ease-in-out;
-     -moz-transition: color 0.5s ease-in-out;
-       -o-transition: color 0.5s ease-in-out;
-      -ms-transition: color 0.5s ease-in-out;
-          transition: color 0.5s ease-in-out;
-  -webkit-transition: border 0.5s ease-in-out;
-     -moz-transition: border 0.5s ease-in-out;
-       -o-transition: border 0.5s ease-in-out;
-      -ms-transition: border 0.5s ease-in-out;
-          transition: border 0.5s ease-in-out;
-} */
-
-/* .dropdown:hover .dropdown-content {
-  display: block;
-} */
-
-/* .dropdown a.active {
-  color: #000;
-  border-bottom: 2px solid #000;
-} */
-
-/* .dropdown a:hover:not(.active) {
-  color: #444;
-  border-bottom: 2px solid #444;
-} */
-
 /* @media (max-width: 768px) {
   .navbar .title {
     width: 220px;
@@ -205,22 +83,13 @@
 } */
 
 @media (max-width: 1300px) {
-  .navbar .title {
-    /* border: 2px solid red; */
-  }
 
   .navlist {
-    /* border: 10px solid blue; */
-
-    /* width: ${width}px; */
     width: 100%;
     position: absolute;
     top: 59px;
     box-shadow: 0px 10px 15px rgba(33, 33, 33, 0.66);
     overflow: hidden;
-    /* display: none; */
-    /* height: 100%; */
-    /* transition: width ${time}s; */
 
     height: 0;
     transition: height 0.5s;
@@ -236,32 +105,19 @@
   }
 
   .navlist ul {
-    /* border: 2px solid green; */
     width: 100%;
 
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
-    /* justify-content: space-between; */
     align-items: stretch;
   }
 
-  .navlist ul li {
-    /* border: 1px solid red; */
-    /* flex: 0 0 100%; */
-  }
-
   .navlist ul li a {
-    /* border: 1px solid orange; */
-    /* padding: 0 20px; */
     padding: 0;
-    /* width: 100%; */
     display: block;
   }
 
   .navbar .button-container {
-    /* border: 1px solid pink; */
-
     background-color: rgb(244, 244, 244);
     border-radius: 5px;
     margin: 0;
@@ -269,9 +125,6 @@
     margin-right: 8px;
     font-size: 25px;
     margin-left: 0px;
-    /* position: fixed;
-    top: 5px;
-    left: 5px; */
     transition: background-color 0.5s;
     z-index: 10;
     width: 35px;
