@@ -35,7 +35,7 @@ function ImagePage(props) {
           </Center>
         </ContentMargin>
       </Route>
-      <Route path='/northwestvision'>
+      <Route exact path='/northwestvision'>
         <ContentMargin>
           <Center>
             {parseImages("home", props)}
@@ -49,7 +49,21 @@ function ImagePage(props) {
           </Center>
         </ContentMargin>
       </Route>
+      <Route path='/northwestvision/portland'>
+        <ContentMargin>
+          <Center>
+            {parseImages("portland", props)}
+          </Center>
+        </ContentMargin>
+      </Route>
       <Route path='/hawaii'>
+        <ContentMargin>
+          <Center>
+            {parseImages("hawaii", props)}
+          </Center>
+        </ContentMargin>
+      </Route>
+      <Route path='/northwestvision/hawaii'>
         <ContentMargin>
           <Center>
             {parseImages("hawaii", props)}
@@ -63,7 +77,21 @@ function ImagePage(props) {
           </Center>
         </ContentMargin>
       </Route>
+      <Route path='/northwestvision/columbiarivergorge'>
+        <ContentMargin>
+          <Center>
+            {parseImages("columbiarivergorge", props)}
+          </Center>
+        </ContentMargin>
+      </Route>
       <Route path='/utah'>
+        <ContentMargin>
+          <Center>
+            {parseImages("utah", props)}
+          </Center>
+        </ContentMargin>
+      </Route>
+      <Route path='/northwestvision/utah'>
         <ContentMargin>
           <Center>
             {parseImages("utah", props)}

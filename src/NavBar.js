@@ -9,7 +9,7 @@ function NavBar(props) {
   const [ open, setOpen ] = useState(false);
   return (
     <div className='navbar'>
-      <NavLink className="title" to="/">Northwest Vision</NavLink>
+      <NavLink className="title" to="/northwestvision">Northwest Vision</NavLink>
       <div className={open ? "button-container open" : "button-container"} onClick={() => {
         setOpen(!open);
       }}>
@@ -22,7 +22,7 @@ function NavBar(props) {
       <div className={open ? "navlist open" : "navlist"}>
         <ul>
           <li className="navlink home" key="/">
-            <NavLink to="/" onClick={() => {
+            <NavLink exact to="/northwestvision" onClick={() => {
               setOpen(!open);
             }}>
               Home
@@ -30,7 +30,7 @@ function NavBar(props) {
           </li>
           {dataTypes["dataTypes"].map(({name, url}) => {
             return (<li className="navlink" key={url}>
-              <NavLink to={url} onClick={() => {
+              <NavLink exact to={"/northwestvision" + url} onClick={() => {
                 setOpen(!open);
               }}>
                 {name}
