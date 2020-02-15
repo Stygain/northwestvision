@@ -139,17 +139,14 @@
 
   .bar1.open {
     transform: translateY(0.5px) translateX(9px) rotate(-135deg) scaleX(0.8);
-    background-color: rgb(255, 255, 255);
   }
 
   .bar2.open {
     transform: translateY(2px) translateX(0px) rotate(90deg) scaleY(1.2);
-    background-color: rgb(255, 255, 255);
   }
 
   .bar3.open {
     transform: translateY(-20.5px) translateX(-9px) rotate(135deg) scaleX(0.8);
-    background-color: rgb(255, 255, 255);
   }
 
   .button-container .button {
@@ -170,5 +167,9 @@
   .navbar .title {
     width: 220px;
     font-size: 32px;
+  }
+
+  .navlist {
+    top: 47px;
   }
 }
