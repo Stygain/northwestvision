@@ -1,4 +1,5 @@
-import React from 'react';
+/** @jsx jsx */
+import { jsx, css } from '@emotion/core';
 import LazyLoad from 'react-lazyload';
 
 import './Utils.css';
@@ -14,6 +15,18 @@ function ContentMargin(props) {
 function Center(props) {
   return (
     <div className='center'>
+      {props.children}
+    </div>
+  );
+}
+
+function CarouselMargin(props) {
+  const styling = css`
+    margin-top: 100vh;
+  `;
+
+  return (
+    <div css={styling}>
       {props.children}
     </div>
   );
@@ -65,6 +78,7 @@ function LazyLoadImagePane(props) {
 
 export {
     ContentMargin,
+    CarouselMargin,
     Center,
     ImageImp,
     LazyLoadImage,

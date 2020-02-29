@@ -1,8 +1,9 @@
 import React from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 
-import { ContentMargin, Center, LazyLoadImagePane } from './Utils.js';
+import { ContentMargin, CarouselMargin, Center, LazyLoadImagePane } from './Utils.js';
 import ImagePane from './ImagePane.js';
+import Carousel from './Carousel/Carousel.js';
 
 import images from './data/images.json';
 
@@ -30,16 +31,22 @@ function ImagePage(props) {
     <Switch>
       <Route exact path='/'>
         <ContentMargin>
-          <Center>
-            {parseImages("home", props)}
-          </Center>
+          <Carousel />
+          <CarouselMargin>
+            <Center>
+              {parseImages("home", props)}
+            </Center>
+          </CarouselMargin>
         </ContentMargin>
       </Route>
       <Route exact path='/northwestvision'>
         <ContentMargin>
-          <Center>
-            {parseImages("home", props)}
-          </Center>
+          <Carousel />
+          <CarouselMargin>
+            <Center>
+              {parseImages("home", props)}
+            </Center>
+          </CarouselMargin>
         </ContentMargin>
       </Route>
       <Route path='/portland'>
