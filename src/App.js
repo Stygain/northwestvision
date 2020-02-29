@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import './App.css';
-import NavBar from './NavBar.js';
 import { Route } from 'react-router-dom';
 
+import NavBar from './NavBar.js';
 import { ContentMargin } from './Utils.js';
 import ImagePage from './ImagePage.js';
 import Modal from './Modal.js';
+import Footer from './Footer.js';
 
 import images from './data/images.json'
 
@@ -31,6 +31,7 @@ function App() {
           </h1>
         </ContentMargin>
       </Route>
+      <Footer />
     </div>
   );
 }
