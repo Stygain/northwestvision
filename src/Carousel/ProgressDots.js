@@ -41,6 +41,10 @@ function ProgressDots(props) {
       background-color: ${props.accentColor};
     }
 
+    .outer-dot:hover {
+      transform: scale(1.3);
+    }
+
     .outer-dot:nth-child(${props.current + 1}) {
       ${'' /* border: 4px solid orange; */}
 

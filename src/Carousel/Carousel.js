@@ -14,11 +14,11 @@ const pageData = [
   },
   {
     source: "./home/IMG_7499.jpg",
-    accentColor: "rgb(56, 215, 78)"
+    accentColor: "rgb(175, 175, 175)"
   },
   {
     source: "./home/IMG_5483.jpg",
-    accentColor: "rgb(41, 35, 147)"
+    accentColor: "rgb(110, 110, 110)"
   }
 ]
 

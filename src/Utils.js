@@ -22,7 +22,7 @@ function Center(props) {
 
 function CarouselMargin(props) {
   const styling = css`
-    margin-top: 100vh;
+    margin-top: 74vh;
   `;
 
   return (
