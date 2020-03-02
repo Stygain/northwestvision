@@ -54,11 +54,17 @@ function Content(props) {
       position: absolute;
       top: 0;
       left: 0;
-      height: 100%;
-      width: 100%;
+      min-height: 100%;
+      min-width: 100%;
 
       width: 100%;
       ${'' /* max-height: 100%; */}
+    }
+
+    .disp-img img {
+      display: block;
+      width: 100%;
+      height: auto;
     }
 
     .prev-img {
@@ -81,6 +87,12 @@ function Content(props) {
                   animation 1s ease;
     }
 
+    .prev-img img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
     .next-img {
       ${'' /* border: 2px solid green; */}
 
@@ -98,6 +110,12 @@ function Content(props) {
       animation-fill-mode: forwards;
       transition: background-color 0.5s cubic-bezier(.4,.38,.12,1)
                   animation 1s ease;
+    }
+
+    .next-img img {
+      display: block;
+      width: 100%;
+      height: auto;
     }
 
 
@@ -122,19 +140,25 @@ function Content(props) {
   return (
     <div css={styling}>
       {props.prevItem != null ?
-        <img className="prev-img"
-          src={ImageImp(props.prevItem.source)}
-          alt="" />
+        <div className="prev-img">
+          <img
+            src={ImageImp(props.prevItem.source)}
+            alt="" />
+        </div>
         :
         <div></div>
       }
-      <img className="disp-img"
-        src={ImageImp(props.item.source)}
-        alt="" />
-      {props.nextItem != null ?
-        <img className="next-img"
-          src={ImageImp(props.nextItem.source)}
+      <div className="disp-img">
+        <img
+          src={ImageImp(props.item.source)}
           alt="" />
+      </div>
+      {props.nextItem != null ?
+        <div className="next-img">
+          <img
+            src={ImageImp(props.nextItem.source)}
+            alt="" />
+        </div>
         :
         <div></div>
       }
@@ -153,27 +177,38 @@ function Carousel() {
     position: absolute;
     top: 60px;
     left: 0;
-    min-height: 615px;
+    height: 65.5vw;
     width: 100%;
     z-index: -1;
+
+    @media (min-width: 1300px) {
+      top: 60px;
+      left: 20%;
+      height: 40vw;
+      width: 60%;
+    }
+
+    @media (max-width: 768px) {
+      height: 66.5vw;
+      top: 48px;
+    }
   `;
 
 
     async function updateSlide(newCurrent) {
-      let responseBody = {};
-      console.log("BEFORE");
+      var callback;
       if (newCurrent > current) {
-        console.log("RIGHT");
         setSlideRightTrigger(true)
+        callback = setSlideRightTrigger
       } else {
-        console.log("LEFT");
         setSlideLeftTrigger(true)
+        callback = setSlideLeftTrigger
       }
       await new Promise(r => setTimeout(r, 800));
-      console.log("AFTER");
       setCurrent(newCurrent)
-      setSlideRightTrigger(false)
-      setSlideLeftTrigger(false)
+      // setSlideRightTrigger(false)
+      // setSlideLeftTrigger(false)
+      callback(false)
     }
 
 
@@ -181,24 +216,52 @@ function Carousel() {
     <div css={styling}>
       {current === 0 ?
         <div>
-          <ArrowRight current={current} setCurrent={updateSlide} accentColor={pageData[current].accentColor} />
-          <Content slideRightTrigger={slideRightTrigger} slideLeftTrigger={slideLeftTrigger} item={pageData[current]} nextItem={pageData[current+1]} prevItem={null} />
+          <ArrowRight
+            current={current}
+            setCurrent={updateSlide}
+            accentColor={pageData[current].accentColor} />
+          <Content
+            slideRightTrigger={slideRightTrigger}
+            lideLeftTrigger={slideLeftTrigger}
+            item={pageData[current]}
+            nextItem={pageData[current+1]}
+            prevItem={null} />
         </div> :
         current === pageData.length-1 ?
           <div>
-            <ArrowLeft current={current} setCurrent={updateSlide} accentColor={pageData[current].accentColor} />
-            <Content slideRightTrigger={slideRightTrigger} slideLeftTrigger={slideLeftTrigger} item={pageData[current]} prevItem={pageData[current-1]} nextItem={null} />
+            <ArrowLeft
+              current={current}
+              setCurrent={updateSlide}
+              accentColor={pageData[current].accentColor} />
+            <Content
+              slideRightTrigger={slideRightTrigger}
+              slideLeftTrigger={slideLeftTrigger}
+              item={pageData[current]}
+              prevItem={pageData[current-1]}
+              nextItem={null} />
           </div> :
           <div>
-            <ArrowLeft current={current} setCurrent={updateSlide} accentColor={pageData[current].accentColor} />
-            <ArrowRight current={current} setCurrent={updateSlide} accentColor={pageData[current].accentColor} />
-            {console.log("CURRENT " + current)}
-            <Content slideRightTrigger={slideRightTrigger} slideLeftTrigger={slideLeftTrigger} item={pageData[current]} prevItem={pageData[current-1]} nextItem={pageData[current+1]} />
-            {/* <Content item={pageData[current]} /> */}
+            <ArrowLeft
+              current={current}
+              setCurrent={updateSlide}
+              accentColor={pageData[current].accentColor} />
+            <ArrowRight
+              current={current}
+              setCurrent={updateSlide}
+              accentColor={pageData[current].accentColor} />
+            <Content
+              slideRightTrigger={slideRightTrigger}
+              slideLeftTrigger={slideLeftTrigger}
+              item={pageData[current]}
+              prevItem={pageData[current-1]}
+              nextItem={pageData[current+1]} />
           </div>}
 
-      {/* <Content slideRightTrigger={slideRightTrigger} item={pageData[current]} nextItem={pageData[current+1]} /> */}
-      <ProgressDots current={current} data={pageData} setCurrent={setCurrent} accentColor={pageData[current].accentColor} />
+      <ProgressDots
+        current={current}
+        data={pageData}
+        setCurrent={setCurrent}
+        accentColor={pageData[current].accentColor} />
   	</div>
   );
 }

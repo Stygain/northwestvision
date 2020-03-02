@@ -59,13 +59,11 @@ function ArrowRight(props) {
       }
       onMouseEnter={
         () => {
-          console.log("in")
           setHover(true);
         }
       }
       onMouseLeave={
         () => {
-          console.log("out")
           setHover(false);
         }
       }>
