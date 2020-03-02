@@ -22,15 +22,18 @@ function Center(props) {
 
 function CarouselMargin(props) {
   const styling = css`
-    margin-top: 73.2vw;
+    ${'' /* margin-top: 74vw; */}
+    margin-top: calc(64vw + 90px);
 
 
     @media (min-width: 1300px) {
-      margin-top: 43vw;
+      ${'' /* margin-top: 44.5vw; */}
+      margin-top: calc(39vw + 90px);
     }
 
     @media (max-width: 768px) {
-      margin-top: 76vw;
+      ${'' /* margin-top: 76vw; */}
+      margin-top: calc(61vw + 90px);
     }
   `;
 

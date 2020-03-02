@@ -177,19 +177,21 @@ function Carousel() {
     position: absolute;
     top: 60px;
     left: 0;
-    height: 65.5vw;
-    width: 100%;
+    height: 65.2vw;
+    width: 98vw;
     z-index: -1;
+
+    box-shadow: 0px 15px 15px rgb(96, 96, 96);
 
     @media (min-width: 1300px) {
       top: 60px;
       left: 20%;
-      height: 40vw;
-      width: 60%;
+      height: 39.7vw;
+      width: 60vw;
     }
 
     @media (max-width: 768px) {
-      height: 66.5vw;
+      height: 65.2vw;
       top: 48px;
     }
   `;
