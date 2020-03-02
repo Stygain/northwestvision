@@ -28,7 +28,7 @@ function ArrowLeft(props) {
       height: 8px;
 
       transition: color 0.4s ease-in-out,
-                  transform 0.3s ease-in-out;
+                  transform 0.2s ease-in-out;
       background-color: ${props.accentColor};
     }
 
@@ -41,11 +41,11 @@ function ArrowLeft(props) {
     }
 
     .arrow.top.left.hover {
-      transform: translateY(9px) translateX(6px) rotate(-50deg);
+      transform: translateY(9px) translateX(6px) rotate(-53deg);
     }
 
     .arrow.bot.left.hover {
-      transform: translateY(15px) translateX(6px) rotate(50deg);
+      transform: translateY(15px) translateX(6px) rotate(53deg);
     }
   `;
 
