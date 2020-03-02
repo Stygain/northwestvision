@@ -7,20 +7,7 @@ import ArrowLeft from './ArrowLeft.js';
 import ArrowRight from './ArrowRight.js';
 import ProgressDots from './ProgressDots.js';
 
-const pageData = [
-  {
-    source: "./home/IMG_7371.jpg",
-    accentColor: "rgb(0, 0, 0)"
-  },
-  {
-    source: "./home/IMG_7499.jpg",
-    accentColor: "rgb(175, 175, 175)"
-  },
-  {
-    source: "./home/IMG_5483.jpg",
-    accentColor: "rgb(110, 110, 110)"
-  }
-]
+import PageData from '../data/carousel.json';
 
 function Content(props) {
   const styling = css`
@@ -33,11 +20,6 @@ function Content(props) {
     width: 100%;
     z-index: 1;
 
-    ${'' /* animation: ${props.slideRightTrigger ? "slide" : ""};
-    animation-duration: 1s;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: forwards; */}
     transition: background-color 0.5s cubic-bezier(.4,.38,.12,1);
     background-color: ${props.item.bgColor};
 
@@ -136,6 +118,24 @@ function Content(props) {
         left: 0;
       }
     }
+
+    @keyframes slide-center-forwards {
+      from {
+        left: 0;
+      }
+      to {
+        left: 100%;
+      }
+    }
+
+    @keyframes slide-center-backwards {
+      from {
+        left: 0;
+      }
+      to {
+        left: -100%;
+      }
+    }
   `;
   return (
     <div css={styling}>
@@ -221,49 +221,49 @@ function Carousel() {
           <ArrowRight
             current={current}
             setCurrent={updateSlide}
-            accentColor={pageData[current].accentColor} />
+            accentColor={PageData[current].accentColor} />
           <Content
             slideRightTrigger={slideRightTrigger}
             lideLeftTrigger={slideLeftTrigger}
-            item={pageData[current]}
-            nextItem={pageData[current+1]}
+            item={PageData[current]}
+            nextItem={PageData[current+1]}
             prevItem={null} />
         </div> :
-        current === pageData.length-1 ?
+        current === PageData.length-1 ?
           <div>
             <ArrowLeft
               current={current}
               setCurrent={updateSlide}
-              accentColor={pageData[current].accentColor} />
+              accentColor={PageData[current].accentColor} />
             <Content
               slideRightTrigger={slideRightTrigger}
               slideLeftTrigger={slideLeftTrigger}
-              item={pageData[current]}
-              prevItem={pageData[current-1]}
+              item={PageData[current]}
+              prevItem={PageData[current-1]}
               nextItem={null} />
           </div> :
           <div>
             <ArrowLeft
               current={current}
               setCurrent={updateSlide}
-              accentColor={pageData[current].accentColor} />
+              accentColor={PageData[current].accentColor} />
             <ArrowRight
               current={current}
               setCurrent={updateSlide}
-              accentColor={pageData[current].accentColor} />
+              accentColor={PageData[current].accentColor} />
             <Content
               slideRightTrigger={slideRightTrigger}
               slideLeftTrigger={slideLeftTrigger}
-              item={pageData[current]}
-              prevItem={pageData[current-1]}
-              nextItem={pageData[current+1]} />
+              item={PageData[current]}
+              prevItem={PageData[current-1]}
+              nextItem={PageData[current+1]} />
           </div>}
 
       <ProgressDots
         current={current}
-        data={pageData}
+        data={PageData}
         setCurrent={setCurrent}
-        accentColor={pageData[current].accentColor} />
+        accentColor={PageData[current].accentColor} />
   	</div>
   );
 }
