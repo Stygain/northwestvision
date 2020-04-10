@@ -105,6 +105,34 @@ function ImagePage(props) {
           </Center>
         </ContentMargin>
       </Route>
+      <Route path='/palmsprings'>
+        <ContentMargin>
+          <Center>
+            {parseImages("palmsprings", props)}
+          </Center>
+        </ContentMargin>
+      </Route>
+      <Route path='/northwestvision/palmsprings'>
+        <ContentMargin>
+          <Center>
+            {parseImages("palmsprings", props)}
+          </Center>
+        </ContentMargin>
+      </Route>
+      <Route path='/northcarolina'>
+        <ContentMargin>
+          <Center>
+            {parseImages("northcarolina", props)}
+          </Center>
+        </ContentMargin>
+      </Route>
+      <Route path='/northwestvision/northcarolina'>
+        <ContentMargin>
+          <Center>
+            {parseImages("northcarolina", props)}
+          </Center>
+        </ContentMargin>
+      </Route>
       <Route path='/'>
         <Redirect to="/404" />
       </Route>

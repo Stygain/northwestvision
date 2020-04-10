@@ -407,5 +407,47 @@
         }
       ]
     }
+  ],
+  "palmsprings": [
+    {
+      "vertical": {
+        "source": "./utah/IMG_1_1.jpg",
+        "alt": "View of Canyonlands from the Island in the Sky",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./utah/IMG_6175.jpg",
+          "alt": "Jeep tour with a magnificent machine",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./utah/IMG_6483.jpg",
+          "alt": "Looking through Mesa Arch out towards the mountains",
+          "alignment": "horizontal"
+        }
+      ]
+    }
+  ],
+  "northcarolina": [
+    {
+      "vertical": {
+        "source": "./utah/IMG_1_1.jpg",
+        "alt": "View of Canyonlands from the Island in the Sky",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./utah/IMG_6175.jpg",
+          "alt": "Jeep tour with a magnificent machine",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./utah/IMG_6483.jpg",
+          "alt": "Looking through Mesa Arch out towards the mountains",
+          "alignment": "horizontal"
+        }
+      ]
+    }
   ]
 }
