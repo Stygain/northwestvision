@@ -13,8 +13,16 @@
       "url": "/columbiarivergorge"
     },
     {
-      "name": "The National Parks of Utah",
+      "name": "Utah",
       "url": "/utah"
+    },
+    {
+      "name": "Palm Springs",
+      "url": "/palmsprings"
+    },
+    {
+      "name": "North Carolina",
+      "url": "/northcarolina"
     }
   ]
 }
