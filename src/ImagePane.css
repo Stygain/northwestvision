@@ -68,3 +68,10 @@
   width: 80px;
   height: 80px;
 }
+
+@media (min-width: 1350px) {
+  .pane {
+    /* border: 1px solid red; */
+    max-width: 65%;
+  }
+}

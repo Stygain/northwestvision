@@ -9,7 +9,7 @@
       "url": "/hawaii"
     },
     {
-      "name": "The Columbia River Gorge",
+      "name": "The Gorge",
       "url": "/columbiarivergorge"
     },
     {
@@ -23,6 +23,10 @@
     {
       "name": "North Carolina",
       "url": "/northcarolina"
+    },
+    {
+      "name": "Texas",
+      "url": "/texas"
     }
   ]
 }

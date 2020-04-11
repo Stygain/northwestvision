@@ -133,6 +133,20 @@ function ImagePage(props) {
           </Center>
         </ContentMargin>
       </Route>
+      <Route path='/texas'>
+        <ContentMargin>
+          <Center>
+            {parseImages("texas", props)}
+          </Center>
+        </ContentMargin>
+      </Route>
+      <Route path='/northwestvision/texas'>
+        <ContentMargin>
+          <Center>
+            {parseImages("texas", props)}
+          </Center>
+        </ContentMargin>
+      </Route>
       <Route path='/'>
         <Redirect to="/404" />
       </Route>
