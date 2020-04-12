@@ -13,7 +13,7 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_7371-2.jpg",
+          "source": "./home/IMG_8432-2.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -51,7 +51,7 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_7267-3.jpg",
+          "source": "./home/IMG_20160721_150340-2.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -89,7 +89,7 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_20170529_172615-2.jpg",
+          "source": "./home/IMG_20160721_151450-2.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -108,7 +108,26 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_20160721_150340.jpg",
+          "source": "./home/IMG_1810-2.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./home/IMG_20170529_145905-2.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./home/IMG_5335-2.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./home/IMG_20160721_171943-2.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -177,7 +196,7 @@
   "hawaii": [
     {
       "vertical": {
-        "source": "./hawaii/IMG_2366-2.jpg",
+        "source": "./hawaii/IMG_2467-3.jpg",
         "alt": "Flowers from the botanical garden",
         "alignment": "vertical"
       },
@@ -221,8 +240,8 @@
       },
       "stack": [
         {
-          "source": "./hawaii/IMG_2157.jpg",
-          "alt": "Lava in the caldera, Volcanoes National Park",
+          "source": "./hawaii/IMG_2746-3.jpg",
+          "alt": "",
           "alignment": "horizontal"
         },
         {
@@ -247,6 +266,44 @@
         {
           "source": "./hawaii/IMG_2057.jpg",
           "alt": "Closed road due to lava in Volcanoes National Park",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./hawaii/IMG_2366-2.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./hawaii/IMG_2630-3.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./hawaii/IMG_2727-3.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./hawaii/IMG_2207-2.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./hawaii/IMG_2665-3.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./hawaii/IMG_2157.jpg",
+          "alt": "Lava in the caldera, Volcanoes National Park",
           "alignment": "horizontal"
         }
       ]
@@ -306,6 +363,44 @@
         {
           "source": "./gorge/IMG_8370-2.jpg",
           "alt": "Looking through the grass and trees westward atop Munra Point",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./gorge/IMG_5203-2.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./gorge/IMG_5483-2.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./gorge/IMG_8228-2.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./gorge/IMG_8270-2.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./gorge/IMG_8215-2.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./gorge/IMG_9742-2.jpg",
+          "alt": "",
           "alignment": "horizontal"
         }
       ]
@@ -403,6 +498,25 @@
         {
           "source": "./utah/IMG_5691-2.jpg",
           "alt": "Extremely tall stack for a smelting business near SLC along the coast of the Salt Lake",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./utah/IMG_6015.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./utah/IMG_6030-2.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./utah/IMG_6436-2.jpg",
+          "alt": "",
           "alignment": "horizontal"
         }
       ]
@@ -598,6 +712,25 @@
           "alignment": "horizontal"
         }
       ]
+    },
+    {
+      "vertical": {
+        "source": "./palm_springs/IMG_0588-2.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./palm_springs/IMG_0353-2.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./palm_springs/IMG_0659-6.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        }
+      ]
     }
   ],
   "northcarolina": [
@@ -769,6 +902,25 @@
         },
         {
           "source": "./texas/IMG_1598-2.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./texas/IMG_1641-2.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./texas/IMG_1681-2.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./texas/IMG_1625-2.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
