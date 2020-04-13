@@ -188,7 +188,18 @@ function NavBar(props) {
   `;
   return (
     <div css={styling}>
-      <NavLink className="title" to="/northwestvision">Northwest Vision</NavLink>
+      <NavLink
+        className="title"
+        to="/northwestvision"
+        onClick={() => {
+          setOpen(false);
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+        }}>
+        Northwest Vision
+      </NavLink>
       <div className={open ? "button-container open" : "button-container"} onClick={() => {
         setOpen(!open);
       }}>
@@ -203,6 +214,10 @@ function NavBar(props) {
           <li className="navlink home" key="/">
             <NavLink exact to="/northwestvision" onClick={() => {
               setOpen(!open);
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+              });
             }}>
               Home
             </NavLink>
@@ -211,6 +226,10 @@ function NavBar(props) {
             return (<li className="navlink" key={url}>
               <NavLink exact to={"/northwestvision" + url} onClick={() => {
                 setOpen(!open);
+                window.scrollTo({
+                  top: 0,
+                  behavior: "smooth"
+                });
               }}>
                 {name}
               </NavLink>
