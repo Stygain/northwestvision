@@ -2,18 +2,18 @@
   "home": [
     {
       "vertical": {
-        "source": "./home/IMG_7638-2.jpg",
+        "source": "./home/IMG_7638-2-reduced.jpg",
         "alt": "Watson falls in south-central Oregon, the third tallest waterfall in Oregon",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./home/IMG_7371-2.jpg",
+          "source": "./home/IMG_7371-2-reduced.jpg",
           "alt": "Yaquina bay bridge located in Newport, Oregon",
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_8432-2.jpg",
+          "source": "./home/IMG_8432-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -21,18 +21,18 @@
     },
     {
       "vertical": {
-        "source": "./home/IMG_8475-3.jpg",
+        "source": "./home/IMG_8475-3-reduced.jpg",
         "alt": "Abandoned Pullman car in Corvallis, Oregon",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./home/IMG_3057-2.jpg",
+          "source": "./home/IMG_3057-2-reduced.jpg",
           "alt": "Looking over the edge on an abandoned railroad near Timber, Oregon",
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_5483-2.jpg",
+          "source": "./home/IMG_5483-2-reduced.jpg",
           "alt": "Icicles looming above (these are a couple feet long)",
           "alignment": "horizontal"
         }
@@ -40,18 +40,18 @@
     },
     {
       "vertical": {
-        "source": "./home/IMG_20170304_121251-2.jpg",
+        "source": "./home/IMG_20170304_121251-2-reduced.jpg",
         "alt": "Snow covered trees near the summit of Mary's Peak",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./home/IMG_7267-3.jpg",
+          "source": "./home/IMG_7267-3-reduced.jpg",
           "alt": "Yaquina Head Lighthouse in Newport, Oregon",
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_20160721_150340-2.jpg",
+          "source": "./home/IMG_20160721_150340-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -59,18 +59,18 @@
     },
     {
       "vertical": {
-        "source": "./home/IMG_7507-2.jpg",
+        "source": "./home/IMG_7507-2-reduced.jpg",
         "alt": "Hotdogs on the beach",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./home/IMG_20160721_171943.jpg",
+          "source": "./home/IMG_20160721_171943-2-reduced.jpg",
           "alt": "Mirror lake near Mount Hood",
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_7447-2.jpg",
+          "source": "./home/IMG_7447-2-reduced.jpg",
           "alt": "Thor's Well: A hole that fills and empties with water and sprays magnificently at higher tides",
           "alignment": "horizontal"
         }
@@ -78,18 +78,18 @@
     },
     {
       "vertical": {
-        "source": "./home/IMG_7638-2.jpg",
+        "source": "./home/IMG_7638-2-reduced.jpg",
         "alt": "A peek through the trees at Toketee Falls",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./home/IMG_20170529_172615-2.jpg",
+          "source": "./home/IMG_20170529_172615-2-reduced.jpg",
           "alt": "Snow covered Wizard Island in Crater Lake",
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_20160721_151450-2.jpg",
+          "source": "./home/IMG_20160721_151450-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -97,18 +97,18 @@
     },
     {
       "vertical": {
-        "source": "./home/IMG_20170529_134505-3.jpg",
+        "source": "./home/IMG_20170529_134505-3-reduced.jpg",
         "alt": "Toketee Falls, 1 mile away from Watson falls in south-central Oregon",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./home/IMG_20160721_150340.jpg",
+          "source": "./home/IMG_20160721_150340-reduced.jpg",
           "alt": "Trillium Lake near Mount Hood",
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_1810-2.jpg",
+          "source": "./home/IMG_1810-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -116,18 +116,18 @@
     },
     {
       "vertical": {
-        "source": "./home/IMG_20170529_145905-2.jpg",
+        "source": "./home/IMG_20170529_145905-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./home/IMG_5335-2.jpg",
+          "source": "./home/IMG_5335-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_20160721_171943-2.jpg",
+          "source": "./home/IMG_20160721_171943-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -137,18 +137,18 @@
   "portland": [
     {
       "vertical": {
-        "source": "./portland/IMG_4868-2.jpg",
+        "source": "./portland/IMG_4868-2-reduced.jpg",
         "alt": "I-405 interchange crossing the river",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./portland/IMG_5605-2.jpg",
+          "source": "./portland/IMG_5605-2-reduced.jpg",
           "alt": "The Old Town/Portland sign",
           "alignment": "horizontal"
         },
         {
-          "source": "./portland/IMG_4345-2.jpg",
+          "source": "./portland/IMG_4345-2-reduced.jpg",
           "alt": "Looking towards Portland on a summer evening from the Skidmore Bluffs",
           "alignment": "horizontal"
         }
@@ -156,18 +156,18 @@
     },
     {
       "vertical": {
-        "source": "./portland/IMG_8456-2.jpg",
+        "source": "./portland/IMG_8456-2-reduced.jpg",
         "alt": "Antique-looking sign near the Portland waterfront",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./portland/IMG_4565-3.jpg",
+          "source": "./portland/IMG_4565-3-reduced.jpg",
           "alt": "View of the Hawthorne bridge",
           "alignment": "horizontal"
         },
         {
-          "source": "./portland/IMG_5625-2.jpg",
+          "source": "./portland/IMG_5625-2-reduced.jpg",
           "alt": "Night view of Portland from OHSU",
           "alignment": "horizontal"
         }
@@ -175,18 +175,18 @@
     },
     {
       "vertical": {
-        "source": "./portland/IMG_8446-2-2.jpg",
+        "source": "./portland/IMG_8446-2-2-reduced.jpg",
         "alt": "Interesting condo/apartment building near the waterfront",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./portland/IMG_8506-3.jpg",
+          "source": "./portland/IMG_8506-3-reduced.jpg",
           "alt": "Golden leaves of fall in a water fountain",
           "alignment": "horizontal"
         },
         {
-          "source": "./portland/IMG_4840-2.jpg",
+          "source": "./portland/IMG_4840-2-reduced.jpg",
           "alt": "Another view of the I-405 interchange crossing the river",
           "alignment": "horizontal"
         }
@@ -196,18 +196,18 @@
   "hawaii": [
     {
       "vertical": {
-        "source": "./hawaii/IMG_2467-3.jpg",
+        "source": "./hawaii/IMG_2467-3-reduced.jpg",
         "alt": "Flowers from the botanical garden",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./hawaii/IMG_2447.jpg",
+          "source": "./hawaii/IMG_2447-reduced.jpg",
           "alt": "Flowers from the botanical garden",
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2425-2.jpg",
+          "source": "./hawaii/IMG_2425-2-reduced.jpg",
           "alt": "Flowers from the botanical garden",
           "alignment": "horizontal"
         }
@@ -215,18 +215,18 @@
     },
     {
       "vertical": {
-        "source": "./hawaii/IMG_1977-2.jpg",
+        "source": "./hawaii/IMG_1977-2-reduced.jpg",
         "alt": "Flowers from the botanical garden",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./hawaii/IMG_2828-2.jpg",
+          "source": "./hawaii/IMG_2828-2-reduced.jpg",
           "alt": "View of the sunset from atop Mauna Loa",
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2399.jpg",
+          "source": "./hawaii/IMG_2399-reduced.jpg",
           "alt": "A gecko in the botanical garden",
           "alignment": "horizontal"
         }
@@ -234,18 +234,18 @@
     },
     {
       "vertical": {
-        "source": "./hawaii/IMG_2278-2.jpg",
+        "source": "./hawaii/IMG_2278-2-reduced.jpg",
         "alt": "Flowers from the botanical garden",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./hawaii/IMG_2746-3.jpg",
+          "source": "./hawaii/IMG_2746-3-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2326.jpg",
+          "source": "./hawaii/IMG_2326-reduced.jpg",
           "alt": "Flowers from the botanical garden",
           "alignment": "horizontal"
         }
@@ -253,18 +253,18 @@
     },
     {
       "vertical": {
-        "source": "./hawaii/IMG_2409-2.jpg",
+        "source": "./hawaii/IMG_2409-2-reduced.jpg",
         "alt": "Vines growing up a tree following the light in the botanical garden",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./hawaii/IMG_2273.jpg",
+          "source": "./hawaii/IMG_2273-reduced.jpg",
           "alt": "Flowers from the botanical garden",
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2057.jpg",
+          "source": "./hawaii/IMG_2057-reduced.jpg",
           "alt": "Closed road due to lava in Volcanoes National Park",
           "alignment": "horizontal"
         }
@@ -272,18 +272,18 @@
     },
     {
       "vertical": {
-        "source": "./hawaii/IMG_2366-2.jpg",
+        "source": "./hawaii/IMG_2366-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./hawaii/IMG_2630-3.jpg",
+          "source": "./hawaii/IMG_2630-3-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2727-3.jpg",
+          "source": "./hawaii/IMG_2727-3-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -291,18 +291,18 @@
     },
     {
       "vertical": {
-        "source": "./hawaii/IMG_2207-2.jpg",
+        "source": "./hawaii/IMG_2207-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./hawaii/IMG_2665-3.jpg",
+          "source": "./hawaii/IMG_2665-3-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2157.jpg",
+          "source": "./hawaii/IMG_2157-reduced.jpg",
           "alt": "Lava in the caldera, Volcanoes National Park",
           "alignment": "horizontal"
         }
@@ -312,18 +312,18 @@
   "columbiarivergorge": [
     {
       "vertical": {
-        "source": "./gorge/IMG_1380-2.jpg",
+        "source": "./gorge/IMG_1380-2-reduced.jpg",
         "alt": "Dry Creek Falls",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./gorge/IMG_5015-2.jpg",
+          "source": "./gorge/IMG_5015-2-reduced.jpg",
           "alt": "Short waterfall on the hike to Tamanawas Falls",
           "alignment": "horizontal"
         },
         {
-          "source": "./gorge/IMG_7483-2.jpg",
+          "source": "./gorge/IMG_7483-2-reduced.jpg",
           "alt": "Flowers along a hike",
           "alignment": "horizontal"
         }
@@ -331,18 +331,18 @@
     },
     {
       "vertical": {
-        "source": "./gorge/IMG_8363-2.jpg",
+        "source": "./gorge/IMG_8363-2-reduced.jpg",
         "alt": "View of the trail along the ridge of Munra Point, looking south",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./gorge/IMG_8385-2.jpg",
+          "source": "./gorge/IMG_8385-2-reduced.jpg",
           "alt": "View from atop Munra Point looking out to Mount Jefferson and the Bonneville Dam",
           "alignment": "horizontal"
         },
         {
-          "source": "./gorge/IMG_8252-2.jpg",
+          "source": "./gorge/IMG_8252-2-reduced.jpg",
           "alt": "View from ~3/4 of the way up to the peak of Munra Point",
           "alignment": "horizontal"
         }
@@ -350,18 +350,18 @@
     },
     {
       "vertical": {
-        "source": "./gorge/IMG_1482-2.jpg",
+        "source": "./gorge/IMG_1482-2-reduced.jpg",
         "alt": "Dead tree standing out along a hike",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./gorge/IMG_3221-2.jpg",
+          "source": "./gorge/IMG_3221-2-reduced.jpg",
           "alt": "Rusty old rails",
           "alignment": "horizontal"
         },
         {
-          "source": "./gorge/IMG_8370-2.jpg",
+          "source": "./gorge/IMG_8370-2-reduced.jpg",
           "alt": "Looking through the grass and trees westward atop Munra Point",
           "alignment": "horizontal"
         }
@@ -369,18 +369,18 @@
     },
     {
       "vertical": {
-        "source": "./gorge/IMG_5203-2.jpg",
+        "source": "./gorge/IMG_5203-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./gorge/IMG_5483-2.jpg",
+          "source": "./gorge/IMG_5483-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./gorge/IMG_8228-2.jpg",
+          "source": "./gorge/IMG_8228-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -388,18 +388,18 @@
     },
     {
       "vertical": {
-        "source": "./gorge/IMG_8270-2.jpg",
+        "source": "./gorge/IMG_8270-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./gorge/IMG_8215-2.jpg",
+          "source": "./gorge/IMG_8215-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./gorge/IMG_9742-2.jpg",
+          "source": "./gorge/IMG_9742-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -409,18 +409,18 @@
   "utah": [
     {
       "vertical": {
-        "source": "./utah/IMG_20170330_105809-2.jpg",
+        "source": "./utah/IMG_20170330_105809-2-reduced.jpg",
         "alt": "View of Canyonlands from the Island in the Sky",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./utah/IMG_6175-2.jpg",
+          "source": "./utah/IMG_6175-2-reduced.jpg",
           "alt": "Jeep tour with a magnificent machine",
           "alignment": "horizontal"
         },
         {
-          "source": "./utah/IMG_6544-2.jpg",
+          "source": "./utah/IMG_6544-2-reduced.jpg",
           "alt": "A view of the landscape",
           "alignment": "horizontal"
         }
@@ -428,18 +428,18 @@
     },
     {
       "vertical": {
-        "source": "./utah/IMG_6555-2.jpg",
+        "source": "./utah/IMG_6555-2-reduced.jpg",
         "alt": "Dead tree in Canyonlands NP",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./utah/IMG_6004-2.jpg",
+          "source": "./utah/IMG_6004-2-reduced.jpg",
           "alt": "A person standing under Double Arch",
           "alignment": "horizontal"
         },
         {
-          "source": "./utah/IMG_5866-2.jpg",
+          "source": "./utah/IMG_5866-2-reduced.jpg",
           "alt": "The classic Delicate Arch (With no people in the picture!)",
           "alignment": "horizontal"
         }
@@ -447,18 +447,18 @@
     },
     {
       "vertical": {
-        "source": "./utah/IMG_5935-3.jpg",
+        "source": "./utah/IMG_5935-3-reduced.jpg",
         "alt": "Tree framing Turret Arch",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./utah/IMG_6039-3.jpg",
+          "source": "./utah/IMG_6039-3-reduced.jpg",
           "alt": "Rungs to help you climb",
           "alignment": "horizontal"
         },
         {
-          "source": "./utah/IMG_6014-3.jpg",
+          "source": "./utah/IMG_6014-3-reduced.jpg",
           "alt": "Balanced Rock (can you see the people for scale)",
           "alignment": "horizontal"
         }
@@ -466,18 +466,18 @@
     },
     {
       "vertical": {
-        "source": "./utah/IMG_6763-2.jpg",
+        "source": "./utah/IMG_6763-2-reduced.jpg",
         "alt": "View of the Utah Capitol Building, a replica of the Capitol Building in Washington DC",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./utah/IMG_6538-2.jpg",
+          "source": "./utah/IMG_6538-2-reduced.jpg",
           "alt": "Six Shooter Rock",
           "alignment": "horizontal"
         },
         {
-          "source": "./utah/IMG_6084-2.jpg",
+          "source": "./utah/IMG_6084-2-reduced.jpg",
           "alt": "One of few cactus blooms we saw",
           "alignment": "horizontal"
         }
@@ -485,18 +485,18 @@
     },
     {
       "vertical": {
-        "source": "./utah/IMG_5940-2.jpg",
+        "source": "./utah/IMG_5940-2-reduced.jpg",
         "alt": "Another dead branch framing an arch",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./utah/IMG_5911-2.jpg",
+          "source": "./utah/IMG_5911-2-reduced.jpg",
           "alt": "Cool grass-like plant in front of turret arch",
           "alignment": "horizontal"
         },
         {
-          "source": "./utah/IMG_5691-2.jpg",
+          "source": "./utah/IMG_5691-2-reduced.jpg",
           "alt": "Extremely tall stack for a smelting business near SLC along the coast of the Salt Lake",
           "alignment": "horizontal"
         }
@@ -504,18 +504,18 @@
     },
     {
       "vertical": {
-        "source": "./utah/IMG_6015.jpg",
+        "source": "./utah/IMG_6015-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./utah/IMG_6030-2.jpg",
+          "source": "./utah/IMG_6030-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./utah/IMG_6436-2.jpg",
+          "source": "./utah/IMG_6436-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -525,18 +525,18 @@
   "palmsprings": [
     {
       "vertical": {
-        "source": "./palm_springs/IMG_0640-4.jpg",
+        "source": "./palm_springs/IMG_0640-4-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0601.jpg",
+          "source": "./palm_springs/IMG_0601-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0552-2.jpg",
+          "source": "./palm_springs/IMG_0552-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -544,18 +544,18 @@
     },
     {
       "vertical": {
-        "source": "./palm_springs/IMG_0629-2.jpg",
+        "source": "./palm_springs/IMG_0629-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0451-3.jpg",
+          "source": "./palm_springs/IMG_0451-3-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0479.jpg",
+          "source": "./palm_springs/IMG_0479-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -563,18 +563,18 @@
     },
     {
       "vertical": {
-        "source": "./palm_springs/IMG_0414-2.jpg",
+        "source": "./palm_springs/IMG_0414-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0364.jpg",
+          "source": "./palm_springs/IMG_0364-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0513-2.jpg",
+          "source": "./palm_springs/IMG_0513-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -582,18 +582,18 @@
     },
     {
       "vertical": {
-        "source": "./palm_springs/IMG_0352-3.jpg",
+        "source": "./palm_springs/IMG_0352-3-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0380-2.jpg",
+          "source": "./palm_springs/IMG_0380-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0508-3.jpg",
+          "source": "./palm_springs/IMG_0508-3-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -601,18 +601,18 @@
     },
     {
       "vertical": {
-        "source": "./palm_springs/IMG_0511-4.jpg",
+        "source": "./palm_springs/IMG_0511-4-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0553-2.jpg",
+          "source": "./palm_springs/IMG_0553-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0581.jpg",
+          "source": "./palm_springs/IMG_0581-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -620,18 +620,18 @@
     },
     {
       "vertical": {
-        "source": "./palm_springs/IMG_0570-3.jpg",
+        "source": "./palm_springs/IMG_0570-3-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0616-3.jpg",
+          "source": "./palm_springs/IMG_0616-3-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0615-2.jpg",
+          "source": "./palm_springs/IMG_0615-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -639,18 +639,18 @@
     },
     {
       "vertical": {
-        "source": "./palm_springs/IMG_0515-2.jpg",
+        "source": "./palm_springs/IMG_0515-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0401-2.jpg",
+          "source": "./palm_springs/IMG_0401-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0510-2.jpg",
+          "source": "./palm_springs/IMG_0510-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -658,18 +658,18 @@
     },
     {
       "vertical": {
-        "source": "./palm_springs/IMG_0586-2.jpg",
+        "source": "./palm_springs/IMG_0586-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0630-3.jpg",
+          "source": "./palm_springs/IMG_0630-3-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0375-3.jpg",
+          "source": "./palm_springs/IMG_0375-3-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -677,18 +677,18 @@
     },
     {
       "vertical": {
-        "source": "./palm_springs/IMG_0646-3.jpg",
+        "source": "./palm_springs/IMG_0646-3-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0663-3.jpg",
+          "source": "./palm_springs/IMG_0663-3-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0676-2.jpg",
+          "source": "./palm_springs/IMG_0676-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -696,18 +696,18 @@
     },
     {
       "vertical": {
-        "source": "./palm_springs/IMG_0466-3.jpg",
+        "source": "./palm_springs/IMG_0466-3-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0411-3.jpg",
+          "source": "./palm_springs/IMG_0411-3-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0675-3.jpg",
+          "source": "./palm_springs/IMG_0675-3-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -715,18 +715,18 @@
     },
     {
       "vertical": {
-        "source": "./palm_springs/IMG_0588-2.jpg",
+        "source": "./palm_springs/IMG_0588-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0353-2.jpg",
+          "source": "./palm_springs/IMG_0353-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0659-6.jpg",
+          "source": "./palm_springs/IMG_0659-6-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -736,18 +736,18 @@
   "northcarolina": [
     {
       "vertical": {
-        "source": "./north_carolina/IMG_1870-3.jpg",
+        "source": "./north_carolina/IMG_1870-3-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./north_carolina/IMG_1849-4.jpg",
+          "source": "./north_carolina/IMG_1849-4-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./north_carolina/IMG_1821-2.jpg",
+          "source": "./north_carolina/IMG_1821-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -755,18 +755,18 @@
     },
     {
       "vertical": {
-        "source": "./north_carolina/IMG_1893-2.jpg",
+        "source": "./north_carolina/IMG_1893-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./north_carolina/IMG_1886-2.jpg",
+          "source": "./north_carolina/IMG_1886-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./north_carolina/IMG_1867-3.jpg",
+          "source": "./north_carolina/IMG_1867-3-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -776,18 +776,18 @@
   "texas": [
     {
       "vertical": {
-        "source": "./texas/IMG_1629-2.jpg",
+        "source": "./texas/IMG_1629-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./texas/IMG_1526-2.jpg",
+          "source": "./texas/IMG_1526-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./texas/IMG_1620-2.jpg",
+          "source": "./texas/IMG_1620-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -795,18 +795,18 @@
     },
     {
       "vertical": {
-        "source": "./texas/IMG_1642-2.jpg",
+        "source": "./texas/IMG_1642-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./texas/IMG_1644-2.jpg",
+          "source": "./texas/IMG_1644-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./texas/IMG_1648-2.jpg",
+          "source": "./texas/IMG_1648-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -814,18 +814,18 @@
     },
     {
       "vertical": {
-        "source": "./texas/IMG_1559-2.jpg",
+        "source": "./texas/IMG_1559-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./texas/IMG_1542-2.jpg",
+          "source": "./texas/IMG_1542-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./texas/IMG_1552-2.jpg",
+          "source": "./texas/IMG_1552-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -833,18 +833,18 @@
     },
     {
       "vertical": {
-        "source": "./texas/IMG_1544-2.jpg",
+        "source": "./texas/IMG_1544-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./texas/IMG_1522-2.jpg",
+          "source": "./texas/IMG_1522-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./texas/IMG_1612-2.jpg",
+          "source": "./texas/IMG_1612-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -852,18 +852,18 @@
     },
     {
       "vertical": {
-        "source": "./texas/IMG_1614-3.jpg",
+        "source": "./texas/IMG_1614-3-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./texas/IMG_1558-2.jpg",
+          "source": "./texas/IMG_1558-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./texas/IMG_1627-2.jpg",
+          "source": "./texas/IMG_1627-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -871,18 +871,18 @@
     },
     {
       "vertical": {
-        "source": "./texas/IMG_1674-2.jpg",
+        "source": "./texas/IMG_1674-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./texas/IMG_1667-2.jpg",
+          "source": "./texas/IMG_1667-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./texas/IMG_1639-2.jpg",
+          "source": "./texas/IMG_1639-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -890,18 +890,18 @@
     },
     {
       "vertical": {
-        "source": "./texas/IMG_1676-2.jpg",
+        "source": "./texas/IMG_1676-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./texas/IMG_1622-2.jpg",
+          "source": "./texas/IMG_1622-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./texas/IMG_1598-2.jpg",
+          "source": "./texas/IMG_1598-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -909,18 +909,18 @@
     },
     {
       "vertical": {
-        "source": "./texas/IMG_1641-2.jpg",
+        "source": "./texas/IMG_1641-2-reduced.jpg",
         "alt": "",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./texas/IMG_1681-2.jpg",
+          "source": "./texas/IMG_1681-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         },
         {
-          "source": "./texas/IMG_1625-2.jpg",
+          "source": "./texas/IMG_1625-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
