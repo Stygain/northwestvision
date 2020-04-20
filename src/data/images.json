@@ -51,7 +51,7 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_6563-2.jpg",
+          "source": "./home/IMG_6563-2-reduced.jpg",
           "alt": "The heavens opening up in Utah",
           "alignment": "horizontal"
         }
@@ -70,7 +70,7 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_7447-2.jpg",
+          "source": "./home/IMG_7447-2-reduced.jpg",
           "alt": "Thor's Well: A hole that fills and empties with water and sprays magnificently at higher tides",
           "alignment": "horizontal"
         }
@@ -84,7 +84,7 @@
       },
       "stack": [
         {
-          "source": "./home/IMG_20170529_172615-3.jpg",
+          "source": "./home/IMG_20170529_172615-3-reduced.jpg",
           "alt": "Snow covered Wizard Island in Crater Lake",
           "alignment": "horizontal"
         },
@@ -127,7 +127,7 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_8487-2.jpg",
+          "source": "./home/IMG_8487-2-reduced.jpg",
           "alt": "My favorite tree on the Oregon State campus, in Corvallis, Oregon",
           "alignment": "horizontal"
         }
@@ -202,7 +202,7 @@
       },
       "stack": [
         {
-          "source": "./hawaii/IMG_2447-2.jpg",
+          "source": "./hawaii/IMG_2447-2-reduced.jpg",
           "alt": "Flowers from the botanical garden",
           "alignment": "horizontal"
         },
@@ -226,7 +226,7 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2399-2.jpg",
+          "source": "./hawaii/IMG_2399-2-reduced.jpg",
           "alt": "A gecko in the botanical garden",
           "alignment": "horizontal"
         }
@@ -245,7 +245,7 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2326-2.jpg",
+          "source": "./hawaii/IMG_2326-2-reduced.jpg",
           "alt": "Flowers from the botanical garden",
           "alignment": "horizontal"
         }
@@ -259,12 +259,12 @@
       },
       "stack": [
         {
-          "source": "./hawaii/IMG_2273-2.jpg",
+          "source": "./hawaii/IMG_2273-2-reduced.jpg",
           "alt": "Flowers from the botanical garden",
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2057-2.jpg",
+          "source": "./hawaii/IMG_2057-2-reduced.jpg",
           "alt": "Closed road due to lava in Volcanoes National Park",
           "alignment": "horizontal"
         }
@@ -302,7 +302,7 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2694-3.jpg",
+          "source": "./hawaii/IMG_2694-3-reduced.jpg",
           "alt": "A view looking down the coastline",
           "alignment": "horizontal"
         }
@@ -504,7 +504,7 @@
     },
     {
       "vertical": {
-        "source": "./utah/IMG_6015-2.jpg",
+        "source": "./utah/IMG_6015-2-reduced.jpg",
         "alt": "Another shot of Balanced Rock, Arches NP",
         "alignment": "vertical"
       },
@@ -531,7 +531,7 @@
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0601-2.jpg",
+          "source": "./palm_springs/IMG_0601-2-reduced.jpg",
           "alt": "Some yucca leaves",
           "alignment": "horizontal"
         },
@@ -555,7 +555,7 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0479-2.jpg",
+          "source": "./palm_springs/IMG_0479-2-reduced.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -569,7 +569,7 @@
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0364-2.jpg",
+          "source": "./palm_springs/IMG_0364-2-reduced.jpg",
           "alt": "Cactus bloom",
           "alignment": "horizontal"
         },
@@ -612,7 +612,7 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0581-2.jpg",
+          "source": "./palm_springs/IMG_0581-2-reduced.jpg",
           "alt": "Outdoor chess set",
           "alignment": "horizontal"
         }
@@ -626,7 +626,7 @@
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0616-5.jpg",
+          "source": "./palm_springs/IMG_0616-5-reduced.jpg",
           "alt": "More cactus blooms",
           "alignment": "horizontal"
         },
