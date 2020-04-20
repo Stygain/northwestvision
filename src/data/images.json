@@ -14,7 +14,7 @@
         },
         {
           "source": "./home/IMG_8432-2-reduced.jpg",
-          "alt": "",
+          "alt": "A hazy day. Looking at the Tillikum Bridge in Portland, Oregon",
           "alignment": "horizontal"
         }
       ]
@@ -33,7 +33,7 @@
         },
         {
           "source": "./home/IMG_5483-2-reduced.jpg",
-          "alt": "Icicles looming above (these are a couple feet long)",
+          "alt": "Icicles looming above (these are a couple feet long). Taken along the Eagle Creek Trail in the Columbia River Gorge",
           "alignment": "horizontal"
         }
       ]
@@ -51,8 +51,8 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_20160721_150340-2-reduced.jpg",
-          "alt": "",
+          "source": "./home/IMG_6563-2.jpg",
+          "alt": "The heavens opening up in Utah",
           "alignment": "horizontal"
         }
       ]
@@ -66,11 +66,11 @@
       "stack": [
         {
           "source": "./home/IMG_20160721_171943-2-reduced.jpg",
-          "alt": "Mirror lake near Mount Hood",
+          "alt": "Mirror lake looking at Mount Hood",
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_7447-2-reduced.jpg",
+          "source": "./home/IMG_7447-2.jpg",
           "alt": "Thor's Well: A hole that fills and empties with water and sprays magnificently at higher tides",
           "alignment": "horizontal"
         }
@@ -78,19 +78,19 @@
     },
     {
       "vertical": {
-        "source": "./home/IMG_7638-2-reduced.jpg",
-        "alt": "A peek through the trees at Toketee Falls",
+        "source": "./home/IMG_7407-2-reduced.jpg",
+        "alt": "A tank at Rogue Brewery in Newport, OR",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./home/IMG_20170529_172615-2-reduced.jpg",
+          "source": "./home/IMG_20170529_172615-3.jpg",
           "alt": "Snow covered Wizard Island in Crater Lake",
           "alignment": "horizontal"
         },
         {
           "source": "./home/IMG_20160721_151450-2-reduced.jpg",
-          "alt": "",
+          "alt": "A mossy tree stump in a lake, taken while kayaking near Mount Hood, Oregon",
           "alignment": "horizontal"
         }
       ]
@@ -98,18 +98,18 @@
     {
       "vertical": {
         "source": "./home/IMG_20170529_134505-3-reduced.jpg",
-        "alt": "Toketee Falls, 1 mile away from Watson falls in south-central Oregon",
+        "alt": "Toketee Falls in south-central Oregon",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./home/IMG_20160721_150340-reduced.jpg",
-          "alt": "Trillium Lake near Mount Hood",
+          "source": "./home/IMG_20160721_150340-2-reduced.jpg",
+          "alt": "Kayaking on Trillium Lake looking at Mount Hood",
           "alignment": "horizontal"
         },
         {
           "source": "./home/IMG_1810-2-reduced.jpg",
-          "alt": "",
+          "alt": "The most important member of the family",
           "alignment": "horizontal"
         }
       ]
@@ -117,18 +117,18 @@
     {
       "vertical": {
         "source": "./home/IMG_20170529_145905-2-reduced.jpg",
-        "alt": "",
+        "alt": "Watson Falls, the third highest waterfall in Oregon, in south-central Oregon",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./home/IMG_5335-2-reduced.jpg",
-          "alt": "",
+          "alt": "Snow covered tree branches",
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_20160721_171943-2-reduced.jpg",
-          "alt": "",
+          "source": "./home/IMG_8487-2.jpg",
+          "alt": "My favorite tree on the Oregon State campus, in Corvallis, Oregon",
           "alignment": "horizontal"
         }
       ]
@@ -138,7 +138,7 @@
     {
       "vertical": {
         "source": "./portland/IMG_4868-2-reduced.jpg",
-        "alt": "I-405 interchange crossing the river",
+        "alt": "I-405 interchange crossing the Willamette river",
         "alignment": "vertical"
       },
       "stack": [
@@ -163,7 +163,7 @@
       "stack": [
         {
           "source": "./portland/IMG_4565-3-reduced.jpg",
-          "alt": "View of the Hawthorne bridge",
+          "alt": "View of the Hawthorne bridge from the east side of the river",
           "alignment": "horizontal"
         },
         {
@@ -197,12 +197,12 @@
     {
       "vertical": {
         "source": "./hawaii/IMG_2467-3-reduced.jpg",
-        "alt": "Flowers from the botanical garden",
+        "alt": "Akaka Falls, Hilo, Hawaii",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./hawaii/IMG_2447-reduced.jpg",
+          "source": "./hawaii/IMG_2447-2.jpg",
           "alt": "Flowers from the botanical garden",
           "alignment": "horizontal"
         },
@@ -226,7 +226,7 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2399-reduced.jpg",
+          "source": "./hawaii/IMG_2399-2.jpg",
           "alt": "A gecko in the botanical garden",
           "alignment": "horizontal"
         }
@@ -241,11 +241,11 @@
       "stack": [
         {
           "source": "./hawaii/IMG_2746-3-reduced.jpg",
-          "alt": "",
+          "alt": "A derelict building at a sheep station on the way to Mauna Loa",
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2326-reduced.jpg",
+          "source": "./hawaii/IMG_2326-2.jpg",
           "alt": "Flowers from the botanical garden",
           "alignment": "horizontal"
         }
@@ -259,12 +259,12 @@
       },
       "stack": [
         {
-          "source": "./hawaii/IMG_2273-reduced.jpg",
+          "source": "./hawaii/IMG_2273-2.jpg",
           "alt": "Flowers from the botanical garden",
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2057-reduced.jpg",
+          "source": "./hawaii/IMG_2057-2.jpg",
           "alt": "Closed road due to lava in Volcanoes National Park",
           "alignment": "horizontal"
         }
@@ -273,18 +273,18 @@
     {
       "vertical": {
         "source": "./hawaii/IMG_2366-2-reduced.jpg",
-        "alt": "",
+        "alt": "Flowers from the botanical garden",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./hawaii/IMG_2630-3-reduced.jpg",
-          "alt": "",
+          "alt": "Taken along the coastline",
           "alignment": "horizontal"
         },
         {
           "source": "./hawaii/IMG_2727-3-reduced.jpg",
-          "alt": "",
+          "alt": "A stray cat along a hike",
           "alignment": "horizontal"
         }
       ]
@@ -292,18 +292,18 @@
     {
       "vertical": {
         "source": "./hawaii/IMG_2207-2-reduced.jpg",
-        "alt": "",
+        "alt": "Flowers from the botanical garden",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./hawaii/IMG_2665-3-reduced.jpg",
-          "alt": "",
+          "alt": "Flowers from the botanical garden",
           "alignment": "horizontal"
         },
         {
-          "source": "./hawaii/IMG_2157-reduced.jpg",
-          "alt": "Lava in the caldera, Volcanoes National Park",
+          "source": "./hawaii/IMG_2694-3.jpg",
+          "alt": "A view looking down the coastline",
           "alignment": "horizontal"
         }
       ]
@@ -370,18 +370,18 @@
     {
       "vertical": {
         "source": "./gorge/IMG_5203-2-reduced.jpg",
-        "alt": "",
+        "alt": "A stranger for perspective of how steep the munra point hike is",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./gorge/IMG_5483-2-reduced.jpg",
-          "alt": "",
+          "alt": "Dangerous death-cycles above. These were at least a foot long and falling down on the trail while hiking",
           "alignment": "horizontal"
         },
         {
           "source": "./gorge/IMG_8228-2-reduced.jpg",
-          "alt": "",
+          "alt": "An osprey nest on the top of a tree near the Columbia River",
           "alignment": "horizontal"
         }
       ]
@@ -389,18 +389,18 @@
     {
       "vertical": {
         "source": "./gorge/IMG_8270-2-reduced.jpg",
-        "alt": "",
+        "alt": "Peering through a gap in the trees westward along the Munra Point hike",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./gorge/IMG_8215-2-reduced.jpg",
-          "alt": "",
+          "alt": "Taken along a bike path in the Gorge, looking to the hills on the Washington side of the Columbia River",
           "alignment": "horizontal"
         },
         {
           "source": "./gorge/IMG_9742-2-reduced.jpg",
-          "alt": "",
+          "alt": "A footbridge near the start of the Eagle Creek trail",
           "alignment": "horizontal"
         }
       ]
@@ -416,7 +416,7 @@
       "stack": [
         {
           "source": "./utah/IMG_6175-2-reduced.jpg",
-          "alt": "Jeep tour with a magnificent machine",
+          "alt": "The jeep that helped us go bouldering",
           "alignment": "horizontal"
         },
         {
@@ -435,12 +435,12 @@
       "stack": [
         {
           "source": "./utah/IMG_6004-2-reduced.jpg",
-          "alt": "A person standing under Double Arch",
+          "alt": "A person standing under Double Arch, Arches NP",
           "alignment": "horizontal"
         },
         {
           "source": "./utah/IMG_5866-2-reduced.jpg",
-          "alt": "The classic Delicate Arch (With no people in the picture!)",
+          "alt": "The classic Delicate Arch (with no people in the picture!), Arches NP",
           "alignment": "horizontal"
         }
       ]
@@ -448,7 +448,7 @@
     {
       "vertical": {
         "source": "./utah/IMG_5935-3-reduced.jpg",
-        "alt": "Tree framing Turret Arch",
+        "alt": "Tree framing Turret Arch, Arches NP",
         "alignment": "vertical"
       },
       "stack": [
@@ -459,7 +459,7 @@
         },
         {
           "source": "./utah/IMG_6014-3-reduced.jpg",
-          "alt": "Balanced Rock (can you see the people for scale)",
+          "alt": "Balanced Rock (can you see the people for scale?), Arches NP",
           "alignment": "horizontal"
         }
       ]
@@ -473,7 +473,7 @@
       "stack": [
         {
           "source": "./utah/IMG_6538-2-reduced.jpg",
-          "alt": "Six Shooter Rock",
+          "alt": "South Six Shooter Peak near Canyonlands NP",
           "alignment": "horizontal"
         },
         {
@@ -486,13 +486,13 @@
     {
       "vertical": {
         "source": "./utah/IMG_5940-2-reduced.jpg",
-        "alt": "Another dead branch framing an arch",
+        "alt": "Another dead branch framing an arch, Arches NP",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./utah/IMG_5911-2-reduced.jpg",
-          "alt": "Cool grass-like plant in front of turret arch",
+          "alt": "Cool grass-like plant in front of turret arch, Arches NP",
           "alignment": "horizontal"
         },
         {
@@ -504,19 +504,19 @@
     },
     {
       "vertical": {
-        "source": "./utah/IMG_6015-reduced.jpg",
-        "alt": "",
+        "source": "./utah/IMG_6015-2.jpg",
+        "alt": "Another shot of Balanced Rock, Arches NP",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./utah/IMG_6030-2-reduced.jpg",
-          "alt": "",
+          "alt": "Striations in the red rock",
           "alignment": "horizontal"
         },
         {
           "source": "./utah/IMG_6436-2-reduced.jpg",
-          "alt": "",
+          "alt": "A view from Dead Horse Point State Park",
           "alignment": "horizontal"
         }
       ]
@@ -526,18 +526,18 @@
     {
       "vertical": {
         "source": "./palm_springs/IMG_0640-4-reduced.jpg",
-        "alt": "",
+        "alt": "An old gold mine in Joshua Tree NP",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0601-reduced.jpg",
-          "alt": "",
+          "source": "./palm_springs/IMG_0601-2.jpg",
+          "alt": "Some yucca leaves",
           "alignment": "horizontal"
         },
         {
           "source": "./palm_springs/IMG_0552-2-reduced.jpg",
-          "alt": "",
+          "alt": "Looking down on Palm Springs, California from Mount San Jacinto",
           "alignment": "horizontal"
         }
       ]
@@ -545,17 +545,17 @@
     {
       "vertical": {
         "source": "./palm_springs/IMG_0629-2-reduced.jpg",
-        "alt": "",
+        "alt": "An old windmill in Joshua Tree NP",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./palm_springs/IMG_0451-3-reduced.jpg",
-          "alt": "",
+          "alt": "A hummingbird seen at the start of a hike",
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0479-reduced.jpg",
+          "source": "./palm_springs/IMG_0479-2.jpg",
           "alt": "",
           "alignment": "horizontal"
         }
@@ -564,18 +564,18 @@
     {
       "vertical": {
         "source": "./palm_springs/IMG_0414-2-reduced.jpg",
-        "alt": "",
+        "alt": "Looking through some burnt palm trees",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0364-reduced.jpg",
-          "alt": "",
+          "source": "./palm_springs/IMG_0364-2.jpg",
+          "alt": "Cactus bloom",
           "alignment": "horizontal"
         },
         {
           "source": "./palm_springs/IMG_0513-2-reduced.jpg",
-          "alt": "",
+          "alt": "A building at the Moorten Botanical Garden",
           "alignment": "horizontal"
         }
       ]
@@ -583,18 +583,18 @@
     {
       "vertical": {
         "source": "./palm_springs/IMG_0352-3-reduced.jpg",
-        "alt": "",
+        "alt": "Some dead palm leaves",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./palm_springs/IMG_0380-2-reduced.jpg",
-          "alt": "",
+          "alt": "More cactus blooms",
           "alignment": "horizontal"
         },
         {
           "source": "./palm_springs/IMG_0508-3-reduced.jpg",
-          "alt": "",
+          "alt": "Some agave in the Moorten Botanical Garden",
           "alignment": "horizontal"
         }
       ]
@@ -602,18 +602,18 @@
     {
       "vertical": {
         "source": "./palm_springs/IMG_0511-4-reduced.jpg",
-        "alt": "",
+        "alt": "More cactus blooms",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./palm_springs/IMG_0553-2-reduced.jpg",
-          "alt": "",
+          "alt": "Taken from atop Mount San Jacinto",
           "alignment": "horizontal"
         },
         {
-          "source": "./palm_springs/IMG_0581-reduced.jpg",
-          "alt": "",
+          "source": "./palm_springs/IMG_0581-2.jpg",
+          "alt": "Outdoor chess set",
           "alignment": "horizontal"
         }
       ]
@@ -621,18 +621,18 @@
     {
       "vertical": {
         "source": "./palm_springs/IMG_0570-3-reduced.jpg",
-        "alt": "",
+        "alt": "Red-wood atop Mount San Jacinto",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./palm_springs/IMG_0616-3-reduced.jpg",
-          "alt": "",
+          "source": "./palm_springs/IMG_0616-5.jpg",
+          "alt": "More cactus blooms",
           "alignment": "horizontal"
         },
         {
           "source": "./palm_springs/IMG_0615-2-reduced.jpg",
-          "alt": "",
+          "alt": "An interesting purple cactus",
           "alignment": "horizontal"
         }
       ]
@@ -640,18 +640,18 @@
     {
       "vertical": {
         "source": "./palm_springs/IMG_0515-2-reduced.jpg",
-        "alt": "",
+        "alt": "Blooms",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./palm_springs/IMG_0401-2-reduced.jpg",
-          "alt": "",
+          "alt": "Grass",
           "alignment": "horizontal"
         },
         {
           "source": "./palm_springs/IMG_0510-2-reduced.jpg",
-          "alt": "",
+          "alt": "Pincushion cacti",
           "alignment": "horizontal"
         }
       ]
@@ -659,18 +659,18 @@
     {
       "vertical": {
         "source": "./palm_springs/IMG_0586-2-reduced.jpg",
-        "alt": "",
+        "alt": "An old water tower",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./palm_springs/IMG_0630-3-reduced.jpg",
-          "alt": "",
+          "alt": "Another shot of the windmill inside Joshua Tree NP",
           "alignment": "horizontal"
         },
         {
           "source": "./palm_springs/IMG_0375-3-reduced.jpg",
-          "alt": "",
+          "alt": "More cactus blooms",
           "alignment": "horizontal"
         }
       ]
@@ -678,18 +678,18 @@
     {
       "vertical": {
         "source": "./palm_springs/IMG_0646-3-reduced.jpg",
-        "alt": "",
+        "alt": "An old vehicle in Joshua Tree NP",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./palm_springs/IMG_0663-3-reduced.jpg",
-          "alt": "",
+          "alt": "A small snake seen along a hike",
           "alignment": "horizontal"
         },
         {
           "source": "./palm_springs/IMG_0676-2-reduced.jpg",
-          "alt": "",
+          "alt": "The Cholla Cactus Garden in Joshua Tree NP",
           "alignment": "horizontal"
         }
       ]
@@ -697,18 +697,18 @@
     {
       "vertical": {
         "source": "./palm_springs/IMG_0466-3-reduced.jpg",
-        "alt": "",
+        "alt": "Some sort of contraption for measuring water?",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./palm_springs/IMG_0411-3-reduced.jpg",
-          "alt": "",
+          "alt": "Some more yucca leaves",
           "alignment": "horizontal"
         },
         {
           "source": "./palm_springs/IMG_0675-3-reduced.jpg",
-          "alt": "",
+          "alt": "The Cholla Cactus Garden in Joshua Tree NP",
           "alignment": "horizontal"
         }
       ]
@@ -716,18 +716,18 @@
     {
       "vertical": {
         "source": "./palm_springs/IMG_0588-2-reduced.jpg",
-        "alt": "",
+        "alt": "Lawn-games set",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./palm_springs/IMG_0353-2-reduced.jpg",
-          "alt": "",
+          "alt": "Some more yucca leaves",
           "alignment": "horizontal"
         },
         {
           "source": "./palm_springs/IMG_0659-6-reduced.jpg",
-          "alt": "",
+          "alt": "Yucca leaves at sunset",
           "alignment": "horizontal"
         }
       ]
@@ -743,12 +743,12 @@
       "stack": [
         {
           "source": "./north_carolina/IMG_1849-4-reduced.jpg",
-          "alt": "",
+          "alt": "Some cute mushrooms seen along a hike",
           "alignment": "horizontal"
         },
         {
           "source": "./north_carolina/IMG_1821-2-reduced.jpg",
-          "alt": "",
+          "alt": "The view of one of the roads of the Blue Ridge Parkway",
           "alignment": "horizontal"
         }
       ]
@@ -756,7 +756,7 @@
     {
       "vertical": {
         "source": "./north_carolina/IMG_1893-2-reduced.jpg",
-        "alt": "",
+        "alt": "Taken from atop Pilot Mountain",
         "alignment": "vertical"
       },
       "stack": [
@@ -788,7 +788,7 @@
         },
         {
           "source": "./texas/IMG_1620-2-reduced.jpg",
-          "alt": "",
+          "alt": "San Fernando Cathedral",
           "alignment": "horizontal"
         }
       ]
@@ -815,7 +815,7 @@
     {
       "vertical": {
         "source": "./texas/IMG_1559-2-reduced.jpg",
-        "alt": "",
+        "alt": "The Paramount Theater in Austin, Texas",
         "alignment": "vertical"
       },
       "stack": [
@@ -845,7 +845,7 @@
         },
         {
           "source": "./texas/IMG_1612-2-reduced.jpg",
-          "alt": "",
+          "alt": "A gate at the Alamo Mission",
           "alignment": "horizontal"
         }
       ]
@@ -853,13 +853,13 @@
     {
       "vertical": {
         "source": "./texas/IMG_1614-3-reduced.jpg",
-        "alt": "",
+        "alt": "Stained glass at a church in La Villita in San Antonio, Texas",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./texas/IMG_1558-2-reduced.jpg",
-          "alt": "",
+          "alt": "Opposing architecture in Austin, Texas",
           "alignment": "horizontal"
         },
         {
@@ -872,7 +872,7 @@
     {
       "vertical": {
         "source": "./texas/IMG_1674-2-reduced.jpg",
-        "alt": "",
+        "alt": "Mission Concepcion",
         "alignment": "vertical"
       },
       "stack": [
@@ -891,7 +891,7 @@
     {
       "vertical": {
         "source": "./texas/IMG_1676-2-reduced.jpg",
-        "alt": "",
+        "alt": "An ornate door at Mission Concepcion",
         "alignment": "vertical"
       },
       "stack": [
@@ -902,7 +902,7 @@
         },
         {
           "source": "./texas/IMG_1598-2-reduced.jpg",
-          "alt": "",
+          "alt": "Wildflowers on the way through Texas Hill Country",
           "alignment": "horizontal"
         }
       ]
