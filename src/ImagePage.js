@@ -29,7 +29,7 @@ function parseImages(page, props) {
 function ImagePage(props) {
   return (
     <Switch>
-      <Route exact path={`${process.env.PUBLIC_URL}/`}>
+      <Route exact path='/'>
         <ContentMargin>
           <Carousel />
           <CarouselMargin>
@@ -39,42 +39,42 @@ function ImagePage(props) {
           </CarouselMargin>
         </ContentMargin>
       </Route>
-      <Route path={`${process.env.PUBLIC_URL}/portland`}>
+      <Route path='/portland'>
         <ContentMargin>
           <Center>
             {parseImages("portland", props)}
           </Center>
         </ContentMargin>
       </Route>
-      <Route path={`${process.env.PUBLIC_URL}/hawaii`}>
+      <Route path='/hawaii'>
         <ContentMargin>
           <Center>
             {parseImages("hawaii", props)}
           </Center>
         </ContentMargin>
       </Route>
-      <Route path={`${process.env.PUBLIC_URL}/columbiarivergorge`}>
+      <Route path='/columbiarivergorge'>
         <ContentMargin>
           <Center>
             {parseImages("columbiarivergorge", props)}
           </Center>
         </ContentMargin>
       </Route>
-      <Route path={`${process.env.PUBLIC_URL}/utah`}>
+      <Route path='/utah'>
         <ContentMargin>
           <Center>
             {parseImages("utah", props)}
           </Center>
         </ContentMargin>
       </Route>
-      <Route path={`${process.env.PUBLIC_URL}/palmsprings`}>
+      <Route path='/palmsprings'>
         <ContentMargin>
           <Center>
             {parseImages("palmsprings", props)}
           </Center>
         </ContentMargin>
       </Route>
-      <Route path={`${process.env.PUBLIC_URL}/northcarolina`}>
+      <Route path='/northcarolina'>
         <ContentMargin>
           <Center>
             {parseImages("northcarolina", props)}

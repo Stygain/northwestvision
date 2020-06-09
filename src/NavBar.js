@@ -190,7 +190,7 @@ function NavBar(props) {
     <div css={styling}>
       <NavLink
         className="title"
-        to="/northwestvision"
+        to='/'
         onClick={() => {
           setOpen(false);
           window.scrollTo({
@@ -212,7 +212,7 @@ function NavBar(props) {
       <div className={open ? "navlist open" : "navlist"}>
         <ul>
           <li className="navlink home" key="/">
-            <NavLink exact to={`${process.env.PUBLIC_URL}/`} onClick={() => {
+            <NavLink exact to='/' onClick={() => {
               setOpen(!open);
               window.scrollTo({
                 top: 0,
@@ -224,7 +224,7 @@ function NavBar(props) {
           </li>
           {dataTypes["dataTypes"].map(({name, url}) => {
             return (<li className="navlink" key={url}>
-              <NavLink exact to={`${process.env.PUBLIC_URL}${url}`} onClick={() => {
+              <NavLink exact to={url} onClick={() => {
                 setOpen(!open);
                 window.scrollTo({
                   top: 0,
