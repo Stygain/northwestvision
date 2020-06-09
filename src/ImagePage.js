@@ -81,7 +81,7 @@ function ImagePage(props) {
           </Center>
         </ContentMargin>
       </Route>
-      <Route path={`${process.env.PUBLIC_URL}/texas`}>
+      <Route path='/texas'>
         <ContentMargin>
           <Center>
             {parseImages("texas", props)}
