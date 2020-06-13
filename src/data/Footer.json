@@ -1,6 +1,10 @@
 {
   "websites": [
     {
+      "text": "About Me",
+      "link": "http://adambarton.info"
+    },
+    {
       "text": "Loaders",
       "link": "https://stygain.github.io/css-loaders/"
     },
