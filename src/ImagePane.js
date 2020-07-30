@@ -1,14 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './ImagePane.css';
 
 import { ImageImp, LazyLoadImage } from './Utils.js';
 
 
-function onClickHandler(setModalShow, setModalSource, source) {
-  console.log("Clicked")
-  // console.log(setModalShow)
-  setModalShow(true)
-  setModalSource(source)
+function returnIndexBasedOnPageAndIndex(page, index, subIndex) {
+  var retval = (index * 3) + subIndex + 1;
+  if (page === "home") {
+    return "/imageId/" + retval;
+  } else {
+    return "/" + page + "/imageId/" + retval;
+  }
 }
 
 function generateImagePane(props) {
@@ -16,15 +19,17 @@ function generateImagePane(props) {
     return (
       <div className="pane">
         <ImageStack
-          stackInfo={props.imagePaneInfo.stack}
-          setModalShow={props.setModalShow}
-          setModalSource={props.setModalSource} />
+          page={props.page}
+          index={props.index}
+          stackInfo={props.imagePaneInfo.stack} />
         <div className="pane-vert">
           <LazyLoadImage alignment="vert">
-            <img onClick={() => onClickHandler(props.setModalShow, props.setModalSource, props.imagePaneInfo.vertical)}
-              className={props.imagePaneInfo.vertical.alignment}
-              src={ImageImp(props.imagePaneInfo.vertical.source)}
-              alt={props.imagePaneInfo.vertical.alt} />
+            <Link to={returnIndexBasedOnPageAndIndex(props.page, props.index, 0)}>
+              <img
+                className={props.imagePaneInfo.vertical.alignment}
+                src={ImageImp(props.imagePaneInfo.vertical.source)}
+                alt={props.imagePaneInfo.vertical.alt} />
+            </Link>
           </LazyLoadImage>
         </div>
       </div>
@@ -34,15 +39,18 @@ function generateImagePane(props) {
       <div className="pane">
         <div className="pane-vert">
           <LazyLoadImage alignment="vert">
-            <img onClick={() => onClickHandler(props.setModalShow, props.setModalSource, props.imagePaneInfo.vertical)}
-              className={props.imagePaneInfo.vertical.alignment}
-              src={ImageImp(props.imagePaneInfo.vertical.source)}
-              alt={props.imagePaneInfo.vertical.alt} />
+            <Link to={returnIndexBasedOnPageAndIndex(props.page, props.index, 0)}>
+              <img
+                className={props.imagePaneInfo.vertical.alignment}
+                src={ImageImp(props.imagePaneInfo.vertical.source)}
+                alt={props.imagePaneInfo.vertical.alt} />
+            </Link>
           </LazyLoadImage>
         </div>
-        <ImageStack stackInfo={props.imagePaneInfo.stack}
-          setModalShow={props.setModalShow}
-          setModalSource={props.setModalSource} />
+        <ImageStack
+          page={props.page}
+          index={props.index}
+          stackInfo={props.imagePaneInfo.stack} />
       </div>
     );
   }
@@ -52,16 +60,22 @@ function ImageStack(props) {
   return (
     <div className="pane-stack-outer">
       <div className="pane-stack">
-        {props.stackInfo.map(stackItem => {
-          return (
-            <LazyLoadImage alignment="horiz">
-              <img onClick={() => onClickHandler(props.setModalShow, props.setModalSource, stackItem)}
-                className={stackItem.alignment}
-                src={ImageImp(stackItem.source)}
-                alt={stackItem.alt} />
-            </LazyLoadImage>
-          );
-        })}
+        <LazyLoadImage alignment="horiz">
+          <Link to={returnIndexBasedOnPageAndIndex(props.page, props.index, 1)}>
+            <img
+              className={props.stackInfo[0].alignment}
+              src={ImageImp(props.stackInfo[0].source)}
+              alt={props.stackInfo[0].alt} />
+          </Link>
+        </LazyLoadImage>
+        <LazyLoadImage alignment="horiz">
+          <Link to={returnIndexBasedOnPageAndIndex(props.page, props.index, 2)}>
+            <img
+              className={props.stackInfo[1].alignment}
+              src={ImageImp(props.stackInfo[1].source)}
+              alt={props.stackInfo[1].alt} />
+          </Link>
+        </LazyLoadImage>
       </div>
     </div>
   );

@@ -1,30 +1,10 @@
 import React from 'react';
-import { Redirect, Route, Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
-import { ContentMargin, CarouselMargin, Center, LazyLoadImagePane } from './Utils.js';
-import ImagePane from './ImagePane.js';
+import { ContentMargin, CarouselMargin, Center } from './Utils.js';
 import Carousel from './Carousel/Carousel.js';
+import IndivImagePage from './IndivImagePage.js';
 
-import images from './data/images.json';
-
-
-function parseImages(page, props) {
-  var imagePanes = [];
-  var swapToggle = false;
-  for (var i = 0; i < images[page].length; i++) {
-    imagePanes.push(
-      <LazyLoadImagePane>
-        <ImagePane
-          imagePaneInfo={images[page][i]}
-          swap={swapToggle}
-          setModalShow={props.setModalShow}
-          setModalSource={props.setModalSource} />
-      </LazyLoadImagePane>
-    );
-    swapToggle = !swapToggle;
-  }
-  return imagePanes;
-}
 
 function ImagePage(props) {
   return (
@@ -34,7 +14,17 @@ function ImagePage(props) {
           <Carousel />
           <CarouselMargin>
             <Center>
-              {parseImages("home", props)}
+              <IndivImagePage parentProps={props} page="home" url="/" />
+            </Center>
+          </CarouselMargin>
+        </ContentMargin>
+      </Route>
+      <Route path='/imageId'>
+        <ContentMargin>
+          <Carousel />
+          <CarouselMargin>
+            <Center>
+              <IndivImagePage parentProps={props} page="home" url="/" />
             </Center>
           </CarouselMargin>
         </ContentMargin>
@@ -42,54 +32,59 @@ function ImagePage(props) {
       <Route path='/portland'>
         <ContentMargin>
           <Center>
-            {parseImages("portland", props)}
+            {console.log("Should be rendering portland")}
+            <IndivImagePage parentProps={props} page="portland" url="/portland/" />
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/hawaii'>
         <ContentMargin>
           <Center>
-            {parseImages("hawaii", props)}
+            <IndivImagePage parentProps={props} page="hawaii" url="/hawaii/" />
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/columbiarivergorge'>
         <ContentMargin>
           <Center>
-            {parseImages("columbiarivergorge", props)}
+            <IndivImagePage parentProps={props} page="columbiarivergorge" url="/columbiarivergorge/" />
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/utah'>
         <ContentMargin>
           <Center>
-            {parseImages("utah", props)}
+            <IndivImagePage parentProps={props} page="utah" url="/utah/" />
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/palmsprings'>
         <ContentMargin>
           <Center>
-            {parseImages("palmsprings", props)}
+            <IndivImagePage parentProps={props} page="palmsprings" url="/palmsprings/" />
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/northcarolina'>
         <ContentMargin>
           <Center>
-            {parseImages("northcarolina", props)}
+            <IndivImagePage parentProps={props} page="northcarolina" url="/northcarolina/" />
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/texas'>
         <ContentMargin>
           <Center>
-            {parseImages("texas", props)}
+            <IndivImagePage parentProps={props} page="texas" url="/texas/" />
           </Center>
         </ContentMargin>
       </Route>
       <Route path='/'>
-        <Redirect to="/404" />
+        <ContentMargin>
+          <h1>
+            404 page
+          </h1>
+        </ContentMargin>
       </Route>
     </Switch>
   );
