@@ -40,8 +40,8 @@
     },
     {
       "vertical": {
-        "source": "./home/IMG_20170304_121251-2-reduced.jpg",
-        "alt": "Snow covered trees near the summit of Mary's Peak",
+        "source": "./home/IMG_7671-reduced.jpg",
+        "alt": "The road to Watson Falls",
         "alignment": "vertical"
       },
       "stack": [
@@ -65,8 +65,8 @@
       },
       "stack": [
         {
-          "source": "./home/IMG_20160721_171943-2-reduced.jpg",
-          "alt": "Mirror lake looking at Mount Hood",
+          "source": "./home/IMG_2018-20-combo-reduced.jpg",
+          "alt": "Looking towards the West Hills from the Pearl in Portland",
           "alignment": "horizontal"
         },
         {
@@ -78,8 +78,8 @@
     },
     {
       "vertical": {
-        "source": "./home/IMG_7407-2-reduced.jpg",
-        "alt": "A tank at Rogue Brewery in Newport, OR",
+        "source": "./home/IMG_20170304_121251-2-reduced.jpg",
+        "alt": "Snow covered trees near the summit of Mary's Peak",
         "alignment": "vertical"
       },
       "stack": [
