@@ -34,8 +34,10 @@ function returnImageBasedOnIndex(page, index) {
 
   if (subIndex === 0) {
     return images[page][panelIndex].vertical;
-  } else {
+  } else if (images[page][panelIndex].stack) {
     return subIndex === 1 ? images[page][panelIndex].stack[0] : images[page][panelIndex].stack[1];
+  } else {
+    return images[page][panelIndex].vertical2;
   }
 }
 

@@ -70,7 +70,7 @@ function NavBar(props) {
     .navlist a {
       padding: 8px 12px;
       font-weight: 500;
-      font-size: 30px;
+      font-size: 25px;
       color: rgb(166, 166, 166);
       -webkit-transition: color 0.5s ease-in-out;
          -moz-transition: color 0.5s ease-in-out;
@@ -109,7 +109,7 @@ function NavBar(props) {
 
       .navlist.open {
         height: auto;
-        height: 410px;
+        height: 450px;
       }
 
       .navlist ul {
@@ -123,6 +123,10 @@ function NavBar(props) {
       .navlist ul li a {
         padding: 0;
         display: block;
+      }
+
+      .navlist a {
+        font-size: 30px;
       }
 
       & .button-container {

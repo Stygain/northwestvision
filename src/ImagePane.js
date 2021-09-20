@@ -15,13 +15,51 @@ function returnIndexBasedOnPageAndIndex(page, index, subIndex) {
 }
 
 function generateImagePane(props) {
-  if (props.swap) {
+  if (props.imagePaneInfo.stack)
+  {
+    if (props.swap) {
+      return (
+        <div className="pane">
+          <ImageStack
+            page={props.page}
+            index={props.index}
+            stackInfo={props.imagePaneInfo.stack} />
+          <div className="pane-vert">
+            <LazyLoadImage alignment="vert">
+              <Link to={returnIndexBasedOnPageAndIndex(props.page, props.index, 0)}>
+                <img
+                  className={props.imagePaneInfo.vertical.alignment}
+                  src={ImageImp(props.imagePaneInfo.vertical.source)}
+                  alt={props.imagePaneInfo.vertical.alt} />
+              </Link>
+            </LazyLoadImage>
+          </div>
+        </div>
+      );
+    } else {
+      return (
+        <div className="pane">
+          <div className="pane-vert">
+            <LazyLoadImage alignment="vert">
+              <Link to={returnIndexBasedOnPageAndIndex(props.page, props.index, 0)}>
+                <img
+                  className={props.imagePaneInfo.vertical.alignment}
+                  src={ImageImp(props.imagePaneInfo.vertical.source)}
+                  alt={props.imagePaneInfo.vertical.alt} />
+              </Link>
+            </LazyLoadImage>
+          </div>
+          <ImageStack
+            page={props.page}
+            index={props.index}
+            stackInfo={props.imagePaneInfo.stack} />
+        </div>
+      );
+    }
+  }
+  else {
     return (
       <div className="pane">
-        <ImageStack
-          page={props.page}
-          index={props.index}
-          stackInfo={props.imagePaneInfo.stack} />
         <div className="pane-vert">
           <LazyLoadImage alignment="vert">
             <Link to={returnIndexBasedOnPageAndIndex(props.page, props.index, 0)}>
@@ -32,14 +70,9 @@ function generateImagePane(props) {
             </Link>
           </LazyLoadImage>
         </div>
-      </div>
-    );
-  } else {
-    return (
-      <div className="pane">
         <div className="pane-vert">
           <LazyLoadImage alignment="vert">
-            <Link to={returnIndexBasedOnPageAndIndex(props.page, props.index, 0)}>
+            <Link to={returnIndexBasedOnPageAndIndex(props.page, props.index, 1)}>
               <img
                 className={props.imagePaneInfo.vertical.alignment}
                 src={ImageImp(props.imagePaneInfo.vertical.source)}
@@ -47,10 +80,6 @@ function generateImagePane(props) {
             </Link>
           </LazyLoadImage>
         </div>
-        <ImageStack
-          page={props.page}
-          index={props.index}
-          stackInfo={props.imagePaneInfo.stack} />
       </div>
     );
   }

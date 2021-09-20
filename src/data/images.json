@@ -985,5 +985,38 @@
         }
       ]
     }
+  ],
+  "roadtrip": [
+    {
+      "vertical": {
+        "source": "./portland_japanese_garden/IMG_2316-2-reduced.jpg",
+        "alt": "The Sapporo Pagoda",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./portland_japanese_garden/IMG_2316-2-reduced.jpg",
+        "alt": "The Sapporo Pagoda",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./portland_japanese_garden/IMG_2316-2-reduced.jpg",
+        "alt": "The Sapporo Pagoda",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./portland_japanese_garden/IMG_2308-2-reduced.jpg",
+          "alt": "A view across the rock garden through the railings",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./portland_japanese_garden/IMG_2297-2-reduced.jpg",
+          "alt": "A garden lantern",
+          "alignment": "horizontal"
+        }
+      ]
+    }
   ]
 }
