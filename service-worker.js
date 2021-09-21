@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/northwestvision/precache-manifest.b4c79d7a5bf843e7b317d476817d80df.js"
+  "/northwestvision/precache-manifest.595f26918493988f3cf0b3f7f059ff0d.js"
 );
 
 self.addEventListener('message', (event) => {
