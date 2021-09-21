@@ -1095,7 +1095,7 @@
       },
       "vertical2": {
         "source": "./roadtrip/IMG_2658-2-reduced.jpg",
-        "alt": "Flowers in Livingston Garden, Minnesota",
+        "alt": "Salvia in Longfellow Garden, Minnesota",
         "alignment": "vertical"
       }
     },
@@ -1127,7 +1127,7 @@
       "stack": [
         {
           "source": "./roadtrip/IMG_2657-2-reduced.jpg",
-          "alt": "A flower in the Livingston Garden, Minneapolis",
+          "alt": "A flower in the Longfellow Garden, Minneapolis",
           "alignment": "horizontal"
         },
         {
@@ -1140,12 +1140,12 @@
     {
       "vertical": {
         "source": "./roadtrip/IMG_2932-2-reduced.jpg",
-        "alt": "A view of Mt. Rushmore from thhe Iron Mountain Highway",
+        "alt": "A view of Mt. Rushmore from the Iron Mountain Highway",
         "alignment": "vertical"
       },
       "vertical2": {
         "source": "./roadtrip/IMG_2842-2-reduced.jpg",
-        "alt": "Prarie dogs near the Badlands",
+        "alt": "Prairie dogs near the Badlands",
         "alignment": "vertical"
       }
     },
@@ -1158,7 +1158,7 @@
       "stack": [
         {
           "source": "./roadtrip/IMG_2662-2-reduced.jpg",
-          "alt": "A butterfly in the Livingston Garden, Minneapolis",
+          "alt": "A butterfly in the Longfellow Garden, Minneapolis",
           "alignment": "horizontal"
         },
         {
@@ -1181,7 +1181,7 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./roadtrip/IMG_2639-2-reduced.jpg",
+          "source": "./roadtrip/IMG_3053-2-reduced.jpg",
           "alt": "Another shot of a massive dump truck near the Berkeley Pit, Butte, Montana",
           "alignment": "horizontal"
         }
@@ -1195,7 +1195,7 @@
       },
       "vertical2": {
         "source": "./roadtrip/IMG_2752-2-reduced.jpg",
-        "alt": "Divinity Statue, Chamberlain, South Dakota",
+        "alt": "Dignity Statue, Chamberlain, South Dakota",
         "alignment": "vertical"
       }
     },
@@ -1221,7 +1221,7 @@
     {
       "vertical": {
         "source": "./roadtrip/IMG_2602-2-reduced.jpg",
-        "alt": "A view of the Mississippi River from Red Barn Bluff, Minnesota",
+        "alt": "A view of the Mississippi River from Barn Bluff, Minnesota",
         "alignment": "vertical"
       },
       "vertical2": {
@@ -1270,7 +1270,7 @@
       "stack": [
         {
           "source": "./roadtrip/IMG_2668-2-reduced.jpg",
-          "alt": "A hummingbird in the Livingston Garden, Minnesota",
+          "alt": "A hummingbird in the Longfellow Garden, Minnesota",
           "alignment": "horizontal"
         },
         {
@@ -1302,12 +1302,12 @@
     {
       "vertical": {
         "source": "./roadtrip/IMG_2759-2-reduced.jpg",
-        "alt": "The backside of the Divinity Statue, Chamberlain, South Dakota",
+        "alt": "The backside of the Dignity Statue, Chamberlain, South Dakota",
         "alignment": "vertical"
       },
       "vertical2": {
         "source": "./roadtrip/IMG_2741-2-reduced.jpg",
-        "alt": "Souix Falls, South Dakota",
+        "alt": "Sioux Falls, South Dakota",
         "alignment": "vertical"
       }
     },
@@ -1351,7 +1351,7 @@
       "stack": [
         {
           "source": "./roadtrip/IMG_2666-2-reduced.jpg",
-          "alt": "A hummingbird eating, Livingston Garden, Minnesota",
+          "alt": "A hummingbird eating, Longfellow Garden, Minnesota",
           "alignment": "horizontal"
         },
         {
