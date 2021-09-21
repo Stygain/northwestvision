@@ -989,34 +989,389 @@
   "roadtrip": [
     {
       "vertical": {
-        "source": "./portland_japanese_garden/IMG_2316-2-reduced.jpg",
-        "alt": "The Sapporo Pagoda",
+        "source": "./roadtrip/IMG_2873-2-reduced.jpg",
+        "alt": "Bison in the Badlands National Park",
         "alignment": "vertical"
       },
       "vertical2": {
-        "source": "./portland_japanese_garden/IMG_2316-2-reduced.jpg",
-        "alt": "The Sapporo Pagoda",
+        "source": "./roadtrip/IMG_2777-3-reduced.jpg",
+        "alt": "Pretty skies over some farmland",
         "alignment": "vertical"
       }
     },
     {
       "vertical": {
-        "source": "./portland_japanese_garden/IMG_2316-2-reduced.jpg",
-        "alt": "The Sapporo Pagoda",
+        "source": "./roadtrip/IMG_2595-2-reduced.jpg",
+        "alt": "A view of a silo on the train tracks in Red Wing, Minnesota",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./portland_japanese_garden/IMG_2308-2-reduced.jpg",
-          "alt": "A view across the rock garden through the railings",
+          "source": "./roadtrip/IMG_2853-2-reduced.jpg",
+          "alt": "A bighorn sheep spotted in Badlands National Park",
           "alignment": "horizontal"
         },
         {
-          "source": "./portland_japanese_garden/IMG_2297-2-reduced.jpg",
-          "alt": "A garden lantern",
+          "source": "./roadtrip/IMG_2911-2-reduced.jpg",
+          "alt": "Mt Rushmore, South Dakota",
           "alignment": "horizontal"
         }
       ]
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_3023-2-reduced.jpg",
+        "alt": "An oil pump in a field in Wyoming",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_3058-2-reduced.jpg",
+          "alt": "A large dump-truck near the Berkeley Pit, Butte, Montana",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_3114-2-reduced.jpg",
+          "alt": "Clouds over the Eastern Oregon Columbia River Gorge",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_3069-2-reduced.jpg",
+        "alt": "A mining tower in Butte, Montana",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./roadtrip/IMG_2924-2-reduced.jpg",
+        "alt": "Professional nose-pickers, Mt. Rushmore, South Dakota",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_3039-2-reduced.jpg",
+        "alt": "Graves at the Battle of Little Bighorn Memorial",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_3125-2-reduced.jpg",
+          "alt": "Clouds over the Eastern Oregon Columbia River Gorge",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_2426-2-reduced.jpg",
+          "alt": "An elk calling out near the entrance to Great Smoky Mountains National Park",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2481-HDR-2-reduced.jpg",
+        "alt": "The state capital building of Kentucky",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_2436-2-reduced.jpg",
+          "alt": "Looking out over Great Smoky Mountains National Park",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_2485-2-reduced.jpg",
+          "alt": "The Louisville Slugger museum entrance",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2799-2-reduced.jpg",
+        "alt": "Sunflowers",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./roadtrip/IMG_2658-2-reduced.jpg",
+        "alt": "Flowers in Livingston Garden, Minnesota",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2553-2-reduced.jpg",
+        "alt": "A church in Dubuque, Iowa",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_2523-2-reduced.jpg",
+          "alt": "A bridge over the Illinois River in Peoria, Illinois",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_2628-2-reduced.jpg",
+          "alt": "Cathedral of St. Paul in St. Paul, Minnesota",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2652-2-reduced.jpg",
+        "alt": "Minnehaha Falls, Minnesota",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_2657-2-reduced.jpg",
+          "alt": "A flower in the Livingston Garden, Minneapolis",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_2639-2-reduced.jpg",
+          "alt": "The Minnesota State Capitol building",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2932-2-reduced.jpg",
+        "alt": "A view of Mt. Rushmore from thhe Iron Mountain Highway",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./roadtrip/IMG_2842-2-reduced.jpg",
+        "alt": "Prarie dogs near the Badlands",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2811-2-reduced.jpg",
+        "alt": "Badlands National Park",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_2662-2-reduced.jpg",
+          "alt": "A butterfly in the Livingston Garden, Minneapolis",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_2502-2-reduced.jpg",
+          "alt": "Iowa farmland",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2782-2-reduced.jpg",
+        "alt": "One of seemingly thousands of 'Wall Drug' signs",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_3125-2-reduced.jpg",
+          "alt": "Cloudy skies in the Columbia River Gorge, Oregon",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_2639-2-reduced.jpg",
+          "alt": "Another shot of a massive dump truck near the Berkeley Pit, Butte, Montana",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2874-2-reduced.jpg",
+        "alt": "Bison in the Badlands National Park",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./roadtrip/IMG_2752-2-reduced.jpg",
+        "alt": "Divinity Statue, Chamberlain, South Dakota",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2998-2-reduced.jpg",
+        "alt": "Devil's Tower, Wyoming",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_2962-2-reduced.jpg",
+          "alt": "The ever-in-progress 'Crazy Horse' memorial",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_2834-2-reduced.jpg",
+          "alt": "Another shot of Badlands National Park",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2602-2-reduced.jpg",
+        "alt": "A view of the Mississippi River from Red Barn Bluff, Minnesota",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./roadtrip/IMG_2395-2-reduced.jpg",
+        "alt": "A cool building in Asheville, North Carolina",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2893-2-reduced.jpg",
+        "alt": "Roof panels on the Chapel in the Hills, South Dakota",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_2857-2-reduced.jpg",
+          "alt": "A young bighorn sheep outside Badlands National Park",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_2681-2-reduced.jpg",
+          "alt": "Spooky skies over a railyard and silo facility",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_3042-2-reduced.jpg",
+        "alt": "Another shot of some graves at the Battle of Little Bighorn Memorial",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./roadtrip/IMG_3004-2-reduced.jpg",
+        "alt": "Climbers climbing Devil's Tower, Wyoming",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2483-2-reduced.jpg",
+        "alt": "A distillery in Louisville",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_2668-2-reduced.jpg",
+          "alt": "A hummingbird in the Livingston Garden, Minnesota",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_2681-2-reduced.jpg",
+          "alt": "Another shot of a bridge over Illinois River in Peoria, Illinois",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_3082-2-reduced.jpg",
+        "alt": "A view of the UM campus in Missoula, Montana",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_2439-2-reduced.jpg",
+          "alt": "Another view of the Great Smoky Mountains",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_3122-2-reduced.jpg",
+          "alt": "Vineyards in the Eastern Columbia River Gorge, Oregon",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2759-2-reduced.jpg",
+        "alt": "The backside of the Divinity Statue, Chamberlain, South Dakota",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./roadtrip/IMG_2741-2-reduced.jpg",
+        "alt": "Souix Falls, South Dakota",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2892-2-reduced.jpg",
+        "alt": "Chapel in the Hills, South Dakota",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_2957-2-reduced.jpg",
+          "alt": "A bison in Custer State Park, South Dakota",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_2830-2-reduced.jpg",
+          "alt": "Flowers in front of the Badlands",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_3118-2-reduced.jpg",
+        "alt": "A dirty windmill in the Eastern Columbia River Gorge, Oregon",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./roadtrip/IMG_2678-2-reduced.jpg",
+        "alt": "The Basilica of St. Mary, Minnesota",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2716-2-reduced.jpg",
+        "alt": "Blue silos, Iowa",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_2666-2-reduced.jpg",
+          "alt": "A hummingbird eating, Livingston Garden, Minnesota",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_2830-2-reduced.jpg",
+          "alt": "Chinook helicopter flying by Missoula, Montana",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_3072-2-reduced.jpg",
+        "alt": "Horse and old farm equipment, Butte, Montana",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./roadtrip/IMG_2615-2-reduced.jpg",
+        "alt": "An eagle on the Minnesota-Wisconsin border",
+        "alignment": "vertical"
+      }
     }
   ]
 }

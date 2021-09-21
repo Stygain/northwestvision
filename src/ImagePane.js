@@ -74,9 +74,9 @@ function generateImagePane(props) {
           <LazyLoadImage alignment="vert">
             <Link to={returnIndexBasedOnPageAndIndex(props.page, props.index, 1)}>
               <img
-                className={props.imagePaneInfo.vertical.alignment}
-                src={ImageImp(props.imagePaneInfo.vertical.source)}
-                alt={props.imagePaneInfo.vertical.alt} />
+                className={props.imagePaneInfo.vertical2.alignment}
+                src={ImageImp(props.imagePaneInfo.vertical2.source)}
+                alt={props.imagePaneInfo.vertical2.alt} />
             </Link>
           </LazyLoadImage>
         </div>
