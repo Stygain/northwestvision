@@ -2,15 +2,15 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Modal.css';
 
-import { ImageImp } from './Utils.js';
+import { ImageImp, Log } from './Utils.js';
 
 function closeModal(setShow) {
-  console.log("Should be turning it off")
+  Log("Should be turning it off")
   setShow(false);
 }
 
 function Modal(props) {
-  console.log(props)
+  Log(props)
   return (
     <Link to={props.returnPage}>
       <div onClick={() => closeModal(props.setShow)}

@@ -32,7 +32,6 @@ function ImagePage(props) {
       <Route path='/portland'>
         <ContentMargin>
           <Center>
-            {console.log("Should be rendering portland")}
             <IndivImagePage parentProps={props} page="portland" url="/portland/" />
           </Center>
         </ContentMargin>

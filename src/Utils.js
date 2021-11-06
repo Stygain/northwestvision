@@ -88,11 +88,18 @@ function LazyLoadImagePane(props) {
   );
 }
 
+function Log(logMessage) {
+  if (process.env.NODE_ENV === 'development') {
+    console.log(logMessage);
+  }
+}
+
 export {
     ContentMargin,
     CarouselMargin,
     Center,
     ImageImp,
     LazyLoadImage,
-    LazyLoadImagePane
+    LazyLoadImagePane,
+    Log
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Redirect, Route, Switch, useParams } from 'react-router-dom';
 
-import { LazyLoadImagePane } from './Utils.js';
+import { LazyLoadImagePane, Log } from './Utils.js';
 import ImagePane from './ImagePane.js';
 
 import images from './data/images.json';
@@ -12,7 +12,8 @@ function parseImages(page, props, imageId) {
   var swapToggle = false;
   for (var i = 0; i < images[page].length; i++) {
     imagePanes.push(
-      <LazyLoadImagePane>
+      <LazyLoadImagePane
+        key={i}>
         <ImagePane
           imagePaneInfo={images[page][i]}
           swap={swapToggle}
@@ -27,10 +28,10 @@ function parseImages(page, props, imageId) {
 
 function returnImageBasedOnIndex(page, index) {
   const panelIndex = Math.floor(index / 3);
-  console.log("panelIndex:", panelIndex);
+  Log("panelIndex:", panelIndex);
 
   const subIndex = index % 3;
-  console.log("subIndex:", subIndex);
+  Log("subIndex:", subIndex);
 
   if (subIndex === 0) {
     return images[page][panelIndex].vertical;
@@ -43,12 +44,12 @@ function returnImageBasedOnIndex(page, index) {
 
 function ImagePageWithIndex(props) {
   var { id } = useParams();
-  console.log("ID", id);
+  Log("ID", id);
   id = id - 1
   if (id >= 0 && id < (3 * images[props.page].length)) {
-    console.log("index is fine");
+    Log("index is fine");
     const imageSource = returnImageBasedOnIndex(props.page, id);
-    console.log("Going to set source to:", imageSource)
+    Log("Going to set source to:", imageSource)
     props.parentProps.setModalShow(true);
     props.parentProps.setModalSource(imageSource);
 
@@ -67,14 +68,14 @@ function ImagePageWithIndex(props) {
 function IndivImagePage(props) {
   return (
     <Switch>
-      {console.log("Setting return page to:", props.url)}
+      {Log("Setting return page to:", props.url)}
       {props.parentProps.setReturnPage(props.url)}
       <Route exact path={props.url}>
-        {console.log("No index detected")}
+        {Log("No index detected")}
         {parseImages(props.page, props.parentProps)}
       </Route>
       <Route path={props.url + "imageId/:id"}>
-        {console.log("Index detected")}
+        {Log("Index detected")}
         <ImagePageWithIndex page={props.page} parentProps={props.parentProps} />
       </Route>
     </Switch>

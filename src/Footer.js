@@ -108,7 +108,10 @@ function Footer(props) {
       <div className='links'>
         {
           FooterData.websites.map((item) => {
-            return (<HoverFillFooterButton content={item.text} link={item.link} />);
+            return (<HoverFillFooterButton
+                      content={item.text}
+                      link={item.link}
+                      key={item.link} />);
           })
         }
       </div>

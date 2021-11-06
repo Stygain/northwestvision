@@ -56,10 +56,13 @@ function ProgressDots(props) {
       <div className="dot-container">
         {props.data.map((data, index) => {
           return (
-            <div className="outer-dot" onClick={() => {
-              props.setCurrent(index)
+            <div
+              className="outer-dot"
+              key={index}
+              onClick={() => {
+                props.setCurrent(index)
             }}>
-              <div className="dot" key={index}></div>
+              <div className="dot"></div>
             </div>);
         })}
       </div>
