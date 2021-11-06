@@ -52,6 +52,7 @@ const RouteTracker = () => <Route component={GoogleAnalytics} />;
 const init = (options = {}) => {
     const isGAEnabled = process.env.NODE_ENV === 'production';
 
+    console.log("secret: " + process.env.GA_MEASUREMENT_ID)
     if (isGAEnabled) {
         ReactGA.initialize(process.env.GA_MEASUREMENT_ID);
     }
