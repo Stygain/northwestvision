@@ -20,5 +20,4 @@ jobs:
         with:
           branch: gh-pages
           folder: build
-          GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID }}
-          
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
