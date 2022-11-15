@@ -930,6 +930,18 @@
   "portlandjapanesegarden": [
     {
       "vertical": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3988-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3887-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
         "source": "./portland_japanese_garden/IMG_2316-2-reduced.jpg",
         "alt": "The Sapporo Pagoda",
         "alignment": "vertical"
@@ -968,6 +980,18 @@
     },
     {
       "vertical": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3953-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3942-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
         "source": "./portland_japanese_garden/IMG_2292-2-reduced.jpg",
         "alt": "Looking up through a japanese maple",
         "alignment": "vertical"
@@ -984,6 +1008,149 @@
           "alignment": "horizontal"
         }
       ]
+    },
+
+
+
+
+
+
+
+    {
+      "vertical": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_4007-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./portland_japanese_garden/11-11-2022/IMG_3897-2-reduced.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./portland_japanese_garden/11-11-2022/IMG_3915-2-reduced.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3909-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3932-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3906-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./portland_japanese_garden/11-11-2022/IMG_3939-2-reduced.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./portland_japanese_garden/11-11-2022/IMG_3959-2-reduced.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3937-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3981-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3889-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./portland_japanese_garden/11-11-2022/IMG_3917-2-reduced.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./portland_japanese_garden/11-11-2022/IMG_4004-2-reduced.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3895-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./portland_japanese_garden/11-11-2022/IMG_3966-3-reduced.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./portland_japanese_garden/11-11-2022/IMG_3918-2-reduced.jpg",
+          "alt": "",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3901-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3919-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3921-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3947-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3958-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./portland_japanese_garden/11-11-2022/IMG_3973-2-reduced.jpg",
+        "alt": "",
+        "alignment": "vertical"
+      }
     }
   ],
   "roadtrip": [
