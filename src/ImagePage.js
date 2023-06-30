@@ -92,6 +92,20 @@ function ImagePage(props) {
           </Center>
         </ContentMargin>
       </Route>
+      <Route path='/rainier'>
+        <ContentMargin>
+          <Center>
+            <IndivImagePage parentProps={props} page="rainier" url="/rainier/" />
+          </Center>
+        </ContentMargin>
+      </Route>
+      <Route path='/fleet_week'>
+        <ContentMargin>
+          <Center>
+            <IndivImagePage parentProps={props} page="fleet_week" url="/fleet_week/" />
+          </Center>
+        </ContentMargin>
+      </Route>
       <Route path='/'>
         <ContentMargin>
           <h1>
