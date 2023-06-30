@@ -1544,31 +1544,131 @@
   "rainier": [
     {
       "vertical": {
-        "source": "./roadtrip/IMG_2873-2-reduced.jpg",
-        "alt": "Bison in the Badlands National Park",
+        "source": "./rainier/IMG_4163-2-reduced.jpg",
+        "alt": "Sun kissing a peak from Ricksecker Point",
         "alignment": "vertical"
       },
       "vertical2": {
-        "source": "./roadtrip/IMG_2777-3-reduced.jpg",
-        "alt": "Pretty skies over some farmland",
+        "source": "./rainier/IMG_4243-2-reduced.jpg",
+        "alt": "A view of Rainier from a (frozen) Reflection Lake",
         "alignment": "vertical"
       }
     },
     {
       "vertical": {
-        "source": "./roadtrip/IMG_2595-2-reduced.jpg",
-        "alt": "A view of a silo on the train tracks in Red Wing, Minnesota",
+        "source": "./rainier/IMG_4169-2-reduced.jpg",
+        "alt": "Looking down the Nisqually river from Ricksecker Point",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./roadtrip/IMG_2853-2-reduced.jpg",
-          "alt": "A bighorn sheep spotted in Badlands National Park",
+          "source": "./rainier/IMG_4288-2-reduced.jpg",
+          "alt": "A hoary marmot in Rainier National Park",
           "alignment": "horizontal"
         },
         {
-          "source": "./roadtrip/IMG_2911-2-reduced.jpg",
-          "alt": "Mt Rushmore, South Dakota",
+          "source": "./rainier/IMG_4111-2-reduced.jpg",
+          "alt": "Riffe Lake on the way to Rainier",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./rainier/IMG_4174-2-reduced.jpg",
+        "alt": "Looking at the sunlit peaks and the moon",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./rainier/IMG_4137-2-reduced.jpg",
+          "alt": "Watch for falling rocks!",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./rainier/IMG_4171-2-reduced.jpg",
+          "alt": "Distant hills",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./rainier/IMG_4099-2-reduced.jpg",
+        "alt": "Sneaking a peek at Mount Saint Helens on the way to Rainier",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./rainier/IMG_4181-2-reduced.jpg",
+        "alt": "Guide service building near the Paradise Inn",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./rainier/IMG_4076-2-reduced.jpg",
+        "alt": "A man fishing near the Swift Reservoir near Northwoods, WA",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./rainier/IMG_4081-2-reduced.jpg",
+          "alt": "A quick stop for a view of Mount Saint Helens on the way to Rainier",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./rainier/IMG_4167-2-reduced.jpg",
+          "alt": "Some pink skies over some peaks",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./rainier/IMG_4294-2-reduced.jpg",
+        "alt": "A hoary marmot in Rainier National Park",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./rainier/IMG_4193-2-reduced.jpg",
+          "alt": "A view of Rainier near the Paradise Inn",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./rainier/IMG_4242-2-reduced.jpg",
+          "alt": "A Gray Jay in Rainier National Park",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./rainier/IMG_4226-2-reduced.jpg",
+        "alt": "Reflection of Rainier in a (partially) frozen Reflection Lake",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./rainier/IMG_4159-2-reduced.jpg",
+        "alt": "Sunset at Ricksecker Point",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./rainier/IMG_4112-2-reduced.jpg",
+        "alt": "Riffe Lake on the way to Rainier",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./rainier/IMG_4244-2-reduced.jpg",
+          "alt": "A view of Rainier from Stevens Canyon Road",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./rainier/IMG_4260-2-reduced.jpg",
+          "alt": "Another picture of a Hoary Marmot",
           "alignment": "horizontal"
         }
       ]
