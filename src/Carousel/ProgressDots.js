@@ -38,6 +38,7 @@ function ProgressDots(props) {
       height: 10px;
 
       transition: color 0.4s ease-in-out;
+      transition: background-color 0.4s ease-in-out;
       background-color: ${props.accentColor};
     }
 
