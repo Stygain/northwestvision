@@ -1540,5 +1540,71 @@
         "alignment": "vertical"
       }
     }
+  ],
+  "rainier": [
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2873-2-reduced.jpg",
+        "alt": "Bison in the Badlands National Park",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./roadtrip/IMG_2777-3-reduced.jpg",
+        "alt": "Pretty skies over some farmland",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2595-2-reduced.jpg",
+        "alt": "A view of a silo on the train tracks in Red Wing, Minnesota",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_2853-2-reduced.jpg",
+          "alt": "A bighorn sheep spotted in Badlands National Park",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_2911-2-reduced.jpg",
+          "alt": "Mt Rushmore, South Dakota",
+          "alignment": "horizontal"
+        }
+      ]
+    }
+  ],
+  "fleet_week": [
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2873-2-reduced.jpg",
+        "alt": "Bison in the Badlands National Park",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./roadtrip/IMG_2777-3-reduced.jpg",
+        "alt": "Pretty skies over some farmland",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./roadtrip/IMG_2595-2-reduced.jpg",
+        "alt": "A view of a silo on the train tracks in Red Wing, Minnesota",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./roadtrip/IMG_2853-2-reduced.jpg",
+          "alt": "A bighorn sheep spotted in Badlands National Park",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./roadtrip/IMG_2911-2-reduced.jpg",
+          "alt": "Mt Rushmore, South Dakota",
+          "alignment": "horizontal"
+        }
+      ]
+    }
   ]
 }

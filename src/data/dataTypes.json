@@ -35,6 +35,14 @@
     {
       "name": "Cross-Country Road-Trip",
       "url": "/roadtrip"
+    },
+    {
+      "name": "Rainier",
+      "url": "/rainier"
+    },
+    {
+      "name": "Fleet Week",
+      "url": "/fleet_week"
     }
   ]
 }

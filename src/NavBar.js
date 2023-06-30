@@ -87,7 +87,7 @@ function NavBar(props) {
       color: #444;
     }
 
-    @media (max-width: 1650px) {
+    @media (max-width: 1920px) {
       & .title {
         width: 280px;
       }
@@ -109,7 +109,7 @@ function NavBar(props) {
 
       .navlist.open {
         height: auto;
-        height: 450px;
+        height: 540px;
       }
 
       .navlist ul {
