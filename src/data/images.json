@@ -1594,24 +1594,24 @@
         }
       ]
     },
-      {
-        "vertical": {
-          "source": "./fleet_week/IMG_4316-2-reduced.jpg",
-          "alt": "USS Kansas City (LCS 22) passing under the Broadway Bridge, Portland, OR",
-          "alignment": "vertical"
+    {
+      "vertical": {
+        "source": "./fleet_week/IMG_4316-2-reduced.jpg",
+        "alt": "USS Kansas City (LCS 22) passing under the Broadway Bridge, Portland, OR",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./fleet_week/IMG_4333-2-reduced.jpg",
+          "alt": "USS John S. McCain (DDG 56) passing under the Fremont bridge, Portland, OR",
+          "alignment": "horizontal"
         },
-        "stack": [
-          {
-            "source": "./fleet_week/IMG_4333-2-reduced.jpg",
-            "alt": "USS John S. McCain (DDG 56) passing under the Fremont bridge, Portland, OR",
-            "alignment": "horizontal"
-          },
-          {
-            "source": "./fleet_week/IMG_4313-2-reduced.jpg",
-            "alt": "USS Kansas City (LCS 22) passing under the Broadway Bridge, Portland, OR",
-            "alignment": "horizontal"
-          }
-        ]
-      }
+        {
+          "source": "./fleet_week/IMG_4313-2-reduced.jpg",
+          "alt": "USS Kansas City (LCS 22) passing under the Broadway Bridge, Portland, OR",
+          "alignment": "horizontal"
+        }
+      ]
+    }
   ]
 }
