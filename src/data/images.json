@@ -27,8 +27,8 @@
       },
       "stack": [
         {
-          "source": "./home/IMG_3057-2-reduced.jpg",
-          "alt": "Looking over the edge on an abandoned railroad near Timber, Oregon",
+          "source": "./home/IMG_4171-2-reduced.jpg",
+          "alt": "Distant hills in Rainier National Park",
           "alignment": "horizontal"
         },
         {
@@ -51,16 +51,16 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_6563-2-reduced.jpg",
-          "alt": "The heavens opening up in Utah",
+          "source": "./home/IMG_1667-2-reduced.jpg",
+          "alt": "Flowers in a botanical garden in Texas",
           "alignment": "horizontal"
         }
       ]
     },
     {
       "vertical": {
-        "source": "./home/IMG_7507-2-reduced.jpg",
-        "alt": "Hotdogs on the beach",
+        "source": "./home/IMG_2777-3-reduced.jpg",
+        "alt": "Rolling clouds over a field",
         "alignment": "vertical"
       },
       "stack": [
@@ -78,19 +78,19 @@
     },
     {
       "vertical": {
-        "source": "./home/IMG_20170304_121251-2-reduced.jpg",
-        "alt": "Snow covered trees near the summit of Mary's Peak",
+        "source": "./home/IMG_4328-2-reduced.jpg",
+        "alt": "USS John S. McCain (DDG 56) passing under the Fremont bridge, Portland, OR",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./home/IMG_20170529_172615-3-reduced.jpg",
-          "alt": "Snow covered Wizard Island in Crater Lake",
+          "source": "./home/IMG_2681-2-reduced.jpg",
+          "alt": "Spooky skies over a railyard and silo facility",
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_20160721_151450-2-reduced.jpg",
-          "alt": "A mossy tree stump in a lake, taken while kayaking near Mount Hood, Oregon",
+          "source": "./home/IMG_6538-2-reduced.jpg",
+          "alt": "South Six Shooter Peak near Canyonlands NP",
           "alignment": "horizontal"
         }
       ]
@@ -101,34 +101,27 @@
         "alt": "Toketee Falls in south-central Oregon",
         "alignment": "vertical"
       },
-      "stack": [
-        {
-          "source": "./home/IMG_20160721_150340-2-reduced.jpg",
-          "alt": "Kayaking on Trillium Lake looking at Mount Hood",
-          "alignment": "horizontal"
-        },
-        {
-          "source": "./home/IMG_1810-2-reduced.jpg",
-          "alt": "The most important member of the family",
-          "alignment": "horizontal"
-        }
-      ]
+      "vertical2": {
+        "source": "./home/IMG_1931-2-reduced.jpg",
+        "alt": "The most important member of the family",
+        "alignment": "vertical"
+      }
     },
     {
       "vertical": {
-        "source": "./home/IMG_20170529_145905-2-reduced.jpg",
-        "alt": "Watson Falls, the third highest waterfall in Oregon, in south-central Oregon",
+        "source": "./home/IMG_3646-2-reduced.jpg",
+        "alt": "A Bald Eagle sitting on a snag on the Oregon Coast",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./home/IMG_5335-2-reduced.jpg",
-          "alt": "Snow covered tree branches",
+          "source": "./home/IMG_8228-2-reduced.jpg",
+          "alt": "Osprey in their nest in the Columbia River Gorge, Oregon",
           "alignment": "horizontal"
         },
         {
-          "source": "./home/IMG_8487-2-reduced.jpg",
-          "alt": "My favorite tree on the Oregon State campus, in Corvallis, Oregon",
+          "source": "./home/IMG_4281-2-reduced.jpg",
+          "alt": "A hoary marmot in Rainier National Park",
           "alignment": "horizontal"
         }
       ]
