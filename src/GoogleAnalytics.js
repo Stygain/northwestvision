@@ -53,7 +53,14 @@ const init = (options = {}) => {
     const isGAEnabled = process.env.NODE_ENV === 'production';
 
     if (isGAEnabled) {
-        ReactGA.initialize(process.env.REACT_APP_GA_MEASUREMENT_ID);
+      try {
+        setTimeout(_ => {
+          const ga4react = new ReactGA(process.env.REACT_APP_GA_MEASUREMENT_I);
+          ga4react.initialize().catch(err => console.error(err));
+        }, 4000);
+      } catch (err) {
+          console.error(err);
+      }
     }
 
     return isGAEnabled;
