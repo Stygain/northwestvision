@@ -11,7 +11,7 @@ import GA from './GoogleAnalytics.js';
 ReactDOM.render(
   <HashRouter>
     <Provider store={store}>
-      { GA.init() && <GA.RouteTracker /> }
+      { GA.init() /* && <GA.RouteTracker /> */ }
       <App />
     </Provider>
   </HashRouter>,
