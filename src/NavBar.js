@@ -1,6 +1,13 @@
 /** @jsx jsx */
 import { jsx, css } from '@emotion/core';
-import { useState } from 'react';
+
+// eslint-disable-next-line
+import React, { useState, useEffect } from 'react';
+
+import { useSelector } from 'react-redux';
+import { setCompressorShow } from './Redux/actions.js';
+import { getCompressorShow } from './Redux/selectors.js';
+
 import { NavLink } from 'react-router-dom';
 
 import dataTypes from './data/dataTypes.json'
@@ -9,7 +16,18 @@ import dataTypes from './data/dataTypes.json'
 function NavBar(props) {
   const [ open, setOpen ] = useState(false);
 
+  const compressorShow = useSelector(getCompressorShow);
+
+  const [ prevScrollPos, setPrevScrollPos ] = useState(null);
+  const [ showNavBar, setShowNavBar ] = useState(true);
+
   const styling = css`
+    transition: top 0.3s;
+
+    &.hide {
+      top: -70px;
+    }
+
     & {
       margin: 0px;
       padding: 0px;
@@ -18,7 +36,6 @@ function NavBar(props) {
       position: fixed;
       top: 0px;
       font-family: 'Kaushan Script', cursive;
-      box-shadow: 0px 10px 15px rgba(33, 33, 33, 0.66);
       background-color: rgb(255, 255, 255);
 
       display: flex;
@@ -190,8 +207,34 @@ function NavBar(props) {
       }
     }
   `;
+
+  useEffect(() => {
+      const handleScroll = () => {
+        if (compressorShow) {
+          setShowNavBar(true);
+          return;
+        }
+        var currentScrollPos = window.pageYOffset;
+        // console.log(currentScrollPos);
+        if (prevScrollPos === null) {
+          setPrevScrollPos(currentScrollPos);
+        } else {
+          if (prevScrollPos > currentScrollPos) {
+            setShowNavBar(true);
+          } else {
+            setShowNavBar(false);
+          }
+          setPrevScrollPos(currentScrollPos);
+        }
+      }
+
+      window.addEventListener("scroll", handleScroll);
+
+      return(() => window.removeEventListener("scroll", handleScroll));
+    })
+
   return (
-    <div css={styling}>
+    <div css={styling} className={showNavBar ? "navbar" : "navbar hide"}>
       <NavLink
         className="title"
         to='/'
