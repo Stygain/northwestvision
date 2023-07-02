@@ -51,6 +51,7 @@ function NavBar(props) {
 
     & .title {
       margin: 0;
+      margin-left: 35px;
 
       width: 350px;
       font-size: 40px;
@@ -86,14 +87,10 @@ function NavBar(props) {
 
     .navlist a {
       padding: 8px 12px;
-      font-weight: 500;
-      font-size: 25px;
+      font-family: 'Oswald', cursive;
+      font-size: 20px;
       color: rgb(166, 166, 166);
-      -webkit-transition: color 0.5s ease-in-out;
-         -moz-transition: color 0.5s ease-in-out;
-           -o-transition: color 0.5s ease-in-out;
-          -ms-transition: color 0.5s ease-in-out;
-              transition: color 0.5s ease-in-out;
+      transition: color 0.3s ease-in-out;
     }
 
     .navlist ul li a.active {
@@ -101,10 +98,51 @@ function NavBar(props) {
     }
 
     .navlist ul li a:hover:not(.active) {
-      color: #444;
+      color: #111;
     }
 
-    @media (max-width: 1920px) {
+    @media (min-width: 1570px) {
+      .navlist a {
+        color: rgb(108, 108, 108);
+        transition: color .4s ease;
+        padding: 4px 6px;
+        margin-bottom: 7px;
+        position: relative;
+
+        &:hover {
+          color: rgb(0, 0, 0);
+
+          &::after,
+          &::before {
+            width: 100%;
+            left: 0;
+          }
+
+        }
+
+        &::after,
+        &::before {
+          content: '';
+          position: absolute;
+          top: calc(85%);
+          width: 0;
+          right: 0;
+          height: 2px;
+        }
+
+        &::before {
+          transition: width .4s cubic-bezier(0.51, 0.18, 0, 0.88) .1s;
+          background: rgb(136, 136, 136);
+        }
+
+        &::after {
+          transition: width .2s cubic-bezier(0.29, 0.18, 0.26, 0.83);
+          background: rgb(0, 0, 0);
+        }
+      }
+    }
+
+    @media (max-width: 1570px) {
       & .title {
         width: 280px;
       }
