@@ -1,9 +1,8 @@
 // Taken from https://medium.com/brownbag/add-google-analytics-to-create-react-app-project-with-react-router-v4-f12b947262fc
 
-import React, { Component } from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 import ReactGA from 'react-ga4';
-import { Route } from 'react-router-dom';
 
 class GoogleAnalytics extends Component {
     componentDidMount () {
