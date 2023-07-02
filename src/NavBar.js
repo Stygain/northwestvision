@@ -148,6 +148,7 @@ function NavBar(props) {
         margin: 0;
         text-align: center;
         position: absolute;
+        background: rgb(255, 255, 255);
         top: 0px;
       }
 
@@ -251,6 +252,8 @@ function NavBar(props) {
         text-align: center;
         position: absolute;
         top: 0px;
+
+        height: 55px;
       }
 
       .navlist {
