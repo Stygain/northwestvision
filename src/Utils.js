@@ -5,16 +5,22 @@ import LazyLoad from 'react-lazyload';
 import './Utils.css';
 
 function ContentMargin(props) {
+  const styling = css`
+  `;
+
   return (
-    <div className='content'>
+    <div className='content' css={styling}>
       {props.children}
     </div>
   );
 }
 
 function Center(props) {
+  const styling = css`
+  `;
+
   return (
-    <div className='center'>
+    <div className='center' css={styling}>
       {props.children}
     </div>
   );

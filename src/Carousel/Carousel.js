@@ -177,8 +177,8 @@ function Carousel() {
     position: absolute;
     top: 60px;
     left: 0;
-    height: 65.2vw;
-    width: 98vw;
+    height: 66.7vw;
+    width: 100vw;
     z-index: -1;
 
     box-shadow: 0px 15px 15px rgb(96, 96, 96);

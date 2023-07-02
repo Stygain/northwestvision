@@ -100,7 +100,7 @@ function NavBar(props) {
       color: #111;
     }
 
-    @media (min-width: 1570px) {
+    @media (min-width: 1550px) {
       .navlist a {
         color: rgb(108, 108, 108);
         transition: color .4s ease;
@@ -141,16 +141,21 @@ function NavBar(props) {
       }
     }
 
-    @media (max-width: 1570px) {
+    @media (max-width: 1550px) {
       & .title {
-        width: 280px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        position: absolute;
+        top: 0px;
       }
 
       .navlist {
         width: 100%;
         position: absolute;
         top: 59px;
-        box-shadow: 0px 10px 15px rgba(33, 33, 33, 0.66);
+        box-shadow: 0px 15px 10px rgba(33, 33, 33, 0.66);
         overflow: hidden;
 
         height: 0;
@@ -177,6 +182,7 @@ function NavBar(props) {
       .navlist ul li a {
         padding: 0;
         display: block;
+        text-align: center;
       }
 
       .navlist a {
@@ -197,6 +203,11 @@ function NavBar(props) {
         cursor: pointer;
         display: block;
         color: #000;
+
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin-top: 5px;
       }
 
       .button-container:hover {
@@ -235,12 +246,26 @@ function NavBar(props) {
 
     @media (max-width: 768px) {
       & .title {
-        width: 220px;
         font-size: 32px;
+
+        text-align: center;
+        position: absolute;
+        top: 0px;
       }
 
       .navlist {
         top: 47px;
+      }
+
+      .navlist ul li a {
+        text-align: center;
+      }
+
+      & .button-container {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin-top: 5px;
       }
     }
   `;
