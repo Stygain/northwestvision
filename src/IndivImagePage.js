@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Redirect, Route, Switch, useParams } from 'react-router-dom';
 
 import { Log } from './Utils.js';
@@ -25,10 +25,10 @@ function parseImages(page, props, imageId) {
 
 function returnImageBasedOnIndex(page, index) {
   const panelIndex = Math.floor(index / 3);
-  Log("panelIndex:", panelIndex);
+  Log("panelIndex: " + panelIndex);
 
   const subIndex = index % 3;
-  Log("subIndex:", subIndex);
+  Log("subIndex: " + subIndex);
 
   if (subIndex === 0) {
     return images[page][panelIndex].vertical;
@@ -39,20 +39,69 @@ function returnImageBasedOnIndex(page, index) {
   }
 }
 
+const useKeyPress = function (targetKey) {
+  const [keyPressed, setKeyPressed] = useState(false);
+
+  React.useEffect(() => {
+    function downHandler({ key }) {
+      if (key === targetKey) {
+        setKeyPressed(true);
+      }
+    }
+
+    const upHandler = ({ key }) => {
+      if (key === targetKey) {
+        setKeyPressed(false);
+      }
+    };
+
+    window.addEventListener("keydown", downHandler);
+    window.addEventListener("keyup", upHandler);
+
+    return () => {
+      window.removeEventListener("keydown", downHandler);
+      window.removeEventListener("keyup", upHandler);
+    };
+  }, [targetKey]);
+
+  return keyPressed;
+};
+
 function ImagePageWithIndex(props) {
   var { id } = useParams();
-  Log("ID", id);
-  id = id - 1
-  if (id >= 0 && id < (3 * images[props.page].length)) {
-    Log("index is fine");
-    const imageSource = returnImageBasedOnIndex(props.page, id);
-    Log("Going to set source to:", imageSource)
+
+  const [index, setIndex] = useState(parseInt(id)-1);
+  const rightPress = useKeyPress("ArrowRight");
+  const leftPress = useKeyPress("ArrowLeft");
+
+  useEffect(() => {
+    if (rightPress) {
+      if (index < (3 * images[props.page].length) - 1)
+      {
+        setIndex(index + 1);
+      }
+    }
+  }, [index, rightPress, props.page]);
+
+  useEffect(() => {
+    if (leftPress) {
+      if (index > 0)
+      {
+        setIndex(index - 1);
+      }
+    }
+  }, [index, leftPress]);
+
+  if (index >= 0 && index < (3 * images[props.page].length)) {
+    Log("index is fine: " + index);
+    const imageSource = returnImageBasedOnIndex(props.page, index);
+    Log("Going to set source to: " + imageSource)
     props.parentProps.setModalShow(true);
     props.parentProps.setModalSource(imageSource);
 
     return (
       <div>
-        {parseImages(props.page, props.parentProps, id)}
+        {parseImages(props.page, props.parentProps, index)}
       </div>
     );
   } else {
@@ -65,7 +114,7 @@ function ImagePageWithIndex(props) {
 function IndivImagePage(props) {
   return (
     <Switch>
-      {Log("Setting return page to:", props.url)}
+      {Log("Setting return page to: " + props.url)}
       {props.parentProps.setReturnPage(props.url)}
       <Route exact path={props.url}>
         {Log("No index detected")}

@@ -280,7 +280,6 @@ function NavBar(props) {
           return;
         }
         var currentScrollPos = window.pageYOffset;
-        // console.log(currentScrollPos);
         if (prevScrollPos === null) {
           setPrevScrollPos(currentScrollPos);
         } else {

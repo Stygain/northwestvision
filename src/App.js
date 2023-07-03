@@ -7,10 +7,11 @@ import Footer from './Footer.js';
 
 import images from './data/images.json'
 
-function App() {
+function App(props) {
   const [modalShow, setModalShow] = useState(false);
   const [modalSource, setModalSource] = useState(images["home"][0]["vertical"]);
   const [returnPage, setReturnPage] = useState("/");
+
   return (
     <div>
       <NavBar />
@@ -18,7 +19,7 @@ function App() {
         show={modalShow}
         setShow={setModalShow}
         source={modalSource}
-        returnPage={returnPage}/>
+        returnPage={returnPage} />
       <ImagePage
         setModalShow={setModalShow}
         setModalSource={setModalSource}
