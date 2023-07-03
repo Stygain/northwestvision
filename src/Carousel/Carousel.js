@@ -191,7 +191,6 @@ function Carousel() {
     }
 
     @media (max-width: 768px) {
-      height: 65.2vw;
       top: 48px;
     }
   `;
