@@ -13,15 +13,18 @@
   width: 95%;
   height: 80%;
   margin: 0 auto;
+
+  border: 1px solid red;
 }
 
 .loader-image-horiz {
-  width: 50%;
-  margin: 0 auto;
+  width: calc(50vw - 6px);
+  height: calc(34.1vh - 6px);
 }
 
 .loader-image-vert {
-  width: 43%;
+  width: calc(51.2vw - 20px);
+  height: calc(68.2vh - 20px);
 }
 
 .loader-pane .pulse-container {
@@ -29,11 +32,11 @@
 }
 
 .loader-image-horiz .pulse-container {
-  height: 30vw;
+  height: calc(34.1vh - 6px);
 }
 
 .loader-image-vert .pulse-container {
-  height: 65vw;
+  height: calc(68.2vh - 20px);
 }
 
 .pulse-container {

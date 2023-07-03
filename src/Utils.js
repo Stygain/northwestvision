@@ -80,18 +80,6 @@ function LazyLoadImage(props) {
   );
 }
 
-function LazyLoadImagePane(props) {
-  return (
-    <LazyLoad
-      offset={0}
-      placeholder={<Placeholder type="pane" />}
-      once={true}
-    >
-      {props.children}
-    </LazyLoad>
-  );
-}
-
 function Log(logMessage) {
   if (process.env.NODE_ENV === 'development') {
     console.log(logMessage);
@@ -104,6 +92,5 @@ export {
     Center,
     ImageImp,
     LazyLoadImage,
-    LazyLoadImagePane,
     Log
 }

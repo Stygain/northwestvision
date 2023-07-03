@@ -1,7 +1,7 @@
 import React from 'react';
 import { Redirect, Route, Switch, useParams } from 'react-router-dom';
 
-import { LazyLoadImagePane, Log } from './Utils.js';
+import { Log } from './Utils.js';
 import ImagePane from './ImagePane.js';
 
 import images from './data/images.json';
@@ -12,14 +12,11 @@ function parseImages(page, props, imageId) {
   var swapToggle = false;
   for (var i = 0; i < images[page].length; i++) {
     imagePanes.push(
-      <LazyLoadImagePane
-        key={i}>
-        <ImagePane
-          imagePaneInfo={images[page][i]}
-          swap={swapToggle}
-          page={page}
-          index={i} />
-      </LazyLoadImagePane>
+      <ImagePane
+        imagePaneInfo={images[page][i]}
+        swap={swapToggle}
+        page={page}
+        index={i} />
     );
     swapToggle = !swapToggle;
   }
