@@ -4,18 +4,9 @@
 
 .center {
   text-align: center;
+  overflow: hidden;
 }
 
-
-
-
-.loader-pane {
-  width: 95%;
-  height: 80%;
-  margin: 0 auto;
-
-  border: 1px solid red;
-}
 
 .loader-image-horiz {
   width: calc(50vw - 6px);
