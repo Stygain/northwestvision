@@ -76,21 +76,15 @@ function ImagePageWithIndex(props) {
 
   useEffect(() => {
     if (rightPress) {
-      if (index < (3 * images[props.page].length) - 1)
-      {
-        setIndex(index + 1);
-      }
+      setIndex((prevIndex) => prevIndex < (3 * images[props.page].length) - 1 ? prevIndex + 1 : prevIndex);
     }
-  }, [index, rightPress, props.page]);
+  }, [rightPress, props.page]);
 
   useEffect(() => {
     if (leftPress) {
-      if (index > 0)
-      {
-        setIndex(index - 1);
-      }
+      setIndex((prevIndex) => prevIndex > 0 ? prevIndex - 1 : prevIndex)
     }
-  }, [index, leftPress]);
+  }, [leftPress]);
 
   if (index >= 0 && index < (3 * images[props.page].length)) {
     Log("index is fine: " + index);
