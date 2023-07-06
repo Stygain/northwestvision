@@ -177,8 +177,8 @@ function Carousel() {
     position: absolute;
     top: 60px;
     left: 0;
-    height: 100%;
-    width: 99.5%;
+    height: 66.3vw;
+    width: 99.5vw;
     z-index: -1;
     overflow: hidden;
 
@@ -187,7 +187,7 @@ function Carousel() {
     @media (min-width: 1300px) {
       top: 60px;
       left: 20%;
-      height: 39.7vw;
+      height: 40vw;
       width: 60vw;
     }
 
