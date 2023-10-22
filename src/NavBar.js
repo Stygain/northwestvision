@@ -169,7 +169,7 @@ function NavBar(props) {
 
       .navlist.open {
         height: auto;
-        height: 540px;
+        height: 585px;
       }
 
       .navlist ul {

@@ -187,7 +187,7 @@ function Carousel() {
     @media (min-width: 1300px) {
       top: 60px;
       left: 20%;
-      height: 40vw;
+      height: 39.7vw;
       width: 60vw;
     }
 

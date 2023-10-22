@@ -43,6 +43,10 @@
     {
       "name": "Fleet Week",
       "url": "/fleet_week"
+    },
+    {
+      "name": "Chicago",
+      "url": "/chicago"
     }
   ]
 }

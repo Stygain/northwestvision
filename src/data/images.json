@@ -1706,5 +1706,160 @@
         }
       ]
     }
+  ],
+  "chicago": [
+    {
+      "vertical": {
+        "source": "./chicago/IMG_4391-2-reduced.jpg",
+        "alt": "Rooftop view of the Chicago skyline",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./chicago/IMG_4401-2-reduced.jpg",
+        "alt": "Rooftop view looking towards Lake Michigan and Soldier Field",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./chicago/IMG_4463-2-reduced.jpg",
+        "alt": "Looking up at the Sears Tower",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./chicago/IMG_4399-2-reduced.jpg",
+          "alt": "View of Buckingham fountain and the museum campus on Lake Michigan",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./chicago/IMG_4408-2-reduced.jpg",
+          "alt": "Ornate stonework and the Chicago Skyline",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./chicago/IMG_4416-2-reduced.jpg",
+        "alt": "Beautiful skylight in the building housing Skidmore Owings and Merrill",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./chicago/IMG_4430-2-reduced.jpg",
+        "alt": "View of the Harold Washington Library",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./chicago/IMG_4388-2-reduced.jpg",
+        "alt": "Wintrust Bank",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./chicago/IMG_4475-2-reduced.jpg",
+          "alt": "The Art Institute of Chicago",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./chicago/IMG_4397-2-reduced.jpg",
+          "alt": "Another rooftop view of the Chicago skyline",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./chicago/IMG_4453-2-reduced.jpg",
+        "alt": "Art deco design in the Chicago Board of Trade building",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./chicago/IMG_4451-2-reduced.jpg",
+        "alt": "Art deco design in the Chicago Board of Trade building",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./chicago/IMG_4473-2-reduced.jpg",
+        "alt": "Wintrust Bank",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./chicago/IMG_4425-2-reduced.jpg",
+          "alt": "Some cool old signs under the L",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./chicago/IMG_4386-2-reduced.jpg",
+          "alt": "Another rooftop view of the Chicago skyline",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./chicago/IMG_4406-2-reduced.jpg",
+        "alt": "Looking down on Millennium Park",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./chicago/IMG_4441-2-reduced.jpg",
+        "alt": "Empty safe-deposit boxes in the vault at the Chicago Board of Trade",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./chicago/IMG_4447-2-reduced.jpg",
+        "alt": "Art deco design in the Chicago Board of Trade building",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./chicago/IMG_4472-2-reduced.jpg",
+        "alt": "Wintrust Bank",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./chicago/IMG_4393-2-reduced.jpg",
+        "alt": "Goth Target",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./chicago/IMG_4469-2-reduced.jpg",
+        "alt": "Wintrust Bank",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./chicago/IMG_4404-2-reduced.jpg",
+        "alt": "Prudential Plaza",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./chicago/IMG_4427-2-reduced.jpg",
+        "alt": "A cute coffee shop tucked between buildings",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
+        "source": "./chicago/IMG_4476-2-reduced.jpg",
+        "alt": "Wintrust Bank",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./chicago/IMG_4477-2-reduced.jpg",
+        "alt": "The Berghoff Restaurant",
+        "alignment": "vertical"
+      }
+    }
   ]
 }
