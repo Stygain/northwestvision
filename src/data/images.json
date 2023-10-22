@@ -1754,18 +1754,18 @@
     {
       "vertical": {
         "source": "./chicago/IMG_4388-2-reduced.jpg",
-        "alt": "Wintrust Bank",
+        "alt": "Another rooftop view of the Chicago skyline",
         "alignment": "vertical"
       },
       "stack": [
         {
           "source": "./chicago/IMG_4475-2-reduced.jpg",
-          "alt": "The Art Institute of Chicago",
+          "alt": "Wintrust Bank",
           "alignment": "horizontal"
         },
         {
           "source": "./chicago/IMG_4397-2-reduced.jpg",
-          "alt": "Another rooftop view of the Chicago skyline",
+          "alt": "The Art Institute of Chicago",
           "alignment": "horizontal"
         }
       ]
