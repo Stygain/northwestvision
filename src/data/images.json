@@ -1710,31 +1710,31 @@
   "chicago": [
     {
       "vertical": {
-        "source": "./chicago/IMG_4391-2-reduced.jpg",
-        "alt": "Rooftop view of the Chicago skyline",
+        "source": "./chicago/IMG_4626-2-Reduced.jpg",
+        "alt": "A look at the corn-cob towers (Marina City)",
         "alignment": "vertical"
       },
       "vertical2": {
-        "source": "./chicago/IMG_4401-2-reduced.jpg",
-        "alt": "Rooftop view looking towards Lake Michigan and Soldier Field",
+        "source": "./chicago/IMG_4463-2-reduced.jpg",
+        "alt": "Looking up at the Sears Tower",
         "alignment": "vertical"
       }
     },
     {
       "vertical": {
-        "source": "./chicago/IMG_4463-2-reduced.jpg",
-        "alt": "Looking up at the Sears Tower",
+        "source": "./chicago/IMG_4401-2-reduced.jpg",
+        "alt": "Rooftop view looking towards Lake Michigan and Soldier Field",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./chicago/IMG_4399-2-reduced.jpg",
-          "alt": "View of Buckingham fountain and the museum campus on Lake Michigan",
+          "source": "./chicago/IMG_4593-2-Reduced.jpg",
+          "alt": "Beautiful blossom in the Chicago Botanic Garden",
           "alignment": "horizontal"
         },
         {
-          "source": "./chicago/IMG_4408-2-reduced.jpg",
-          "alt": "Ornate stonework and the Chicago Skyline",
+          "source": "./chicago/IMG_4669-2-Reduced.jpg",
+          "alt": "Fourth Presbyterian Church",
           "alignment": "horizontal"
         }
       ]
@@ -1753,14 +1753,45 @@
     },
     {
       "vertical": {
+        "source": "./chicago/IMG_4637-2-Reduced.jpg",
+        "alt": "Buildings all stacked up along Michigan Ave",
+        "alignment": "vertical"
+      },
+      "stack": [
+        {
+          "source": "./chicago/IMG_4600-3-Reduced.jpg",
+          "alt": "Blooming lily in the Chicago Botanic Garden",
+          "alignment": "horizontal"
+        },
+        {
+          "source": "./chicago/IMG_4488-2-Reduced.jpg",
+          "alt": "A bumblebee getting his fill in the Chicago Botanic Garden",
+          "alignment": "horizontal"
+        }
+      ]
+    },
+    {
+      "vertical": {
+        "source": "./chicago/IMG_4599-2-Reduced.jpg",
+        "alt": "Blossoms in the Chicago Botanical Garden",
+        "alignment": "vertical"
+      },
+      "vertical2": {
+        "source": "./chicago/IMG_4615-2-Reduced.jpg",
+        "alt": "A peek at the Nederlander Theater from under the L",
+        "alignment": "vertical"
+      }
+    },
+    {
+      "vertical": {
         "source": "./chicago/IMG_4388-2-reduced.jpg",
         "alt": "Another rooftop view of the Chicago skyline",
         "alignment": "vertical"
       },
       "stack": [
         {
-          "source": "./chicago/IMG_4475-2-reduced.jpg",
-          "alt": "Wintrust Bank",
+          "source": "./chicago/IMG_4481-2-Reduced.jpg",
+          "alt": "Blooming vines in the Chicago Botanical Garden",
           "alignment": "horizontal"
         },
         {
@@ -1777,8 +1808,8 @@
         "alignment": "vertical"
       },
       "vertical2": {
-        "source": "./chicago/IMG_4451-2-reduced.jpg",
-        "alt": "Art deco design in the Chicago Board of Trade building",
+        "source": "./chicago/IMG_4621-2-Reduced.jpg",
+        "alt": "A look at the corn-cob towers (Marina City)",
         "alignment": "vertical"
       }
     },
@@ -1795,16 +1826,16 @@
           "alignment": "horizontal"
         },
         {
-          "source": "./chicago/IMG_4386-2-reduced.jpg",
-          "alt": "Another rooftop view of the Chicago skyline",
+          "source": "./chicago/IMG_4494-2-Reduced.jpg",
+          "alt": "Another blossom at the Chicago Botanic Garden",
           "alignment": "horizontal"
         }
       ]
     },
     {
       "vertical": {
-        "source": "./chicago/IMG_4406-2-reduced.jpg",
-        "alt": "Looking down on Millennium Park",
+        "source": "./chicago/IMG_4609-2-Reduced.jpg",
+        "alt": "Blooming lily in the Chicago Botanic Garden",
         "alignment": "vertical"
       },
       "vertical2": {
@@ -1815,8 +1846,8 @@
     },
     {
       "vertical": {
-        "source": "./chicago/IMG_4447-2-reduced.jpg",
-        "alt": "Art deco design in the Chicago Board of Trade building",
+        "source": "./chicago/IMG_4590-2-Reduced.jpg",
+        "alt": "Bridge to the Japanese Garden in the Chicago Botanic Garden",
         "alignment": "vertical"
       },
       "vertical2": {
@@ -1827,8 +1858,8 @@
     },
     {
       "vertical": {
-        "source": "./chicago/IMG_4393-2-reduced.jpg",
-        "alt": "Goth Target",
+        "source": "./chicago/IMG_4659-2-Reduced.jpg",
+        "alt": "Fourth Presbyterian Church",
         "alignment": "vertical"
       },
       "vertical2": {
@@ -1856,8 +1887,8 @@
         "alignment": "vertical"
       },
       "vertical2": {
-        "source": "./chicago/IMG_4477-2-reduced.jpg",
-        "alt": "The Berghoff Restaurant",
+        "source": "./chicago/IMG_4641-2-Reduced.jpg",
+        "alt": "St. James Episcopal Cathedral",
         "alignment": "vertical"
       }
     }
